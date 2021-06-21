@@ -1,13 +1,14 @@
 /* 51_ZoneWebToolRates - Generate cancer rate table for the web tool from SEER*Stat results */
 
 options sysprintfont=("Courier New" 8) leftmargin=0.75in nocenter compress=no;
+ods graphics on;
 
 %let stateAbbr=IA;    /* Set state/registry abbreviation */
 %let runNum=IA01; /* Run number used for Step 2 AZTool execution */
 %let year1=2015;  /* Latest year */
 %let year5=2011_2015;  /* 5-year range */
 %let year10=2006_2015;  /* 10-year range */
-%let nationwide=no;  /* Include nationwide rates (yes|no)? */
+%let nationwide=yes;  /* Include nationwide rates (yes|no)? */
 %let allUSdset=AllUS_Combined_v2_to2015; /* USCS dataset with national rates */
 
 /* Specify data path here for portability: */
@@ -594,6 +595,36 @@ run;
 %ExportExcel(dset=BySiteHisp);
 %ExportExcel(dset=BySiteAPINH);
 %ExportExcel(dset=BySiteAIANNH);
+===
+/* Export selected suppression summary tables to Excel */
+/* Delete the target Excel file if it exists */
+data _null_;
+    fname = 'todelete';
+    rc = filename(fname, "&pathbase.\RateTable_&stateAbbr._SupprSumm.xlsx");
+    if rc = 0 and fexist(fname) then do;
+        rc = fdelete(fname);
+        if rc > 0 then putlog "*** Failed to delete previous Excel file, rc=" rc;
+        end;
+    rc = filename(fname);
+run;
+/* Assign a libname to the target Excel file */
+libname OutExcel "&pathbase.\RateTable_&stateAbbr._SupprSumm.xlsx";
+/* Macro to create a worksheet */
+%MACRO ExportExcel(dset=);
+data OutExcel.&dset.; /* Worksheet = &dset. */
+    set ExcelSumm_&dset.;
+run;
+%MEND ExportExcel;
+/* Create worksheets */
+%ExportExcel(dset=BySite);
+%ExportExcel(dset=BySiteSex);
+%ExportExcel(dset=BySiteWhiteNH);
+%ExportExcel(dset=BySiteBlackNH);
+%ExportExcel(dset=BySiteHisp);
+%ExportExcel(dset=BySiteAPINH);
+%ExportExcel(dset=BySiteAIANNH);
+/* Close the Excel file */
+libname OutExcel;
 
 
 /* Summary statistics */
@@ -648,3 +679,4 @@ run;
 
 
 ods pdf close;
+
