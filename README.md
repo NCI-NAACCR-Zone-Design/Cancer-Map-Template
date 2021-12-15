@@ -275,6 +275,7 @@ A list of such replacements is:
 * `[REPLACE FUNDING SOURCE]` -- A statement/description of who funded the website. Displayed in the FAQ alongside the FUNDING URL.
 * `[REPLACE ABOUT BLURB]` -- A statement/description of the website, in "What is the XXX Registry" section of the FAQ.
 * `[REPLACE CITATION INFO]` -- A statement/description of how this website should be cited in literature.
+* `[REPLACE NATIONAL CANCER DATA SOURCE INFO]` -- A statement/description of the national cancer data source, including data years. This should be reviewed with subsequent data updates to verify whether it needs to be updated as well (e.g., during annual data updates). An example of this statement applicable to national cancer data through 2018 is: "National incidence data come from the National Program of Cancer Registries and Surveillance, Epidemiology, and End Results SEER*Stat Database: U.S. Cancer Statistics Incidence Analytic file - 1998-2018. United States Department of Health and Human Services, Centers for Disease Control and Prevention. Released June 2021, based on the 2020 submission."
 
 Since this is free-form narrative text, you may choose to rewrite or rephrase whole blocks of text, in addition to or instead of making the string replacements suggested above.
 

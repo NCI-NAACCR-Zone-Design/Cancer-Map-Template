@@ -201,7 +201,7 @@
         <table class="table-sm">
             <thead>
                 <tr>
-                    <th class="left"><span class="title" tabindex="0">Cancer Statistics</span></th>
+                    <th class="left"><span class="title" tabindex="0">Cancer Statistics <i class="fa fa-info-circle" aria-hidden="true" data-tooltip="source"></i></span></th>
                     <th scope="col">Cases</th>
                     <th scope="col" colspan="2">Age Adjusted Incidence Rate (95% LCI, 95% UCI) <i class="fa fa-info-circle" aria-hidden="true" data-tooltip="aaircitable"></i></th>
                 </tr>
@@ -369,6 +369,14 @@
                         Why are cancer incidence data available only through 2016? Why are population sociodemographic data only reported for 2012-2016?
                         </button>
                     </h2>
+					<h2 class="usa-accordion__heading">
+                        <button class="usa-accordion__button" aria-expanded="false" aria-controls="faq4b">
+                        What is the source of the cancer incidence data?
+                        </button>
+                    </h2>
+                    <div id="faq4b" class="usa-accordion__content" hidden="">
+                        Zone and statewide incidence data come from [REPLACE STATE/REGISTRY].  [REPLACE NATIONAL CANCER DATA SOURCE INFO].
+                    </div>
                     <div id="faq5" class="usa-accordion__content" hidden="">
                         It takes several years for cancer incidence data for an entire population to be considered "complete," that is, when a cancer registry is confident that all new cases of cancer have been reported. Selected population sociodemographic data and population estimates for calculating cancer incidence rates are from the 2010 Census short form, the most recent year of complete census data. Additional sociodemographic data are from the 2012-2016 American Community Survey; although more current American Community Survey data are available, these years were selected to more closely correspond to the population estimate data used for calculating cancer incidence rates.
                     </div>
@@ -420,6 +428,7 @@
                         <br/><br/>
                         Neighborhood measures were developed using data from census tracts. We used the tract-level count data from the Census and American Community Survey to calculate measures for each zone.
                     </div>
+					
                 </div><!--/accordion-->
             </div><!--/tab-pane -->
             <div class="tab-pane container" id="learn-glossary">
@@ -534,6 +543,10 @@
     - the data download ZIP files metadata, makedownloadzip.py
     -->
     <div id="tooltip_contents" tabindex="-1">
+	
+        <div aria-hidden="true" data-tooltip="source">
+            Zone and statewide incidence data come from [REPLACE STATE/REGISTRY]. [REPLACE NATIONAL CANCER DATA SOURCE INFO].
+        </div>		
         <div aria-hidden="true" data-tooltip="race">
             Race/ethnicity is categorized as: [CONFIRM RACE LIST] non-Hispanic White, non-Hispanic Black, non-Hispanic Asian/Pacific Islander, non-Hispanic American Indian/Alaska Native, and Hispanic. "All races" includes all of the above, as well as other and unknown race/ethnicity and American Indian/Alaska Native. The latter two groups are not reported separately due to small numbers for many cancer sites. 
         </div>
