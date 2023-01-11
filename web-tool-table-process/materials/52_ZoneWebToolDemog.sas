@@ -1,13 +1,18 @@
 /* 52_ZoneWebToolDemog - Generate a table of demographic data for the web tool */
 
+/* 5/25/2022 - added a Zone Design AUTOCALL macro library for commonly used macros */
+/* 5/25/2022 - modified Excel file imports to use new ZD_ImportExcel macro */
+/* 11/23/2022 - modified to use the web tool ZoneID without the StFIPS or the trailing repetition letters */
+
 options sysprintfont=("Courier New" 8) leftmargin=0.75in nocenter compress=no;
+ods graphics on;
 
 %let stateName=Iowa;  /* Set state/registry name */
 %let stateAbbr=IA;    /* Set state/registry abbreviation */
 %let runNum=IA01; /* Run number used for Step 2 AZTool execution */
-%let nationwide=no;  /* Include nationwide data (yes|no)? */
+%let nationwide=yes;  /* Include nationwide data (yes|no)? */
 /* Census 2010 variables to include: */
-%let keepCens=PctRural PctMinority PctHispanic PctBlackNH PctAPINH;
+%let keepCens=PctRural PctMinority PctHispanic PctBlackNH;
 /* ACS data and variables to include: */
 %let oneACSPeriod=no;  /* Use one ACS period for all time periods (yes|no)? */
 %let ACS_endyr1=2016;  /* ACS 5yr data period 1 end year (2016 = 2012-2016) */
@@ -23,20 +28,21 @@ libname CENDATA1 "&pathbase.\Census_Data_Tables\ACS&ACS_endyr1._5yr Data";
 %if &oneACSPeriod. = %quote(no) %then %do;
 libname CENDATA2 "&pathbase.\Census_Data_Tables\ACS&ACS_endyr2._5yr Data";
 %end; /* &oneACSPeriod=no processing */
-ods pdf file="&pathbase.\52_ZoneWebToolDemog_&runNum..pdf";
+ods pdf file="&pathbase.\52_ZoneWebToolDemog_&stateAbbr.to&ACS_endyr1..pdf";
+
+/* Set up the Zone Design AUTOCALL macro library */
+filename ZDAUTOS "&pathbase.\ZDMacros";
+options mautosource sasautos=(SASAUTOS ZDAUTOS);
 
 /* Import the final zoned tracts Excel file */
-PROC IMPORT OUT=ZonedTracts
-            DATAFILE="&pathbase.\ZonedTracts_&runNum._final.xlsx"
-            DBMS=XLSX REPLACE;
-     SHEET="TractJoin";
-run;
+%ZD_ImportExcel(sourcefile=&pathbase.\ZonedTracts_&runNum._final.xlsx,
+    sheetname=Tracts,
+    targetds=ZonedTracts);
+
 /* Import the final zone list Excel file */
-PROC IMPORT OUT=ZoneList
-            DATAFILE="&pathbase.\ZoneList_&runNum._final.xlsx"
-            DBMS=XLSX REPLACE;
-     SHEET="FullStats";
-run;
+%ZD_ImportExcel(sourcefile=&pathbase.\ZoneList_&runNum._final.xlsx,
+    sheetname=FullStats,
+    targetds=ZoneList);
 
 /* Get ACS 5-year period 1 (most recent) datasets */
 data ACSData_per1_Tract;
@@ -68,34 +74,21 @@ run;
 
 %if &nationwide. = %quote(yes) %then %do;
 /* Import the US total demographic data table */
-PROC IMPORT OUT=DemogTable_US
-            DATAFILE="&pathbase.\Census_Data_Tables\DemogTable_US_Totals.xlsx"
-            DBMS=XLSX REPLACE;
-     SHEET="DemogTable";
-run;
+%ZD_ImportExcel(sourcefile=&pathbase.\Census_Data_Tables\DemogTable_US_Totals.xlsx,
+    sheetname=DemogTable,
+    targetds=DemogTable_US);
 %end; /* &nationwide=yes processing */
 
 /* Import WebTool table for years */
-PROC IMPORT OUT=WebTool_Years
-            DATAFILE="&pathbase.\CancerSiteTable_&stateAbbr..xlsx"
-            DBMS=XLSX REPLACE;
-     SHEET="Webtool TIME";
-run;
-
-/* Clear formats, informats and labels for imported datasets */
-proc datasets lib=work nolist;
-    MODIFY ZonedTracts; FORMAT _char_; INFORMAT _char_; ATTRIB _all_ label=''; run;
-    MODIFY ZoneList; FORMAT _char_; INFORMAT _char_; ATTRIB _all_ label=''; run;
-    %if &nationwide. = %quote(yes) %then %do;
-        MODIFY DemogTable_US; FORMAT _all_; INFORMAT _all_; ATTRIB _all_ label=''; run;
-    %end; /* &nationwide=yes processing */
-    MODIFY WebTool_Years; FORMAT _all_; INFORMAT _all_; ATTRIB _all_ label=''; run;
-quit;
+%ZD_ImportExcel(sourcefile=&pathbase.\CancerSiteTable_&stateAbbr..xlsx,
+    sheetname=Webtool TIME,
+    targetds=WebTool_Years);
 
 
 /* Clean up the zone list dataset and keep just what we need */
 data ZoneList2;
     set ZoneList;
+	ZoneIDOrig = compress(ZoneIDOrig,'abcdefghijklmnopqrstuvwxyz'); /* 11/23/2022: Remove repetition letters */
     PctRural = 100 - PctUrban_PopMean;
     PctMinority = PctMinority_PopMean;
     PctHispanic = PctHispanic_PopMean;
@@ -117,8 +110,9 @@ run;
 /* Clean up the zoned tracts dataset and keep just what we need */
 data ZonedTracts2;
     set ZonedTracts;
-    keep TractID Zones_&runNum._final;
-    rename Zones_&runNum._final = ZoneID;
+	ZoneIDOrig = compress(ZoneIDOrig,'abcdefghijklmnopqrstuvwxyz'); /* 11/23/2022: Remove repetition letters */
+    keep TractID ZoneIDOrig; /*11/23/2022: Updated to reference ZoneIDOrig variable*/
+    rename ZoneIDOrig = ZoneID;
 run;
 
 /* Get the state FIPS code from the ACS state dataset and put it in a macro variable */
@@ -159,14 +153,18 @@ run;
 /* Clean up the period 1 ACS dataset and keep just what we need */
 %CleanACS(level=Tract,period=1);
 %CleanACS(level=State,period=1);
+%if &nationwide. = %quote(yes) %then %do;
 %CleanACS(level=Nation,period=1);
+%end; /* &nationwide=yes processing */
 
 %if &oneACSPeriod. = %quote(no) %then %do;
 /* Clean up the period 2 ACS dataset and keep just what we need */
 %CleanACS(level=Tract,period=2);
 %CleanACS(level=State,period=2);
-%CleanACS(level=Nation,period=2);
 %end; /* &oneACSPeriod=no processing */
+%if &nationwide. = %quote(yes) & &oneACSPeriod. = %quote(no) %then %do;
+%CleanACS(level=Nation,period=2);
+%end; /* &nationwide=yes & &oneACSPeriod=no processing */
 
 %if &nationwide. = %quote(yes) %then %do;
 /* Clean up the US total demographic data table and keep just what we need*/
@@ -359,27 +357,28 @@ proc sort data=DemogTable_WebTool2; by Zone Years; run;
 
 
 /* Save SAS dataset */
-data ZONEDATA.DemogTable_&stateAbbr._WebTool;
+data ZONEDATA.DemogTable_&stateAbbr.to&ACS_endyr1._WebTool;
     set DemogTable_WebTool2;
 run;
 
 /* Export to a CSV file */
 proc export data=DemogTable_WebTool2
-            OUTFILE= "&pathbase.\DemogTable_&stateAbbr._WebTool.csv"
+            OUTFILE= "&pathbase.\DemogTable_&stateAbbr.to&ACS_endyr1._WebTool.csv"
             DBMS=CSV REPLACE;
      PUTNAMES=YES;
 run;
 
 
 /* Summary statistics */
-title "52_ZoneWebToolDemog_&runNum. - summary statistics";
-proc means data=ZONEDATA.DemogTable_&stateAbbr._WebTool;
+title "52_ZoneWebToolDemog_&stateAbbr.to&ACS_endyr1. - summary statistics";
+proc means data=ZONEDATA.DemogTable_&stateAbbr.to&ACS_endyr1._WebTool;
 run;
 
-title "52_ZoneWebToolDemog_&runNum. - data table";
-proc print data=ZONEDATA.DemogTable_&stateAbbr._WebTool;
+title "52_ZoneWebToolDemog_&stateAbbr.to&ACS_endyr1. - data table";
+proc print data=ZONEDATA.DemogTable_&stateAbbr.to&ACS_endyr1._WebTool;
     id Zone;
 run;
 
 
 ods pdf close;
+

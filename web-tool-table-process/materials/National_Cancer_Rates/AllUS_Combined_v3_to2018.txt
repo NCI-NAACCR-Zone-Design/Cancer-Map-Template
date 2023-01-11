@@ -1,0 +1,1639 @@
+"Sex"	"LatestYears_1_5_10"	"USCS Sites"	"Race and origin recode with AllRaceEth"	"Age-Adjusted Rate"	"Standard Error"	"Lower Confidence Interval"	"Upper Confidence Interval"	"Count"	"Population"
+"Male and female"	"1yr_2018"	"All Sites"	"AllRaceEth"	446.036	0.345	445.359	446.713	1749398	323807474
+"Male and female"	"1yr_2018"	"All Sites"	"Non-Hispanic White"	463.105	0.422	462.279	463.932	1314672	199524240
+"Male and female"	"1yr_2018"	"All Sites"	"Non-Hispanic Black"	448.340	1.063	446.259	450.428	189394	42652576
+"Male and female"	"1yr_2018"	"All Sites"	"Non-Hispanic American Indian/Alaska Native"	393.652	3.991	385.869	401.552	10471	2708850
+"Male and female"	"1yr_2018"	"All Sites"	"Non-Hispanic Asian or Pacific Islander"	293.945	1.220	291.559	296.346	59929	20334657
+"Male and female"	"1yr_2018"	"All Sites"	"Hispanic (All Races)"	351.144	0.946	349.292	353.003	150088	58587151
+"Male and female"	"1yr_2018"	"All Sites"	"Non-Hispanic Unknown Race"	 	 	 	 	24844	0
+"Male and female"	"1yr_2018"	"Oral Cavity and Pharynx"	"AllRaceEth"	11.941	0.056	11.831	12.051	47677	323807474
+"Male and female"	"1yr_2018"	"Oral Cavity and Pharynx"	"Non-Hispanic White"	13.320	0.071	13.181	13.460	38308	199524240
+"Male and female"	"1yr_2018"	"Oral Cavity and Pharynx"	"Non-Hispanic Black"	8.418	0.143	8.140	8.704	3665	42652576
+"Male and female"	"1yr_2018"	"Oral Cavity and Pharynx"	"Non-Hispanic American Indian/Alaska Native"	10.053	0.624	8.868	11.353	280	2708850
+"Male and female"	"1yr_2018"	"Oral Cavity and Pharynx"	"Non-Hispanic Asian or Pacific Islander"	8.225	0.202	7.834	8.630	1711	20334657
+"Male and female"	"1yr_2018"	"Oral Cavity and Pharynx"	"Hispanic (All Races)"	7.324	0.136	7.061	7.594	3162	58587151
+"Male and female"	"1yr_2018"	"Oral Cavity and Pharynx"	"Non-Hispanic Unknown Race"	 	 	 	 	551	0
+"Male and female"	"1yr_2018"	"Esophagus"	"AllRaceEth"	4.583	0.034	4.516	4.650	18669	323807474
+"Male and female"	"1yr_2018"	"Esophagus"	"Non-Hispanic White"	5.137	0.043	5.054	5.221	15427	199524240
+"Male and female"	"1yr_2018"	"Esophagus"	"Non-Hispanic Black"	3.469	0.093	3.289	3.656	1491	42652576
+"Male and female"	"1yr_2018"	"Esophagus"	"Non-Hispanic American Indian/Alaska Native"	4.481	0.421	3.695	5.385	124	2708850
+"Male and female"	"1yr_2018"	"Esophagus"	"Non-Hispanic Asian or Pacific Islander"	2.038	0.102	1.842	2.248	411	20334657
+"Male and female"	"1yr_2018"	"Esophagus"	"Hispanic (All Races)"	2.698	0.084	2.535	2.868	1102	58587151
+"Male and female"	"1yr_2018"	"Esophagus"	"Non-Hispanic Unknown Race"	 	 	 	 	114	0
+"Male and female"	"1yr_2018"	"Stomach"	"AllRaceEth"	6.291	0.041	6.211	6.372	24544	323807474
+"Male and female"	"1yr_2018"	"Stomach"	"Non-Hispanic White"	5.116	0.044	5.031	5.202	14779	199524240
+"Male and female"	"1yr_2018"	"Stomach"	"Non-Hispanic Black"	9.483	0.158	9.175	9.798	3823	42652576
+"Male and female"	"1yr_2018"	"Stomach"	"Non-Hispanic American Indian/Alaska Native"	7.773	0.566	6.703	8.963	203	2708850
+"Male and female"	"1yr_2018"	"Stomach"	"Non-Hispanic Asian or Pacific Islander"	8.805	0.214	8.391	9.235	1754	20334657
+"Male and female"	"1yr_2018"	"Stomach"	"Hispanic (All Races)"	9.228	0.156	8.924	9.539	3779	58587151
+"Male and female"	"1yr_2018"	"Stomach"	"Non-Hispanic Unknown Race"	 	 	 	 	206	0
+"Male and female"	"1yr_2018"	"Colon and Rectum"	"AllRaceEth"	37.118	0.100	36.921	37.315	143462	323807474
+"Male and female"	"1yr_2018"	"Colon and Rectum"	"Non-Hispanic White"	37.044	0.120	36.809	37.280	103421	199524240
+"Male and female"	"1yr_2018"	"Colon and Rectum"	"Non-Hispanic Black"	42.146	0.329	41.502	42.796	17388	42652576
+"Male and female"	"1yr_2018"	"Colon and Rectum"	"Non-Hispanic American Indian/Alaska Native"	38.787	1.261	36.355	41.337	1019	2708850
+"Male and female"	"1yr_2018"	"Colon and Rectum"	"Non-Hispanic Asian or Pacific Islander"	28.513	0.380	27.773	29.268	5806	20334657
+"Male and female"	"1yr_2018"	"Colon and Rectum"	"Hispanic (All Races)"	33.550	0.294	32.977	34.130	14163	58587151
+"Male and female"	"1yr_2018"	"Colon and Rectum"	"Non-Hispanic Unknown Race"	 	 	 	 	1665	0
+"Male and female"	"1yr_2018"	"Liver and Intrahepatic Bile Duct"	"AllRaceEth"	8.599	0.046	8.508	8.690	35803	323807474
+"Male and female"	"1yr_2018"	"Liver and Intrahepatic Bile Duct"	"Non-Hispanic White"	7.329	0.050	7.231	7.429	22426	199524240
+"Male and female"	"1yr_2018"	"Liver and Intrahepatic Bile Duct"	"Non-Hispanic Black"	10.277	0.155	9.976	10.585	4701	42652576
+"Male and female"	"1yr_2018"	"Liver and Intrahepatic Bile Duct"	"Non-Hispanic American Indian/Alaska Native"	14.426	0.742	13.009	15.957	410	2708850
+"Male and female"	"1yr_2018"	"Liver and Intrahepatic Bile Duct"	"Non-Hispanic Asian or Pacific Islander"	11.409	0.240	10.943	11.890	2336	20334657
+"Male and female"	"1yr_2018"	"Liver and Intrahepatic Bile Duct"	"Hispanic (All Races)"	13.906	0.191	13.534	14.284	5741	58587151
+"Male and female"	"1yr_2018"	"Liver and Intrahepatic Bile Duct"	"Non-Hispanic Unknown Race"	 	 	 	 	189	0
+"Male and female"	"1yr_2018"	"Pancreas"	"AllRaceEth"	13.357	0.059	13.242	13.473	53636	323807474
+"Male and female"	"1yr_2018"	"Pancreas"	"Non-Hispanic White"	13.249	0.068	13.116	13.384	39670	199524240
+"Male and female"	"1yr_2018"	"Pancreas"	"Non-Hispanic Black"	16.728	0.209	16.320	17.144	6816	42652576
+"Male and female"	"1yr_2018"	"Pancreas"	"Non-Hispanic American Indian/Alaska Native"	11.557	0.690	10.245	12.989	304	2708850
+"Male and female"	"1yr_2018"	"Pancreas"	"Non-Hispanic Asian or Pacific Islander"	9.792	0.227	9.352	10.248	1923	20334657
+"Male and female"	"1yr_2018"	"Pancreas"	"Hispanic (All Races)"	12.088	0.183	11.732	12.452	4708	58587151
+"Male and female"	"1yr_2018"	"Pancreas"	"Non-Hispanic Unknown Race"	 	 	 	 	215	0
+"Male and female"	"1yr_2018"	"Larynx"	"AllRaceEth"	2.969	0.027	2.916	3.023	12240	323807474
+"Male and female"	"1yr_2018"	"Larynx"	"Non-Hispanic White"	3.105	0.033	3.040	3.171	9286	199524240
+"Male and female"	"1yr_2018"	"Larynx"	"Non-Hispanic Black"	3.882	0.097	3.695	4.077	1710	42652576
+"Male and female"	"1yr_2018"	"Larynx"	"Non-Hispanic American Indian/Alaska Native"	3.036	0.339	2.407	3.781	86	2708850
+"Male and female"	"1yr_2018"	"Larynx"	"Non-Hispanic Asian or Pacific Islander"	1.037	0.072	0.900	1.189	213	20334657
+"Male and female"	"1yr_2018"	"Larynx"	"Hispanic (All Races)"	2.094	0.075	1.950	2.245	848	58587151
+"Male and female"	"1yr_2018"	"Larynx"	"Non-Hispanic Unknown Race"	 	 	 	 	97	0
+"Male and female"	"1yr_2018"	"Lung and Bronchus"	"AllRaceEth"	54.868	0.118	54.638	55.100	223429	323807474
+"Male and female"	"1yr_2018"	"Lung and Bronchus"	"Non-Hispanic White"	59.168	0.142	58.890	59.447	180359	199524240
+"Male and female"	"1yr_2018"	"Lung and Bronchus"	"Non-Hispanic Black"	56.796	0.383	56.048	57.552	23555	42652576
+"Male and female"	"1yr_2018"	"Lung and Bronchus"	"Non-Hispanic American Indian/Alaska Native"	54.128	1.488	51.250	57.124	1433	2708850
+"Male and female"	"1yr_2018"	"Lung and Bronchus"	"Non-Hispanic Asian or Pacific Islander"	33.430	0.419	32.613	34.261	6600	20334657
+"Male and female"	"1yr_2018"	"Lung and Bronchus"	"Hispanic (All Races)"	28.680	0.288	28.118	29.250	10611	58587151
+"Male and female"	"1yr_2018"	"Lung and Bronchus"	"Non-Hispanic Unknown Race"	 	 	 	 	871	0
+"Male and female"	"1yr_2018"	"Melanoma of the Skin"	"AllRaceEth"	22.495	0.079	22.340	22.649	85755	323807474
+"Male and female"	"1yr_2018"	"Melanoma of the Skin"	"Non-Hispanic White"	29.368	0.110	29.152	29.585	78766	199524240
+"Male and female"	"1yr_2018"	"Melanoma of the Skin"	"Non-Hispanic Black"	0.881	0.048	0.789	0.980	356	42652576
+"Male and female"	"1yr_2018"	"Melanoma of the Skin"	"Non-Hispanic American Indian/Alaska Native"	8.352	0.579	7.255	9.567	223	2708850
+"Male and female"	"1yr_2018"	"Melanoma of the Skin"	"Non-Hispanic Asian or Pacific Islander"	1.294	0.081	1.141	1.463	266	20334657
+"Male and female"	"1yr_2018"	"Melanoma of the Skin"	"Hispanic (All Races)"	4.497	0.107	4.289	4.711	1923	58587151
+"Male and female"	"1yr_2018"	"Melanoma of the Skin"	"Non-Hispanic Unknown Race"	 	 	 	 	4221	0
+"Male and female"	"1yr_2018"	"Breast"	"AllRaceEth"	68.435	0.138	68.165	68.706	260428	323807474
+"Male and female"	"1yr_2018"	"Breast"	"Non-Hispanic White"	70.738	0.170	70.404	71.072	191642	199524240
+"Male and female"	"1yr_2018"	"Breast"	"Non-Hispanic Black"	71.488	0.427	70.654	72.330	29702	42652576
+"Male and female"	"1yr_2018"	"Breast"	"Non-Hispanic American Indian/Alaska Native"	53.392	1.468	50.554	56.346	1422	2708850
+"Male and female"	"1yr_2018"	"Breast"	"Non-Hispanic Asian or Pacific Islander"	56.990	0.529	55.958	58.036	11891	20334657
+"Male and female"	"1yr_2018"	"Breast"	"Hispanic (All Races)"	52.497	0.355	51.804	53.197	23458	58587151
+"Male and female"	"1yr_2018"	"Breast"	"Non-Hispanic Unknown Race"	 	 	 	 	2313	0
+"Male and female"	"1yr_2018"	"Cervix Uteri"	"AllRaceEth"	3.905	0.035	3.836	3.975	12967	323807474
+"Male and female"	"1yr_2018"	"Cervix Uteri"	"Non-Hispanic White"	3.608	0.044	3.523	3.694	7667	199524240
+"Male and female"	"1yr_2018"	"Cervix Uteri"	"Non-Hispanic Black"	4.762	0.111	4.546	4.985	1930	42652576
+"Male and female"	"1yr_2018"	"Cervix Uteri"	"Non-Hispanic American Indian/Alaska Native"	4.884	0.452	4.038	5.853	122	2708850
+"Male and female"	"1yr_2018"	"Cervix Uteri"	"Non-Hispanic Asian or Pacific Islander"	3.142	0.124	2.904	3.395	655	20334657
+"Male and female"	"1yr_2018"	"Cervix Uteri"	"Hispanic (All Races)"	4.873	0.101	4.677	5.076	2445	58587151
+"Male and female"	"1yr_2018"	"Cervix Uteri"	"Non-Hispanic Unknown Race"	 	 	 	 	148	0
+"Male and female"	"1yr_2018"	"Corpus and Uterus, NOS"	"AllRaceEth"	14.631	0.062	14.510	14.753	58755	323807474
+"Male and female"	"1yr_2018"	"Corpus and Uterus, NOS"	"Non-Hispanic White"	14.476	0.074	14.332	14.622	41919	199524240
+"Male and female"	"1yr_2018"	"Corpus and Uterus, NOS"	"Non-Hispanic Black"	16.401	0.200	16.012	16.797	7200	42652576
+"Male and female"	"1yr_2018"	"Corpus and Uterus, NOS"	"Non-Hispanic American Indian/Alaska Native"	13.976	0.738	12.566	15.501	383	2708850
+"Male and female"	"1yr_2018"	"Corpus and Uterus, NOS"	"Non-Hispanic Asian or Pacific Islander"	12.114	0.242	11.645	12.597	2579	20334657
+"Male and female"	"1yr_2018"	"Corpus and Uterus, NOS"	"Hispanic (All Races)"	13.517	0.178	13.171	13.870	6186	58587151
+"Male and female"	"1yr_2018"	"Corpus and Uterus, NOS"	"Non-Hispanic Unknown Race"	 	 	 	 	488	0
+"Male and female"	"1yr_2018"	"Ovary"	"AllRaceEth"	5.287	0.038	5.212	5.363	20047	323807474
+"Male and female"	"1yr_2018"	"Ovary"	"Non-Hispanic White"	5.363	0.047	5.272	5.456	14516	199524240
+"Male and female"	"1yr_2018"	"Ovary"	"Non-Hispanic Black"	4.614	0.109	4.403	4.832	1910	42652576
+"Male and female"	"1yr_2018"	"Ovary"	"Non-Hispanic American Indian/Alaska Native"	5.730	0.482	4.824	6.755	150	2708850
+"Male and female"	"1yr_2018"	"Ovary"	"Non-Hispanic Asian or Pacific Islander"	4.949	0.157	4.647	5.266	1025	20334657
+"Male and female"	"1yr_2018"	"Ovary"	"Hispanic (All Races)"	5.060	0.110	4.847	5.281	2291	58587151
+"Male and female"	"1yr_2018"	"Ovary"	"Non-Hispanic Unknown Race"	 	 	 	 	155	0
+"Male and female"	"1yr_2018"	"Prostate"	"AllRaceEth"	51.643	0.112	51.424	51.863	220233	323807474
+"Male and female"	"1yr_2018"	"Prostate"	"Non-Hispanic White"	49.682	0.128	49.432	49.932	157150	199524240
+"Male and female"	"1yr_2018"	"Prostate"	"Non-Hispanic Black"	75.815	0.421	74.993	76.644	34492	42652576
+"Male and female"	"1yr_2018"	"Prostate"	"Non-Hispanic American Indian/Alaska Native"	31.969	1.100	29.850	34.201	911	2708850
+"Male and female"	"1yr_2018"	"Prostate"	"Non-Hispanic Asian or Pacific Islander"	25.597	0.359	24.898	26.310	5283	20334657
+"Male and female"	"1yr_2018"	"Prostate"	"Hispanic (All Races)"	39.214	0.321	38.587	39.849	15980	58587151
+"Male and female"	"1yr_2018"	"Prostate"	"Non-Hispanic Unknown Race"	 	 	 	 	6417	0
+"Male and female"	"1yr_2018"	"Testis"	"AllRaceEth"	2.924	0.031	2.863	2.986	9062	323807474
+"Male and female"	"1yr_2018"	"Testis"	"Non-Hispanic White"	3.570	0.045	3.482	3.660	6458	199524240
+"Male and female"	"1yr_2018"	"Testis"	"Non-Hispanic Black"	0.764	0.044	0.680	0.855	314	42652576
+"Male and female"	"1yr_2018"	"Testis"	"Non-Hispanic American Indian/Alaska Native"	2.833	0.333	2.219	3.566	76	2708850
+"Male and female"	"1yr_2018"	"Testis"	"Non-Hispanic Asian or Pacific Islander"	0.932	0.066	0.807	1.072	202	20334657
+"Male and female"	"1yr_2018"	"Testis"	"Hispanic (All Races)"	2.879	0.069	2.746	3.018	1810	58587151
+"Male and female"	"1yr_2018"	"Testis"	"Non-Hispanic Unknown Race"	 	 	 	 	202	0
+"Male and female"	"1yr_2018"	"Urinary Bladder"	"AllRaceEth"	18.826	0.070	18.689	18.963	75302	323807474
+"Male and female"	"1yr_2018"	"Urinary Bladder"	"Non-Hispanic White"	21.288	0.086	21.120	21.457	64132	199524240
+"Male and female"	"1yr_2018"	"Urinary Bladder"	"Non-Hispanic Black"	11.223	0.174	10.885	11.569	4447	42652576
+"Male and female"	"1yr_2018"	"Urinary Bladder"	"Non-Hispanic American Indian/Alaska Native"	11.288	0.698	9.962	12.738	285	2708850
+"Male and female"	"1yr_2018"	"Urinary Bladder"	"Non-Hispanic Asian or Pacific Islander"	8.144	0.210	7.738	8.565	1562	20334657
+"Male and female"	"1yr_2018"	"Urinary Bladder"	"Hispanic (All Races)"	10.588	0.176	10.246	10.937	3888	58587151
+"Male and female"	"1yr_2018"	"Urinary Bladder"	"Non-Hispanic Unknown Race"	 	 	 	 	988	0
+"Male and female"	"1yr_2018"	"Kidney and Renal Pelvis"	"AllRaceEth"	17.324	0.069	17.190	17.459	67416	323807474
+"Male and female"	"1yr_2018"	"Kidney and Renal Pelvis"	"Non-Hispanic White"	17.576	0.083	17.413	17.741	48979	199524240
+"Male and female"	"1yr_2018"	"Kidney and Renal Pelvis"	"Non-Hispanic Black"	18.611	0.215	18.192	19.038	7966	42652576
+"Male and female"	"1yr_2018"	"Kidney and Renal Pelvis"	"Non-Hispanic American Indian/Alaska Native"	26.037	1.027	24.064	28.129	688	2708850
+"Male and female"	"1yr_2018"	"Kidney and Renal Pelvis"	"Non-Hispanic Asian or Pacific Islander"	7.863	0.198	7.480	8.260	1632	20334657
+"Male and female"	"1yr_2018"	"Kidney and Renal Pelvis"	"Hispanic (All Races)"	17.450	0.207	17.047	17.860	7676	58587151
+"Male and female"	"1yr_2018"	"Kidney and Renal Pelvis"	"Non-Hispanic Unknown Race"	 	 	 	 	475	0
+"Male and female"	"1yr_2018"	"Brain and Other Nervous System"	"AllRaceEth"	6.348	0.043	6.264	6.433	23059	323807474
+"Male and female"	"1yr_2018"	"Brain and Other Nervous System"	"Non-Hispanic White"	7.219	0.058	7.106	7.332	17757	199524240
+"Male and female"	"1yr_2018"	"Brain and Other Nervous System"	"Non-Hispanic Black"	4.043	0.100	3.848	4.244	1699	42652576
+"Male and female"	"1yr_2018"	"Brain and Other Nervous System"	"Non-Hispanic American Indian/Alaska Native"	4.573	0.421	3.784	5.479	125	2708850
+"Male and female"	"1yr_2018"	"Brain and Other Nervous System"	"Non-Hispanic Asian or Pacific Islander"	3.736	0.138	3.471	4.016	756	20334657
+"Male and female"	"1yr_2018"	"Brain and Other Nervous System"	"Hispanic (All Races)"	5.230	0.109	5.018	5.448	2548	58587151
+"Male and female"	"1yr_2018"	"Brain and Other Nervous System"	"Non-Hispanic Unknown Race"	 	 	 	 	174	0
+"Male and female"	"1yr_2018"	"Thyroid"	"AllRaceEth"	13.435	0.064	13.309	13.562	46043	323807474
+"Male and female"	"1yr_2018"	"Thyroid"	"Non-Hispanic White"	14.125	0.084	13.960	14.291	31420	199524240
+"Male and female"	"1yr_2018"	"Thyroid"	"Non-Hispanic Black"	7.997	0.142	7.722	8.279	3354	42652576
+"Male and female"	"1yr_2018"	"Thyroid"	"Non-Hispanic American Indian/Alaska Native"	13.958	0.751	12.525	15.509	366	2708850
+"Male and female"	"1yr_2018"	"Thyroid"	"Non-Hispanic Asian or Pacific Islander"	15.113	0.269	14.590	15.651	3217	20334657
+"Male and female"	"1yr_2018"	"Thyroid"	"Hispanic (All Races)"	13.620	0.168	13.293	13.953	6996	58587151
+"Male and female"	"1yr_2018"	"Thyroid"	"Non-Hispanic Unknown Race"	 	 	 	 	690	0
+"Male and female"	"1yr_2018"	"Hodgkin Lymphoma"	"AllRaceEth"	2.552	0.028	2.497	2.608	8491	323807474
+"Male and female"	"1yr_2018"	"Hodgkin Lymphoma"	"Non-Hispanic White"	2.780	0.038	2.705	2.856	5737	199524240
+"Male and female"	"1yr_2018"	"Hodgkin Lymphoma"	"Non-Hispanic Black"	2.595	0.080	2.441	2.757	1100	42652576
+"Male and female"	"1yr_2018"	"Hodgkin Lymphoma"	"Non-Hispanic American Indian/Alaska Native"	1.995	0.287	1.473	2.640	51	2708850
+"Male and female"	"1yr_2018"	"Hodgkin Lymphoma"	"Non-Hispanic Asian or Pacific Islander"	1.319	0.080	1.166	1.486	277	20334657
+"Male and female"	"1yr_2018"	"Hodgkin Lymphoma"	"Hispanic (All Races)"	2.296	0.069	2.162	2.436	1216	58587151
+"Male and female"	"1yr_2018"	"Hodgkin Lymphoma"	"Non-Hispanic Unknown Race"	 	 	 	 	110	0
+"Male and female"	"1yr_2018"	"Non-Hodgkin Lymphoma"	"AllRaceEth"	18.734	0.071	18.595	18.874	72410	323807474
+"Male and female"	"1yr_2018"	"Non-Hodgkin Lymphoma"	"Non-Hispanic White"	19.532	0.087	19.362	19.702	55277	199524240
+"Male and female"	"1yr_2018"	"Non-Hodgkin Lymphoma"	"Non-Hispanic Black"	14.113	0.191	13.742	14.491	5804	42652576
+"Male and female"	"1yr_2018"	"Non-Hodgkin Lymphoma"	"Non-Hispanic American Indian/Alaska Native"	14.979	0.792	13.468	16.611	386	2708850
+"Male and female"	"1yr_2018"	"Non-Hodgkin Lymphoma"	"Non-Hispanic Asian or Pacific Islander"	12.957	0.258	12.456	13.473	2605	20334657
+"Male and female"	"1yr_2018"	"Non-Hodgkin Lymphoma"	"Hispanic (All Races)"	17.348	0.212	16.936	17.768	7350	58587151
+"Male and female"	"1yr_2018"	"Non-Hodgkin Lymphoma"	"Non-Hispanic Unknown Race"	 	 	 	 	988	0
+"Male and female"	"1yr_2018"	"Myeloma"	"AllRaceEth"	6.941	0.043	6.858	7.025	27591	323807474
+"Male and female"	"1yr_2018"	"Myeloma"	"Non-Hispanic White"	6.031	0.046	5.940	6.123	17845	199524240
+"Male and female"	"1yr_2018"	"Myeloma"	"Non-Hispanic Black"	14.145	0.192	13.771	14.527	5786	42652576
+"Male and female"	"1yr_2018"	"Myeloma"	"Non-Hispanic American Indian/Alaska Native"	7.095	0.540	6.077	8.234	186	2708850
+"Male and female"	"1yr_2018"	"Myeloma"	"Non-Hispanic Asian or Pacific Islander"	3.647	0.138	3.382	3.926	728	20334657
+"Male and female"	"1yr_2018"	"Myeloma"	"Hispanic (All Races)"	6.866	0.136	6.602	7.139	2738	58587151
+"Male and female"	"1yr_2018"	"Myeloma"	"Non-Hispanic Unknown Race"	 	 	 	 	308	0
+"Male and female"	"1yr_2018"	"Leukemias"	"AllRaceEth"	13.838	0.062	13.717	13.960	52209	323807474
+"Male and female"	"1yr_2018"	"Leukemias"	"Non-Hispanic White"	14.528	0.077	14.378	14.679	39644	199524240
+"Male and female"	"1yr_2018"	"Leukemias"	"Non-Hispanic Black"	10.536	0.165	10.215	10.864	4322	42652576
+"Male and female"	"1yr_2018"	"Leukemias"	"Non-Hispanic American Indian/Alaska Native"	11.519	0.683	10.219	12.938	302	2708850
+"Male and female"	"1yr_2018"	"Leukemias"	"Non-Hispanic Asian or Pacific Islander"	8.105	0.205	7.708	8.518	1604	20334657
+"Male and female"	"1yr_2018"	"Leukemias"	"Hispanic (All Races)"	11.274	0.165	10.953	11.602	5274	58587151
+"Male and female"	"1yr_2018"	"Leukemias"	"Non-Hispanic Unknown Race"	 	 	 	 	1063	0
+"Male and female"	"1yr_2018"	"Mesothelioma"	"AllRaceEth"	0.761	0.014	0.733	0.790	2948	323807474
+"Male and female"	"1yr_2018"	"Mesothelioma"	"Non-Hispanic White"	0.844	0.017	0.810	0.878	2472	199524240
+"Male and female"	"1yr_2018"	"Mesothelioma"	"Non-Hispanic Black"	0.397	0.033	0.335	0.466	156	42652576
+"Male and female"	"1yr_2018"	"Mesothelioma"	"Non-Hispanic American Indian/Alaska Native"	 	 	 	 	 	2708850
+"Male and female"	"1yr_2018"	"Mesothelioma"	"Non-Hispanic Asian or Pacific Islander"	0.244	0.036	0.179	0.325	48	20334657
+"Male and female"	"1yr_2018"	"Mesothelioma"	"Hispanic (All Races)"	0.657	0.043	0.574	0.746	248	58587151
+"Male and female"	"1yr_2018"	"Mesothelioma"	"Non-Hispanic Unknown Race"	 	 	 	 	 	0
+"Male and female"	"1yr_2018"	"Kaposi Sarcoma"	"AllRaceEth"	0.329	0.010	0.309	0.349	1105	323807474
+"Male and female"	"1yr_2018"	"Kaposi Sarcoma"	"Non-Hispanic White"	0.182	0.009	0.164	0.201	419	199524240
+"Male and female"	"1yr_2018"	"Kaposi Sarcoma"	"Non-Hispanic Black"	0.827	0.045	0.741	0.920	350	42652576
+"Male and female"	"1yr_2018"	"Kaposi Sarcoma"	"Non-Hispanic American Indian/Alaska Native"	 	 	 	 	 	2708850
+"Male and female"	"1yr_2018"	"Kaposi Sarcoma"	"Non-Hispanic Asian or Pacific Islander"	0.130	0.025	0.085	0.191	27	20334657
+"Male and female"	"1yr_2018"	"Kaposi Sarcoma"	"Hispanic (All Races)"	0.524	0.035	0.458	0.596	253	58587151
+"Male and female"	"1yr_2018"	"Kaposi Sarcoma"	"Non-Hispanic Unknown Race"	 	 	 	 	49	0
+"Male and female"	"5yrs_2014_2018"	"All Sites"	"AllRaceEth"	452.424	0.158	452.115	452.733	8589773	1611126680
+"Male and female"	"5yrs_2014_2018"	"All Sites"	"Non-Hispanic White"	469.839	0.191	469.465	470.214	6524467	1004091129
+"Male and female"	"5yrs_2014_2018"	"All Sites"	"Non-Hispanic Black"	459.000	0.493	458.034	459.967	925170	210442506
+"Male and female"	"5yrs_2014_2018"	"All Sites"	"Non-Hispanic American Indian/Alaska Native"	402.452	1.864	398.806	406.122	50768	13489322
+"Male and female"	"5yrs_2014_2018"	"All Sites"	"Non-Hispanic Asian or Pacific Islander"	296.834	0.570	295.718	297.952	282250	97756556
+"Male and female"	"5yrs_2014_2018"	"All Sites"	"Hispanic (All Races)"	354.647	0.444	353.778	355.518	704248	285347167
+"Male and female"	"5yrs_2014_2018"	"All Sites"	"Non-Hispanic Unknown Race"	 	 	 	 	102870	0
+"Male and female"	"5yrs_2014_2018"	"Oral Cavity and Pharynx"	"AllRaceEth"	11.989	0.025	11.939	12.038	232486	1611126680
+"Male and female"	"5yrs_2014_2018"	"Oral Cavity and Pharynx"	"Non-Hispanic White"	13.303	0.032	13.240	13.365	187669	1004091129
+"Male and female"	"5yrs_2014_2018"	"Oral Cavity and Pharynx"	"Non-Hispanic Black"	8.909	0.067	8.777	9.041	18673	210442506
+"Male and female"	"5yrs_2014_2018"	"Oral Cavity and Pharynx"	"Non-Hispanic American Indian/Alaska Native"	10.467	0.291	9.903	11.054	1400	13489322
+"Male and female"	"5yrs_2014_2018"	"Oral Cavity and Pharynx"	"Non-Hispanic Asian or Pacific Islander"	8.231	0.093	8.050	8.416	8055	97756556
+"Male and female"	"5yrs_2014_2018"	"Oral Cavity and Pharynx"	"Hispanic (All Races)"	7.218	0.063	7.095	7.342	14448	285347167
+"Male and female"	"5yrs_2014_2018"	"Oral Cavity and Pharynx"	"Non-Hispanic Unknown Race"	 	 	 	 	2241	0
+"Male and female"	"5yrs_2014_2018"	"Esophagus"	"AllRaceEth"	4.559	0.016	4.528	4.589	89538	1611126680
+"Male and female"	"5yrs_2014_2018"	"Esophagus"	"Non-Hispanic White"	5.036	0.019	4.999	5.073	73746	1004091129
+"Male and female"	"5yrs_2014_2018"	"Esophagus"	"Non-Hispanic Black"	3.769	0.044	3.682	3.857	7703	210442506
+"Male and female"	"5yrs_2014_2018"	"Esophagus"	"Non-Hispanic American Indian/Alaska Native"	4.541	0.196	4.165	4.941	591	13489322
+"Male and female"	"5yrs_2014_2018"	"Esophagus"	"Non-Hispanic Asian or Pacific Islander"	2.133	0.049	2.038	2.231	1992	97756556
+"Male and female"	"5yrs_2014_2018"	"Esophagus"	"Hispanic (All Races)"	2.763	0.040	2.684	2.843	5080	285347167
+"Male and female"	"5yrs_2014_2018"	"Esophagus"	"Non-Hispanic Unknown Race"	 	 	 	 	426	0
+"Male and female"	"5yrs_2014_2018"	"Stomach"	"AllRaceEth"	6.488	0.019	6.451	6.525	122683	1611126680
+"Male and female"	"5yrs_2014_2018"	"Stomach"	"Non-Hispanic White"	5.280	0.020	5.241	5.319	74892	1004091129
+"Male and female"	"5yrs_2014_2018"	"Stomach"	"Non-Hispanic Black"	9.894	0.074	9.749	10.041	18916	210442506
+"Male and female"	"5yrs_2014_2018"	"Stomach"	"Non-Hispanic American Indian/Alaska Native"	7.893	0.265	7.381	8.429	969	13489322
+"Male and female"	"5yrs_2014_2018"	"Stomach"	"Non-Hispanic Asian or Pacific Islander"	9.712	0.105	9.507	9.920	8876	97756556
+"Male and female"	"5yrs_2014_2018"	"Stomach"	"Hispanic (All Races)"	9.629	0.075	9.483	9.776	18210	285347167
+"Male and female"	"5yrs_2014_2018"	"Stomach"	"Non-Hispanic Unknown Race"	 	 	 	 	820	0
+"Male and female"	"5yrs_2014_2018"	"Colon and Rectum"	"AllRaceEth"	38.246	0.046	38.156	38.337	720015	1611126680
+"Male and female"	"5yrs_2014_2018"	"Colon and Rectum"	"Non-Hispanic White"	38.168	0.055	38.061	38.275	526136	1004091129
+"Male and female"	"5yrs_2014_2018"	"Colon and Rectum"	"Non-Hispanic Black"	44.086	0.154	43.785	44.390	87183	210442506
+"Male and female"	"5yrs_2014_2018"	"Colon and Rectum"	"Non-Hispanic American Indian/Alaska Native"	42.185	0.608	41.002	43.393	5246	13489322
+"Male and female"	"5yrs_2014_2018"	"Colon and Rectum"	"Non-Hispanic Asian or Pacific Islander"	29.992	0.182	29.638	30.350	28364	97756556
+"Male and female"	"5yrs_2014_2018"	"Colon and Rectum"	"Hispanic (All Races)"	34.365	0.139	34.093	34.639	66699	285347167
+"Male and female"	"5yrs_2014_2018"	"Colon and Rectum"	"Non-Hispanic Unknown Race"	 	 	 	 	6387	0
+"Male and female"	"5yrs_2014_2018"	"Liver and Intrahepatic Bile Duct"	"AllRaceEth"	8.668	0.021	8.627	8.710	174487	1611126680
+"Male and female"	"5yrs_2014_2018"	"Liver and Intrahepatic Bile Duct"	"Non-Hispanic White"	7.288	0.023	7.243	7.333	108525	1004091129
+"Male and female"	"5yrs_2014_2018"	"Liver and Intrahepatic Bile Duct"	"Non-Hispanic Black"	10.950	0.073	10.808	11.093	24194	210442506
+"Male and female"	"5yrs_2014_2018"	"Liver and Intrahepatic Bile Duct"	"Non-Hispanic American Indian/Alaska Native"	15.126	0.348	14.452	15.823	2070	13489322
+"Male and female"	"5yrs_2014_2018"	"Liver and Intrahepatic Bile Duct"	"Non-Hispanic Asian or Pacific Islander"	12.526	0.118	12.296	12.758	11853	97756556
+"Male and female"	"5yrs_2014_2018"	"Liver and Intrahepatic Bile Duct"	"Hispanic (All Races)"	13.992	0.089	13.818	14.167	27032	285347167
+"Male and female"	"5yrs_2014_2018"	"Liver and Intrahepatic Bile Duct"	"Non-Hispanic Unknown Race"	 	 	 	 	813	0
+"Male and female"	"5yrs_2014_2018"	"Pancreas"	"AllRaceEth"	13.165	0.027	13.113	13.217	254193	1611126680
+"Male and female"	"5yrs_2014_2018"	"Pancreas"	"Non-Hispanic White"	13.114	0.031	13.053	13.174	190866	1004091129
+"Male and female"	"5yrs_2014_2018"	"Pancreas"	"Non-Hispanic Black"	16.310	0.095	16.124	16.497	31493	210442506
+"Male and female"	"5yrs_2014_2018"	"Pancreas"	"Non-Hispanic American Indian/Alaska Native"	11.788	0.326	11.157	12.445	1435	13489322
+"Male and female"	"5yrs_2014_2018"	"Pancreas"	"Non-Hispanic Asian or Pacific Islander"	9.565	0.105	9.360	9.774	8615	97756556
+"Male and female"	"5yrs_2014_2018"	"Pancreas"	"Hispanic (All Races)"	11.728	0.085	11.563	11.895	20854	285347167
+"Male and female"	"5yrs_2014_2018"	"Pancreas"	"Non-Hispanic Unknown Race"	 	 	 	 	930	0
+"Male and female"	"5yrs_2014_2018"	"Larynx"	"AllRaceEth"	3.149	0.013	3.124	3.174	62602	1611126680
+"Male and female"	"5yrs_2014_2018"	"Larynx"	"Non-Hispanic White"	3.285	0.015	3.255	3.315	47903	1004091129
+"Male and female"	"5yrs_2014_2018"	"Larynx"	"Non-Hispanic Black"	4.179	0.046	4.089	4.271	8769	210442506
+"Male and female"	"5yrs_2014_2018"	"Larynx"	"Non-Hispanic American Indian/Alaska Native"	3.274	0.163	2.963	3.608	442	13489322
+"Male and female"	"5yrs_2014_2018"	"Larynx"	"Non-Hispanic Asian or Pacific Islander"	0.995	0.033	0.931	1.062	940	97756556
+"Male and female"	"5yrs_2014_2018"	"Larynx"	"Hispanic (All Races)"	2.225	0.036	2.155	2.296	4195	285347167
+"Male and female"	"5yrs_2014_2018"	"Larynx"	"Non-Hispanic Unknown Race"	 	 	 	 	353	0
+"Male and female"	"5yrs_2014_2018"	"Lung and Bronchus"	"AllRaceEth"	57.656	0.055	57.547	57.764	1121776	1611126680
+"Male and female"	"5yrs_2014_2018"	"Lung and Bronchus"	"Non-Hispanic White"	62.015	0.066	61.886	62.145	911874	1004091129
+"Male and female"	"5yrs_2014_2018"	"Lung and Bronchus"	"Non-Hispanic Black"	59.839	0.181	59.485	60.195	117371	210442506
+"Male and female"	"5yrs_2014_2018"	"Lung and Bronchus"	"Non-Hispanic American Indian/Alaska Native"	56.316	0.711	54.931	57.725	6900	13489322
+"Male and female"	"5yrs_2014_2018"	"Lung and Bronchus"	"Non-Hispanic Asian or Pacific Islander"	34.507	0.199	34.118	34.900	31325	97756556
+"Male and female"	"5yrs_2014_2018"	"Lung and Bronchus"	"Hispanic (All Races)"	29.769	0.137	29.500	30.039	50725	285347167
+"Male and female"	"5yrs_2014_2018"	"Lung and Bronchus"	"Non-Hispanic Unknown Race"	 	 	 	 	3581	0
+"Male and female"	"5yrs_2014_2018"	"Melanoma of the Skin"	"AllRaceEth"	22.773	0.036	22.703	22.844	421079	1611126680
+"Male and female"	"5yrs_2014_2018"	"Melanoma of the Skin"	"Non-Hispanic White"	29.625	0.050	29.528	29.722	389745	1004091129
+"Male and female"	"5yrs_2014_2018"	"Melanoma of the Skin"	"Non-Hispanic Black"	0.981	0.023	0.936	1.028	1870	210442506
+"Male and female"	"5yrs_2014_2018"	"Melanoma of the Skin"	"Non-Hispanic American Indian/Alaska Native"	8.679	0.274	8.150	9.233	1084	13489322
+"Male and female"	"5yrs_2014_2018"	"Melanoma of the Skin"	"Non-Hispanic Asian or Pacific Islander"	1.358	0.038	1.283	1.435	1298	97756556
+"Male and female"	"5yrs_2014_2018"	"Melanoma of the Skin"	"Hispanic (All Races)"	4.771	0.051	4.672	4.872	9634	285347167
+"Male and female"	"5yrs_2014_2018"	"Melanoma of the Skin"	"Non-Hispanic Unknown Race"	 	 	 	 	17448	0
+"Male and female"	"5yrs_2014_2018"	"Breast"	"AllRaceEth"	68.008	0.062	67.887	68.130	1263924	1611126680
+"Male and female"	"5yrs_2014_2018"	"Breast"	"Non-Hispanic White"	70.170	0.076	70.022	70.319	939732	1004091129
+"Male and female"	"5yrs_2014_2018"	"Breast"	"Non-Hispanic Black"	72.583	0.196	72.200	72.969	145208	210442506
+"Male and female"	"5yrs_2014_2018"	"Breast"	"Non-Hispanic American Indian/Alaska Native"	55.775	0.686	54.438	57.136	7135	13489322
+"Male and female"	"5yrs_2014_2018"	"Breast"	"Non-Hispanic Asian or Pacific Islander"	54.606	0.239	54.139	55.075	53888	97756556
+"Male and female"	"5yrs_2014_2018"	"Breast"	"Hispanic (All Races)"	52.121	0.164	51.800	52.444	109023	285347167
+"Male and female"	"5yrs_2014_2018"	"Breast"	"Non-Hispanic Unknown Race"	 	 	 	 	8938	0
+"Male and female"	"5yrs_2014_2018"	"Cervix Uteri"	"AllRaceEth"	3.970	0.016	3.939	4.001	65482	1611126680
+"Male and female"	"5yrs_2014_2018"	"Cervix Uteri"	"Non-Hispanic White"	3.694	0.020	3.656	3.733	39421	1004091129
+"Male and female"	"5yrs_2014_2018"	"Cervix Uteri"	"Non-Hispanic Black"	4.878	0.051	4.779	4.979	9675	210442506
+"Male and female"	"5yrs_2014_2018"	"Cervix Uteri"	"Non-Hispanic American Indian/Alaska Native"	4.969	0.206	4.574	5.390	613	13489322
+"Male and female"	"5yrs_2014_2018"	"Cervix Uteri"	"Non-Hispanic Asian or Pacific Islander"	3.351	0.059	3.237	3.469	3328	97756556
+"Male and female"	"5yrs_2014_2018"	"Cervix Uteri"	"Hispanic (All Races)"	4.957	0.047	4.865	5.051	11766	285347167
+"Male and female"	"5yrs_2014_2018"	"Cervix Uteri"	"Non-Hispanic Unknown Race"	 	 	 	 	679	0
+"Male and female"	"5yrs_2014_2018"	"Corpus and Uterus, NOS"	"AllRaceEth"	14.515	0.028	14.461	14.570	283968	1611126680
+"Male and female"	"5yrs_2014_2018"	"Corpus and Uterus, NOS"	"Non-Hispanic White"	14.546	0.033	14.481	14.611	207250	1004091129
+"Male and female"	"5yrs_2014_2018"	"Corpus and Uterus, NOS"	"Non-Hispanic Black"	15.970	0.090	15.794	16.148	33339	210442506
+"Male and female"	"5yrs_2014_2018"	"Corpus and Uterus, NOS"	"Non-Hispanic American Indian/Alaska Native"	13.020	0.325	12.391	13.672	1731	13489322
+"Male and female"	"5yrs_2014_2018"	"Corpus and Uterus, NOS"	"Non-Hispanic Asian or Pacific Islander"	11.280	0.107	11.071	11.492	11417	97756556
+"Male and female"	"5yrs_2014_2018"	"Corpus and Uterus, NOS"	"Hispanic (All Races)"	13.097	0.081	12.938	13.257	28066	285347167
+"Male and female"	"5yrs_2014_2018"	"Corpus and Uterus, NOS"	"Non-Hispanic Unknown Race"	 	 	 	 	2165	0
+"Male and female"	"5yrs_2014_2018"	"Ovary"	"AllRaceEth"	5.726	0.018	5.691	5.761	106350	1611126680
+"Male and female"	"5yrs_2014_2018"	"Ovary"	"Non-Hispanic White"	5.860	0.022	5.817	5.903	78714	1004091129
+"Male and female"	"5yrs_2014_2018"	"Ovary"	"Non-Hispanic Black"	4.993	0.052	4.892	5.095	9910	210442506
+"Male and female"	"5yrs_2014_2018"	"Ovary"	"Non-Hispanic American Indian/Alaska Native"	5.711	0.221	5.285	6.161	719	13489322
+"Male and female"	"5yrs_2014_2018"	"Ovary"	"Non-Hispanic Asian or Pacific Islander"	5.033	0.073	4.892	5.178	4953	97756556
+"Male and female"	"5yrs_2014_2018"	"Ovary"	"Hispanic (All Races)"	5.397	0.053	5.293	5.502	11367	285347167
+"Male and female"	"5yrs_2014_2018"	"Ovary"	"Non-Hispanic Unknown Race"	 	 	 	 	687	0
+"Male and female"	"5yrs_2014_2018"	"Prostate"	"AllRaceEth"	49.685	0.050	49.587	49.783	1018941	1611126680
+"Male and female"	"5yrs_2014_2018"	"Prostate"	"Non-Hispanic White"	47.381	0.056	47.270	47.492	727971	1004091129
+"Male and female"	"5yrs_2014_2018"	"Prostate"	"Non-Hispanic Black"	75.079	0.193	74.702	75.457	162016	210442506
+"Male and female"	"5yrs_2014_2018"	"Prostate"	"Non-Hispanic American Indian/Alaska Native"	33.353	0.526	32.330	34.400	4414	13489322
+"Male and female"	"5yrs_2014_2018"	"Prostate"	"Non-Hispanic Asian or Pacific Islander"	24.600	0.164	24.279	24.924	23513	97756556
+"Male and female"	"5yrs_2014_2018"	"Prostate"	"Hispanic (All Races)"	39.326	0.151	39.032	39.622	73616	285347167
+"Male and female"	"5yrs_2014_2018"	"Prostate"	"Non-Hispanic Unknown Race"	 	 	 	 	27411	0
+"Male and female"	"5yrs_2014_2018"	"Testis"	"AllRaceEth"	2.895	0.014	2.868	2.923	44811	1611126680
+"Male and female"	"5yrs_2014_2018"	"Testis"	"Non-Hispanic White"	3.555	0.020	3.516	3.594	32567	1004091129
+"Male and female"	"5yrs_2014_2018"	"Testis"	"Non-Hispanic Black"	0.748	0.020	0.710	0.787	1521	210442506
+"Male and female"	"5yrs_2014_2018"	"Testis"	"Non-Hispanic American Indian/Alaska Native"	3.200	0.159	2.896	3.527	424	13489322
+"Male and female"	"5yrs_2014_2018"	"Testis"	"Non-Hispanic Asian or Pacific Islander"	1.021	0.031	0.961	1.084	1085	97756556
+"Male and female"	"5yrs_2014_2018"	"Testis"	"Hispanic (All Races)"	2.726	0.030	2.667	2.786	8422	285347167
+"Male and female"	"5yrs_2014_2018"	"Testis"	"Non-Hispanic Unknown Race"	 	 	 	 	792	0
+"Male and female"	"5yrs_2014_2018"	"Urinary Bladder"	"AllRaceEth"	19.852	0.033	19.788	19.916	380531	1611126680
+"Male and female"	"5yrs_2014_2018"	"Urinary Bladder"	"Non-Hispanic White"	22.383	0.040	22.305	22.462	326542	1004091129
+"Male and female"	"5yrs_2014_2018"	"Urinary Bladder"	"Non-Hispanic Black"	11.767	0.082	11.606	11.929	21873	210442506
+"Male and female"	"5yrs_2014_2018"	"Urinary Bladder"	"Non-Hispanic American Indian/Alaska Native"	12.566	0.345	11.899	13.259	1461	13489322
+"Male and female"	"5yrs_2014_2018"	"Urinary Bladder"	"Non-Hispanic Asian or Pacific Islander"	8.460	0.100	8.265	8.658	7453	97756556
+"Male and female"	"5yrs_2014_2018"	"Urinary Bladder"	"Hispanic (All Races)"	10.984	0.084	10.820	11.150	18449	285347167
+"Male and female"	"5yrs_2014_2018"	"Urinary Bladder"	"Non-Hispanic Unknown Race"	 	 	 	 	4753	0
+"Male and female"	"5yrs_2014_2018"	"Kidney and Renal Pelvis"	"AllRaceEth"	17.232	0.031	17.171	17.292	325966	1611126680
+"Male and female"	"5yrs_2014_2018"	"Kidney and Renal Pelvis"	"Non-Hispanic White"	17.430	0.037	17.357	17.503	238897	1004091129
+"Male and female"	"5yrs_2014_2018"	"Kidney and Renal Pelvis"	"Non-Hispanic Black"	19.113	0.100	18.917	19.309	38976	210442506
+"Male and female"	"5yrs_2014_2018"	"Kidney and Renal Pelvis"	"Non-Hispanic American Indian/Alaska Native"	23.750	0.446	22.884	24.640	3068	13489322
+"Male and female"	"5yrs_2014_2018"	"Kidney and Renal Pelvis"	"Non-Hispanic Asian or Pacific Islander"	8.144	0.094	7.961	8.330	7815	97756556
+"Male and female"	"5yrs_2014_2018"	"Kidney and Renal Pelvis"	"Hispanic (All Races)"	17.295	0.096	17.108	17.485	35355	285347167
+"Male and female"	"5yrs_2014_2018"	"Kidney and Renal Pelvis"	"Non-Hispanic Unknown Race"	 	 	 	 	1855	0
+"Male and female"	"5yrs_2014_2018"	"Brain and Other Nervous System"	"AllRaceEth"	6.514	0.020	6.475	6.552	115614	1611126680
+"Male and female"	"5yrs_2014_2018"	"Brain and Other Nervous System"	"Non-Hispanic White"	7.407	0.026	7.356	7.459	90032	1004091129
+"Male and female"	"5yrs_2014_2018"	"Brain and Other Nervous System"	"Non-Hispanic Black"	4.101	0.046	4.011	4.192	8401	210442506
+"Male and female"	"5yrs_2014_2018"	"Brain and Other Nervous System"	"Non-Hispanic American Indian/Alaska Native"	4.724	0.196	4.347	5.126	617	13489322
+"Male and female"	"5yrs_2014_2018"	"Brain and Other Nervous System"	"Non-Hispanic Asian or Pacific Islander"	3.789	0.064	3.665	3.917	3624	97756556
+"Male and female"	"5yrs_2014_2018"	"Brain and Other Nervous System"	"Hispanic (All Races)"	5.206	0.050	5.108	5.306	12130	285347167
+"Male and female"	"5yrs_2014_2018"	"Brain and Other Nervous System"	"Non-Hispanic Unknown Race"	 	 	 	 	810	0
+"Male and female"	"5yrs_2014_2018"	"Thyroid"	"AllRaceEth"	14.146	0.030	14.088	14.204	239897	1611126680
+"Male and female"	"5yrs_2014_2018"	"Thyroid"	"Non-Hispanic White"	15.107	0.039	15.031	15.183	168078	1004091129
+"Male and female"	"5yrs_2014_2018"	"Thyroid"	"Non-Hispanic Black"	8.894	0.068	8.761	9.027	18099	210442506
+"Male and female"	"5yrs_2014_2018"	"Thyroid"	"Non-Hispanic American Indian/Alaska Native"	12.520	0.321	11.899	13.165	1612	13489322
+"Male and female"	"5yrs_2014_2018"	"Thyroid"	"Non-Hispanic Asian or Pacific Islander"	15.365	0.124	15.122	15.611	15622	97756556
+"Male and female"	"5yrs_2014_2018"	"Thyroid"	"Hispanic (All Races)"	13.733	0.078	13.581	13.886	33550	285347167
+"Male and female"	"5yrs_2014_2018"	"Thyroid"	"Non-Hispanic Unknown Race"	 	 	 	 	2936	0
+"Male and female"	"5yrs_2014_2018"	"Hodgkin Lymphoma"	"AllRaceEth"	2.636	0.013	2.611	2.661	43539	1611126680
+"Male and female"	"5yrs_2014_2018"	"Hodgkin Lymphoma"	"Non-Hispanic White"	2.868	0.017	2.834	2.902	29798	1004091129
+"Male and female"	"5yrs_2014_2018"	"Hodgkin Lymphoma"	"Non-Hispanic Black"	2.685	0.037	2.614	2.758	5629	210442506
+"Male and female"	"5yrs_2014_2018"	"Hodgkin Lymphoma"	"Non-Hispanic American Indian/Alaska Native"	1.790	0.119	1.565	2.039	240	13489322
+"Male and female"	"5yrs_2014_2018"	"Hodgkin Lymphoma"	"Non-Hispanic Asian or Pacific Islander"	1.352	0.037	1.280	1.427	1354	97756556
+"Male and female"	"5yrs_2014_2018"	"Hodgkin Lymphoma"	"Hispanic (All Races)"	2.371	0.033	2.308	2.436	6007	285347167
+"Male and female"	"5yrs_2014_2018"	"Hodgkin Lymphoma"	"Non-Hispanic Unknown Race"	 	 	 	 	511	0
+"Male and female"	"5yrs_2014_2018"	"Non-Hodgkin Lymphoma"	"AllRaceEth"	19.261	0.033	19.197	19.325	359968	1611126680
+"Male and female"	"5yrs_2014_2018"	"Non-Hodgkin Lymphoma"	"Non-Hispanic White"	20.128	0.040	20.051	20.206	277838	1004091129
+"Male and female"	"5yrs_2014_2018"	"Non-Hodgkin Lymphoma"	"Non-Hispanic Black"	14.561	0.088	14.389	14.735	28887	210442506
+"Male and female"	"5yrs_2014_2018"	"Non-Hodgkin Lymphoma"	"Non-Hispanic American Indian/Alaska Native"	14.756	0.363	14.053	15.485	1798	13489322
+"Male and female"	"5yrs_2014_2018"	"Non-Hodgkin Lymphoma"	"Non-Hispanic Asian or Pacific Islander"	13.235	0.121	12.998	13.475	12360	97756556
+"Male and female"	"5yrs_2014_2018"	"Non-Hodgkin Lymphoma"	"Hispanic (All Races)"	17.813	0.100	17.617	18.011	34844	285347167
+"Male and female"	"5yrs_2014_2018"	"Non-Hodgkin Lymphoma"	"Non-Hispanic Unknown Race"	 	 	 	 	4241	0
+"Male and female"	"5yrs_2014_2018"	"Myeloma"	"AllRaceEth"	7.069	0.020	7.030	7.107	135637	1611126680
+"Male and female"	"5yrs_2014_2018"	"Myeloma"	"Non-Hispanic White"	6.214	0.021	6.172	6.256	89711	1004091129
+"Male and female"	"5yrs_2014_2018"	"Myeloma"	"Non-Hispanic Black"	14.313	0.089	14.139	14.488	27663	210442506
+"Male and female"	"5yrs_2014_2018"	"Myeloma"	"Non-Hispanic American Indian/Alaska Native"	7.103	0.253	6.616	7.616	858	13489322
+"Male and female"	"5yrs_2014_2018"	"Myeloma"	"Non-Hispanic Asian or Pacific Islander"	3.902	0.066	3.773	4.034	3614	97756556
+"Male and female"	"5yrs_2014_2018"	"Myeloma"	"Hispanic (All Races)"	6.863	0.064	6.738	6.989	12587	285347167
+"Male and female"	"5yrs_2014_2018"	"Myeloma"	"Non-Hispanic Unknown Race"	 	 	 	 	1204	0
+"Male and female"	"5yrs_2014_2018"	"Leukemias"	"AllRaceEth"	14.430	0.029	14.374	14.486	264369	1611126680
+"Male and female"	"5yrs_2014_2018"	"Leukemias"	"Non-Hispanic White"	15.238	0.035	15.169	15.308	204023	1004091129
+"Male and female"	"5yrs_2014_2018"	"Leukemias"	"Non-Hispanic Black"	11.125	0.078	10.973	11.278	21711	210442506
+"Male and female"	"5yrs_2014_2018"	"Leukemias"	"Non-Hispanic American Indian/Alaska Native"	11.742	0.319	11.125	12.384	1463	13489322
+"Male and female"	"5yrs_2014_2018"	"Leukemias"	"Non-Hispanic Asian or Pacific Islander"	8.179	0.096	7.993	8.368	7587	97756556
+"Male and female"	"5yrs_2014_2018"	"Leukemias"	"Hispanic (All Races)"	11.555	0.078	11.403	11.708	25536	285347167
+"Male and female"	"5yrs_2014_2018"	"Leukemias"	"Non-Hispanic Unknown Race"	 	 	 	 	4049	0
+"Male and female"	"5yrs_2014_2018"	"Mesothelioma"	"AllRaceEth"	0.856	0.007	0.842	0.869	15978	1611126680
+"Male and female"	"5yrs_2014_2018"	"Mesothelioma"	"Non-Hispanic White"	0.952	0.008	0.936	0.968	13586	1004091129
+"Male and female"	"5yrs_2014_2018"	"Mesothelioma"	"Non-Hispanic Black"	0.430	0.016	0.399	0.462	780	210442506
+"Male and female"	"5yrs_2014_2018"	"Mesothelioma"	"Non-Hispanic American Indian/Alaska Native"	0.707	0.082	0.555	0.886	80	13489322
+"Male and female"	"5yrs_2014_2018"	"Mesothelioma"	"Non-Hispanic Asian or Pacific Islander"	0.318	0.019	0.282	0.358	284	97756556
+"Male and female"	"5yrs_2014_2018"	"Mesothelioma"	"Hispanic (All Races)"	0.674	0.020	0.635	0.715	1188	285347167
+"Male and female"	"5yrs_2014_2018"	"Mesothelioma"	"Non-Hispanic Unknown Race"	 	 	 	 	60	0
+"Male and female"	"5yrs_2014_2018"	"Kaposi Sarcoma"	"AllRaceEth"	0.349	0.005	0.340	0.359	5775	1611126680
+"Male and female"	"5yrs_2014_2018"	"Kaposi Sarcoma"	"Non-Hispanic White"	0.201	0.004	0.193	0.210	2333	1004091129
+"Male and female"	"5yrs_2014_2018"	"Kaposi Sarcoma"	"Non-Hispanic Black"	0.823	0.020	0.784	0.864	1698	210442506
+"Male and female"	"5yrs_2014_2018"	"Kaposi Sarcoma"	"Non-Hispanic American Indian/Alaska Native"	0.296	0.052	0.203	0.416	35	13489322
+"Male and female"	"5yrs_2014_2018"	"Kaposi Sarcoma"	"Non-Hispanic Asian or Pacific Islander"	0.162	0.013	0.137	0.190	154	97756556
+"Male and female"	"5yrs_2014_2018"	"Kaposi Sarcoma"	"Hispanic (All Races)"	0.583	0.017	0.550	0.617	1326	285347167
+"Male and female"	"5yrs_2014_2018"	"Kaposi Sarcoma"	"Non-Hispanic Unknown Race"	 	 	 	 	229	0
+"Male and female"	"10yrs_2009_2018"	"All Sites"	"AllRaceEth"	458.958	0.115	458.733	459.182	16594491	3168746442
+"Male and female"	"10yrs_2009_2018"	"All Sites"	"Non-Hispanic White"	475.094	0.137	474.826	475.363	12755823	2005919978
+"Male and female"	"10yrs_2009_2018"	"All Sites"	"Non-Hispanic Black"	472.452	0.366	471.735	473.170	1776075	410369310
+"Male and female"	"10yrs_2009_2018"	"All Sites"	"Non-Hispanic American Indian/Alaska Native"	402.119	1.380	399.419	404.832	93725	26468681
+"Male and female"	"10yrs_2009_2018"	"All Sites"	"Non-Hispanic Asian or Pacific Islander"	301.026	0.431	300.183	301.871	511851	182000876
+"Male and female"	"10yrs_2009_2018"	"All Sites"	"Hispanic (All Races)"	359.635	0.335	358.979	360.292	1282386	543987597
+"Male and female"	"10yrs_2009_2018"	"All Sites"	"Non-Hispanic Unknown Race"	 	 	 	 	174631	0
+"Male and female"	"10yrs_2009_2018"	"Oral Cavity and Pharynx"	"AllRaceEth"	11.783	0.018	11.747	11.818	435131	3168746442
+"Male and female"	"10yrs_2009_2018"	"Oral Cavity and Pharynx"	"Non-Hispanic White"	12.922	0.022	12.878	12.966	352005	2005919978
+"Male and female"	"10yrs_2009_2018"	"Oral Cavity and Pharynx"	"Non-Hispanic Black"	9.237	0.050	9.140	9.335	36496	410369310
+"Male and female"	"10yrs_2009_2018"	"Oral Cavity and Pharynx"	"Non-Hispanic American Indian/Alaska Native"	10.252	0.212	9.840	10.677	2556	26468681
+"Male and female"	"10yrs_2009_2018"	"Oral Cavity and Pharynx"	"Non-Hispanic Asian or Pacific Islander"	8.127	0.069	7.992	8.264	14329	182000876
+"Male and female"	"10yrs_2009_2018"	"Oral Cavity and Pharynx"	"Hispanic (All Races)"	7.229	0.047	7.137	7.321	26121	543987597
+"Male and female"	"10yrs_2009_2018"	"Oral Cavity and Pharynx"	"Non-Hispanic Unknown Race"	 	 	 	 	3624	0
+"Male and female"	"10yrs_2009_2018"	"Esophagus"	"AllRaceEth"	4.624	0.011	4.601	4.646	171783	3168746442
+"Male and female"	"10yrs_2009_2018"	"Esophagus"	"Non-Hispanic White"	5.037	0.014	5.010	5.064	141586	2005919978
+"Male and female"	"10yrs_2009_2018"	"Esophagus"	"Non-Hispanic Black"	4.160	0.034	4.093	4.227	15780	410369310
+"Male and female"	"10yrs_2009_2018"	"Esophagus"	"Non-Hispanic American Indian/Alaska Native"	4.354	0.144	4.076	4.645	1016	26468681
+"Male and female"	"10yrs_2009_2018"	"Esophagus"	"Non-Hispanic Asian or Pacific Islander"	2.156	0.037	2.084	2.230	3552	182000876
+"Male and female"	"10yrs_2009_2018"	"Esophagus"	"Hispanic (All Races)"	2.798	0.031	2.739	2.859	9158	543987597
+"Male and female"	"10yrs_2009_2018"	"Esophagus"	"Non-Hispanic Unknown Race"	 	 	 	 	691	0
+"Male and female"	"10yrs_2009_2018"	"Stomach"	"AllRaceEth"	6.596	0.014	6.569	6.623	237361	3168746442
+"Male and female"	"10yrs_2009_2018"	"Stomach"	"Non-Hispanic White"	5.384	0.014	5.356	5.412	147497	2005919978
+"Male and female"	"10yrs_2009_2018"	"Stomach"	"Non-Hispanic Black"	10.311	0.056	10.202	10.421	36522	410369310
+"Male and female"	"10yrs_2009_2018"	"Stomach"	"Non-Hispanic American Indian/Alaska Native"	8.044	0.200	7.657	8.445	1791	26468681
+"Male and female"	"10yrs_2009_2018"	"Stomach"	"Non-Hispanic Asian or Pacific Islander"	10.375	0.082	10.215	10.537	16772	182000876
+"Male and female"	"10yrs_2009_2018"	"Stomach"	"Hispanic (All Races)"	9.901	0.057	9.789	10.013	33389	543987597
+"Male and female"	"10yrs_2009_2018"	"Stomach"	"Non-Hispanic Unknown Race"	 	 	 	 	1390	0
+"Male and female"	"10yrs_2009_2018"	"Colon and Rectum"	"AllRaceEth"	39.532	0.034	39.466	39.598	1423420	3168746442
+"Male and female"	"10yrs_2009_2018"	"Colon and Rectum"	"Non-Hispanic White"	39.263	0.039	39.186	39.339	1057694	2005919978
+"Male and female"	"10yrs_2009_2018"	"Colon and Rectum"	"Non-Hispanic Black"	46.699	0.116	46.471	46.928	171879	410369310
+"Male and female"	"10yrs_2009_2018"	"Colon and Rectum"	"Non-Hispanic American Indian/Alaska Native"	42.101	0.450	41.223	42.993	9661	26468681
+"Male and female"	"10yrs_2009_2018"	"Colon and Rectum"	"Non-Hispanic Asian or Pacific Islander"	31.359	0.140	31.085	31.634	52706	182000876
+"Male and female"	"10yrs_2009_2018"	"Colon and Rectum"	"Hispanic (All Races)"	35.214	0.106	35.005	35.423	120838	543987597
+"Male and female"	"10yrs_2009_2018"	"Colon and Rectum"	"Non-Hispanic Unknown Race"	 	 	 	 	10642	0
+"Male and female"	"10yrs_2009_2018"	"Liver and Intrahepatic Bile Duct"	"AllRaceEth"	8.254	0.015	8.224	8.283	313393	3168746442
+"Male and female"	"10yrs_2009_2018"	"Liver and Intrahepatic Bile Duct"	"Non-Hispanic White"	6.850	0.016	6.819	6.882	194579	2005919978
+"Male and female"	"10yrs_2009_2018"	"Liver and Intrahepatic Bile Duct"	"Non-Hispanic Black"	10.785	0.053	10.682	10.889	44303	410369310
+"Male and female"	"10yrs_2009_2018"	"Liver and Intrahepatic Bile Duct"	"Non-Hispanic American Indian/Alaska Native"	13.950	0.248	13.468	14.446	3497	26468681
+"Male and female"	"10yrs_2009_2018"	"Liver and Intrahepatic Bile Duct"	"Non-Hispanic Asian or Pacific Islander"	13.107	0.090	12.931	13.285	22098	182000876
+"Male and female"	"10yrs_2009_2018"	"Liver and Intrahepatic Bile Duct"	"Hispanic (All Races)"	13.692	0.066	13.563	13.821	47516	543987597
+"Male and female"	"10yrs_2009_2018"	"Liver and Intrahepatic Bile Duct"	"Non-Hispanic Unknown Race"	 	 	 	 	1400	0
+"Male and female"	"10yrs_2009_2018"	"Pancreas"	"AllRaceEth"	12.838	0.019	12.800	12.875	469218	3168746442
+"Male and female"	"10yrs_2009_2018"	"Pancreas"	"Non-Hispanic White"	12.742	0.022	12.700	12.785	356284	2005919978
+"Male and female"	"10yrs_2009_2018"	"Pancreas"	"Non-Hispanic Black"	16.085	0.069	15.949	16.222	57449	410369310
+"Male and female"	"10yrs_2009_2018"	"Pancreas"	"Non-Hispanic American Indian/Alaska Native"	11.193	0.237	10.733	11.667	2486	26468681
+"Male and female"	"10yrs_2009_2018"	"Pancreas"	"Non-Hispanic Asian or Pacific Islander"	9.503	0.079	9.348	9.660	15038	182000876
+"Male and female"	"10yrs_2009_2018"	"Pancreas"	"Hispanic (All Races)"	11.523	0.063	11.400	11.648	36387	543987597
+"Male and female"	"10yrs_2009_2018"	"Pancreas"	"Non-Hispanic Unknown Race"	 	 	 	 	1574	0
+"Male and female"	"10yrs_2009_2018"	"Larynx"	"AllRaceEth"	3.358	0.010	3.339	3.377	126272	3168746442
+"Male and female"	"10yrs_2009_2018"	"Larynx"	"Non-Hispanic White"	3.480	0.011	3.458	3.503	97496	2005919978
+"Male and female"	"10yrs_2009_2018"	"Larynx"	"Non-Hispanic Black"	4.480	0.035	4.412	4.549	17513	410369310
+"Male and female"	"10yrs_2009_2018"	"Larynx"	"Non-Hispanic American Indian/Alaska Native"	3.095	0.117	2.870	3.334	767	26468681
+"Male and female"	"10yrs_2009_2018"	"Larynx"	"Non-Hispanic Asian or Pacific Islander"	1.089	0.026	1.038	1.141	1813	182000876
+"Male and female"	"10yrs_2009_2018"	"Larynx"	"Hispanic (All Races)"	2.401	0.028	2.346	2.456	8061	543987597
+"Male and female"	"10yrs_2009_2018"	"Larynx"	"Non-Hispanic Unknown Race"	 	 	 	 	622	0
+"Male and female"	"10yrs_2009_2018"	"Lung and Bronchus"	"AllRaceEth"	60.251	0.041	60.170	60.331	2206433	3168746442
+"Male and female"	"10yrs_2009_2018"	"Lung and Bronchus"	"Non-Hispanic White"	64.406	0.049	64.311	64.502	1805792	2005919978
+"Male and female"	"10yrs_2009_2018"	"Lung and Bronchus"	"Non-Hispanic Black"	63.510	0.137	63.242	63.779	230340	410369310
+"Male and female"	"10yrs_2009_2018"	"Lung and Bronchus"	"Non-Hispanic American Indian/Alaska Native"	57.780	0.539	56.729	58.846	12768	26468681
+"Male and female"	"10yrs_2009_2018"	"Lung and Bronchus"	"Non-Hispanic Asian or Pacific Islander"	35.574	0.153	35.275	35.875	56744	182000876
+"Male and female"	"10yrs_2009_2018"	"Lung and Bronchus"	"Hispanic (All Races)"	31.172	0.105	30.966	31.379	94764	543987597
+"Male and female"	"10yrs_2009_2018"	"Lung and Bronchus"	"Non-Hispanic Unknown Race"	 	 	 	 	6025	0
+"Male and female"	"10yrs_2009_2018"	"Melanoma of the Skin"	"AllRaceEth"	21.784	0.025	21.735	21.834	769099	3168746442
+"Male and female"	"10yrs_2009_2018"	"Melanoma of the Skin"	"Non-Hispanic White"	28.126	0.034	28.058	28.193	716635	2005919978
+"Male and female"	"10yrs_2009_2018"	"Melanoma of the Skin"	"Non-Hispanic Black"	1.008	0.017	0.974	1.042	3606	410369310
+"Male and female"	"10yrs_2009_2018"	"Melanoma of the Skin"	"Non-Hispanic American Indian/Alaska Native"	8.334	0.198	7.949	8.732	1933	26468681
+"Male and female"	"10yrs_2009_2018"	"Melanoma of the Skin"	"Non-Hispanic Asian or Pacific Islander"	1.352	0.029	1.296	1.410	2312	182000876
+"Male and female"	"10yrs_2009_2018"	"Melanoma of the Skin"	"Hispanic (All Races)"	4.613	0.037	4.539	4.686	16976	543987597
+"Male and female"	"10yrs_2009_2018"	"Melanoma of the Skin"	"Non-Hispanic Unknown Race"	 	 	 	 	27637	0
+"Male and female"	"10yrs_2009_2018"	"Breast"	"AllRaceEth"	67.582	0.044	67.495	67.669	2410142	3168746442
+"Male and female"	"10yrs_2009_2018"	"Breast"	"Non-Hispanic White"	69.625	0.053	69.520	69.729	1818287	2005919978
+"Male and female"	"10yrs_2009_2018"	"Breast"	"Non-Hispanic Black"	72.550	0.143	72.271	72.830	273966	410369310
+"Male and female"	"10yrs_2009_2018"	"Breast"	"Non-Hispanic American Indian/Alaska Native"	54.599	0.497	53.628	55.582	13113	26468681
+"Male and female"	"10yrs_2009_2018"	"Breast"	"Non-Hispanic Asian or Pacific Islander"	52.989	0.175	52.647	53.332	95017	182000876
+"Male and female"	"10yrs_2009_2018"	"Breast"	"Hispanic (All Races)"	51.473	0.122	51.234	51.712	194911	543987597
+"Male and female"	"10yrs_2009_2018"	"Breast"	"Non-Hispanic Unknown Race"	 	 	 	 	14848	0
+"Male and female"	"10yrs_2009_2018"	"Cervix Uteri"	"AllRaceEth"	3.961	0.011	3.939	3.983	128211	3168746442
+"Male and female"	"10yrs_2009_2018"	"Cervix Uteri"	"Non-Hispanic White"	3.646	0.014	3.619	3.672	77939	2005919978
+"Male and female"	"10yrs_2009_2018"	"Cervix Uteri"	"Non-Hispanic Black"	5.158	0.038	5.085	5.233	19545	410369310
+"Male and female"	"10yrs_2009_2018"	"Cervix Uteri"	"Non-Hispanic American Indian/Alaska Native"	5.067	0.149	4.779	5.368	1222	26468681
+"Male and female"	"10yrs_2009_2018"	"Cervix Uteri"	"Non-Hispanic Asian or Pacific Islander"	3.407	0.044	3.321	3.494	6193	182000876
+"Male and female"	"10yrs_2009_2018"	"Cervix Uteri"	"Hispanic (All Races)"	5.038	0.035	4.969	5.108	22115	543987597
+"Male and female"	"10yrs_2009_2018"	"Cervix Uteri"	"Non-Hispanic Unknown Race"	 	 	 	 	1197	0
+"Male and female"	"10yrs_2009_2018"	"Corpus and Uterus, NOS"	"AllRaceEth"	14.130	0.020	14.091	14.169	527375	3168746442
+"Male and female"	"10yrs_2009_2018"	"Corpus and Uterus, NOS"	"Non-Hispanic White"	14.265	0.023	14.219	14.311	393653	2005919978
+"Male and female"	"10yrs_2009_2018"	"Corpus and Uterus, NOS"	"Non-Hispanic Black"	15.254	0.065	15.127	15.382	58856	410369310
+"Male and female"	"10yrs_2009_2018"	"Corpus and Uterus, NOS"	"Non-Hispanic American Indian/Alaska Native"	12.733	0.234	12.278	13.201	3193	26468681
+"Male and female"	"10yrs_2009_2018"	"Corpus and Uterus, NOS"	"Non-Hispanic Asian or Pacific Islander"	10.782	0.078	10.630	10.936	19814	182000876
+"Male and female"	"10yrs_2009_2018"	"Corpus and Uterus, NOS"	"Hispanic (All Races)"	12.474	0.059	12.358	12.590	48198	543987597
+"Male and female"	"10yrs_2009_2018"	"Corpus and Uterus, NOS"	"Non-Hispanic Unknown Race"	 	 	 	 	3661	0
+"Male and female"	"10yrs_2009_2018"	"Ovary"	"AllRaceEth"	6.023	0.013	5.997	6.049	214800	3168746442
+"Male and female"	"10yrs_2009_2018"	"Ovary"	"Non-Hispanic White"	6.203	0.016	6.172	6.235	162572	2005919978
+"Male and female"	"10yrs_2009_2018"	"Ovary"	"Non-Hispanic Black"	5.256	0.039	5.180	5.333	19550	410369310
+"Male and female"	"10yrs_2009_2018"	"Ovary"	"Non-Hispanic American Indian/Alaska Native"	5.954	0.166	5.633	6.288	1409	26468681
+"Male and female"	"10yrs_2009_2018"	"Ovary"	"Non-Hispanic Asian or Pacific Islander"	5.100	0.054	4.994	5.207	9104	182000876
+"Male and female"	"10yrs_2009_2018"	"Ovary"	"Hispanic (All Races)"	5.526	0.040	5.447	5.605	21071	543987597
+"Male and female"	"10yrs_2009_2018"	"Ovary"	"Non-Hispanic Unknown Race"	 	 	 	 	1094	0
+"Male and female"	"10yrs_2009_2018"	"Prostate"	"AllRaceEth"	53.621	0.038	53.547	53.696	2063705	3168746442
+"Male and female"	"10yrs_2009_2018"	"Prostate"	"Non-Hispanic White"	51.241	0.042	51.158	51.325	1495361	2005919978
+"Male and female"	"10yrs_2009_2018"	"Prostate"	"Non-Hispanic Black"	80.872	0.147	80.584	81.162	320804	410369310
+"Male and female"	"10yrs_2009_2018"	"Prostate"	"Non-Hispanic American Indian/Alaska Native"	37.275	0.416	36.464	38.100	8893	26468681
+"Male and female"	"10yrs_2009_2018"	"Prostate"	"Non-Hispanic Asian or Pacific Islander"	26.743	0.129	26.491	26.997	45092	182000876
+"Male and female"	"10yrs_2009_2018"	"Prostate"	"Hispanic (All Races)"	43.400	0.119	43.168	43.634	143992	543987597
+"Male and female"	"10yrs_2009_2018"	"Prostate"	"Non-Hispanic Unknown Race"	 	 	 	 	49563	0
+"Male and female"	"10yrs_2009_2018"	"Testis"	"AllRaceEth"	2.835	0.010	2.816	2.854	86558	3168746442
+"Male and female"	"10yrs_2009_2018"	"Testis"	"Non-Hispanic White"	3.504	0.014	3.476	3.531	64495	2005919978
+"Male and female"	"10yrs_2009_2018"	"Testis"	"Non-Hispanic Black"	0.721	0.014	0.695	0.748	2868	410369310
+"Male and female"	"10yrs_2009_2018"	"Testis"	"Non-Hispanic American Indian/Alaska Native"	3.001	0.109	2.792	3.223	788	26468681
+"Male and female"	"10yrs_2009_2018"	"Testis"	"Non-Hispanic Asian or Pacific Islander"	0.966	0.022	0.923	1.010	1921	182000876
+"Male and female"	"10yrs_2009_2018"	"Testis"	"Hispanic (All Races)"	2.545	0.021	2.504	2.587	15144	543987597
+"Male and female"	"10yrs_2009_2018"	"Testis"	"Non-Hispanic Unknown Race"	 	 	 	 	1342	0
+"Male and female"	"10yrs_2009_2018"	"Urinary Bladder"	"AllRaceEth"	20.425	0.024	20.377	20.472	739506	3168746442
+"Male and female"	"10yrs_2009_2018"	"Urinary Bladder"	"Non-Hispanic White"	22.935	0.029	22.878	22.992	640517	2005919978
+"Male and female"	"10yrs_2009_2018"	"Urinary Bladder"	"Non-Hispanic Black"	11.960	0.061	11.841	12.080	41086	410369310
+"Male and female"	"10yrs_2009_2018"	"Urinary Bladder"	"Non-Hispanic American Indian/Alaska Native"	12.450	0.257	11.952	12.962	2623	26468681
+"Male and female"	"10yrs_2009_2018"	"Urinary Bladder"	"Non-Hispanic Asian or Pacific Islander"	8.634	0.076	8.485	8.785	13362	182000876
+"Male and female"	"10yrs_2009_2018"	"Urinary Bladder"	"Hispanic (All Races)"	11.313	0.064	11.188	11.439	33813	543987597
+"Male and female"	"10yrs_2009_2018"	"Urinary Bladder"	"Non-Hispanic Unknown Race"	 	 	 	 	8105	0
+"Male and female"	"10yrs_2009_2018"	"Kidney and Renal Pelvis"	"AllRaceEth"	16.781	0.022	16.738	16.824	606474	3168746442
+"Male and female"	"10yrs_2009_2018"	"Kidney and Renal Pelvis"	"Non-Hispanic White"	16.953	0.026	16.902	17.004	451074	2005919978
+"Male and female"	"10yrs_2009_2018"	"Kidney and Renal Pelvis"	"Non-Hispanic Black"	18.706	0.072	18.565	18.848	71469	410369310
+"Male and female"	"10yrs_2009_2018"	"Kidney and Renal Pelvis"	"Non-Hispanic American Indian/Alaska Native"	22.884	0.321	22.258	23.522	5525	26468681
+"Male and female"	"10yrs_2009_2018"	"Kidney and Renal Pelvis"	"Non-Hispanic Asian or Pacific Islander"	7.982	0.070	7.846	8.120	13684	182000876
+"Male and female"	"10yrs_2009_2018"	"Kidney and Renal Pelvis"	"Hispanic (All Races)"	16.809	0.071	16.670	16.949	61644	543987597
+"Male and female"	"10yrs_2009_2018"	"Kidney and Renal Pelvis"	"Non-Hispanic Unknown Race"	 	 	 	 	3078	0
+"Male and female"	"10yrs_2009_2018"	"Brain and Other Nervous System"	"AllRaceEth"	6.617	0.014	6.589	6.644	226563	3168746442
+"Male and female"	"10yrs_2009_2018"	"Brain and Other Nervous System"	"Non-Hispanic White"	7.493	0.019	7.457	7.530	178207	2005919978
+"Male and female"	"10yrs_2009_2018"	"Brain and Other Nervous System"	"Non-Hispanic Black"	4.189	0.034	4.123	4.255	16369	410369310
+"Male and female"	"10yrs_2009_2018"	"Brain and Other Nervous System"	"Non-Hispanic American Indian/Alaska Native"	4.805	0.144	4.527	5.095	1203	26468681
+"Male and female"	"10yrs_2009_2018"	"Brain and Other Nervous System"	"Non-Hispanic Asian or Pacific Islander"	3.805	0.048	3.713	3.900	6645	182000876
+"Male and female"	"10yrs_2009_2018"	"Brain and Other Nervous System"	"Hispanic (All Races)"	5.239	0.038	5.166	5.313	22689	543987597
+"Male and female"	"10yrs_2009_2018"	"Brain and Other Nervous System"	"Non-Hispanic Unknown Race"	 	 	 	 	1450	0
+"Male and female"	"10yrs_2009_2018"	"Thyroid"	"AllRaceEth"	14.157	0.021	14.116	14.199	469254	3168746442
+"Male and female"	"10yrs_2009_2018"	"Thyroid"	"Non-Hispanic White"	15.213	0.027	15.159	15.267	337212	2005919978
+"Male and female"	"10yrs_2009_2018"	"Thyroid"	"Non-Hispanic Black"	9.002	0.049	8.906	9.098	35186	410369310
+"Male and female"	"10yrs_2009_2018"	"Thyroid"	"Non-Hispanic American Indian/Alaska Native"	11.693	0.223	11.261	12.137	2918	26468681
+"Male and female"	"10yrs_2009_2018"	"Thyroid"	"Non-Hispanic Asian or Pacific Islander"	15.214	0.091	15.036	15.394	28488	182000876
+"Male and female"	"10yrs_2009_2018"	"Thyroid"	"Hispanic (All Races)"	13.335	0.057	13.224	13.447	60170	543987597
+"Male and female"	"10yrs_2009_2018"	"Thyroid"	"Non-Hispanic Unknown Race"	 	 	 	 	5280	0
+"Male and female"	"10yrs_2009_2018"	"Hodgkin Lymphoma"	"AllRaceEth"	2.694	0.009	2.676	2.712	86950	3168746442
+"Male and female"	"10yrs_2009_2018"	"Hodgkin Lymphoma"	"Non-Hispanic White"	2.930	0.012	2.906	2.955	60556	2005919978
+"Male and female"	"10yrs_2009_2018"	"Hodgkin Lymphoma"	"Non-Hispanic Black"	2.736	0.026	2.685	2.788	11127	410369310
+"Male and female"	"10yrs_2009_2018"	"Hodgkin Lymphoma"	"Non-Hispanic American Indian/Alaska Native"	1.743	0.085	1.581	1.917	452	26468681
+"Male and female"	"10yrs_2009_2018"	"Hodgkin Lymphoma"	"Non-Hispanic Asian or Pacific Islander"	1.315	0.027	1.263	1.369	2442	182000876
+"Male and female"	"10yrs_2009_2018"	"Hodgkin Lymphoma"	"Hispanic (All Races)"	2.405	0.024	2.358	2.453	11452	543987597
+"Male and female"	"10yrs_2009_2018"	"Hodgkin Lymphoma"	"Non-Hispanic Unknown Race"	 	 	 	 	921	0
+"Male and female"	"10yrs_2009_2018"	"Non-Hodgkin Lymphoma"	"AllRaceEth"	19.496	0.024	19.449	19.542	694228	3168746442
+"Male and female"	"10yrs_2009_2018"	"Non-Hodgkin Lymphoma"	"Non-Hispanic White"	20.386	0.028	20.331	20.442	543250	2005919978
+"Male and female"	"10yrs_2009_2018"	"Non-Hodgkin Lymphoma"	"Non-Hispanic Black"	14.668	0.064	14.542	14.795	54962	410369310
+"Male and female"	"10yrs_2009_2018"	"Non-Hodgkin Lymphoma"	"Non-Hispanic American Indian/Alaska Native"	14.962	0.270	14.436	15.501	3385	26468681
+"Male and female"	"10yrs_2009_2018"	"Non-Hodgkin Lymphoma"	"Non-Hispanic Asian or Pacific Islander"	13.282	0.091	13.103	13.462	22168	182000876
+"Male and female"	"10yrs_2009_2018"	"Non-Hodgkin Lymphoma"	"Hispanic (All Races)"	17.866	0.075	17.719	18.014	63077	543987597
+"Male and female"	"10yrs_2009_2018"	"Non-Hodgkin Lymphoma"	"Non-Hispanic Unknown Race"	 	 	 	 	7386	0
+"Male and female"	"10yrs_2009_2018"	"Myeloma"	"AllRaceEth"	6.928	0.014	6.901	6.956	251984	3168746442
+"Male and female"	"10yrs_2009_2018"	"Myeloma"	"Non-Hispanic White"	6.105	0.015	6.075	6.135	169289	2005919978
+"Male and female"	"10yrs_2009_2018"	"Myeloma"	"Non-Hispanic Black"	14.092	0.065	13.965	14.219	50719	410369310
+"Male and female"	"10yrs_2009_2018"	"Myeloma"	"Non-Hispanic American Indian/Alaska Native"	6.535	0.181	6.185	6.898	1452	26468681
+"Male and female"	"10yrs_2009_2018"	"Myeloma"	"Non-Hispanic Asian or Pacific Islander"	3.921	0.050	3.823	4.020	6435	182000876
+"Male and female"	"10yrs_2009_2018"	"Myeloma"	"Hispanic (All Races)"	6.786	0.048	6.693	6.880	22230	543987597
+"Male and female"	"10yrs_2009_2018"	"Myeloma"	"Non-Hispanic Unknown Race"	 	 	 	 	1859	0
+"Male and female"	"10yrs_2009_2018"	"Leukemias"	"AllRaceEth"	14.496	0.021	14.456	14.537	507939	3168746442
+"Male and female"	"10yrs_2009_2018"	"Leukemias"	"Non-Hispanic White"	15.287	0.025	15.238	15.336	396449	2005919978
+"Male and female"	"10yrs_2009_2018"	"Leukemias"	"Non-Hispanic Black"	11.222	0.057	11.110	11.334	41162	410369310
+"Male and female"	"10yrs_2009_2018"	"Leukemias"	"Non-Hispanic American Indian/Alaska Native"	11.673	0.234	11.219	12.141	2730	26468681
+"Male and female"	"10yrs_2009_2018"	"Leukemias"	"Non-Hispanic Asian or Pacific Islander"	8.219	0.072	8.079	8.360	13775	182000876
+"Male and female"	"10yrs_2009_2018"	"Leukemias"	"Hispanic (All Races)"	11.572	0.058	11.458	11.686	47091	543987597
+"Male and female"	"10yrs_2009_2018"	"Leukemias"	"Non-Hispanic Unknown Race"	 	 	 	 	6732	0
+"Male and female"	"10yrs_2009_2018"	"Mesothelioma"	"AllRaceEth"	0.919	0.005	0.909	0.929	32575	3168746442
+"Male and female"	"10yrs_2009_2018"	"Mesothelioma"	"Non-Hispanic White"	1.022	0.006	1.010	1.034	28084	2005919978
+"Male and female"	"10yrs_2009_2018"	"Mesothelioma"	"Non-Hispanic Black"	0.459	0.012	0.436	0.483	1552	410369310
+"Male and female"	"10yrs_2009_2018"	"Mesothelioma"	"Non-Hispanic American Indian/Alaska Native"	0.694	0.061	0.578	0.824	141	26468681
+"Male and female"	"10yrs_2009_2018"	"Mesothelioma"	"Non-Hispanic Asian or Pacific Islander"	0.319	0.015	0.291	0.349	497	182000876
+"Male and female"	"10yrs_2009_2018"	"Mesothelioma"	"Hispanic (All Races)"	0.705	0.016	0.675	0.737	2204	543987597
+"Male and female"	"10yrs_2009_2018"	"Mesothelioma"	"Non-Hispanic Unknown Race"	 	 	 	 	97	0
+"Male and female"	"10yrs_2009_2018"	"Kaposi Sarcoma"	"AllRaceEth"	0.368	0.003	0.361	0.375	11777	3168746442
+"Male and female"	"10yrs_2009_2018"	"Kaposi Sarcoma"	"Non-Hispanic White"	0.225	0.003	0.219	0.232	5084	2005919978
+"Male and female"	"10yrs_2009_2018"	"Kaposi Sarcoma"	"Non-Hispanic Black"	0.853	0.015	0.824	0.883	3365	410369310
+"Male and female"	"10yrs_2009_2018"	"Kaposi Sarcoma"	"Non-Hispanic American Indian/Alaska Native"	0.291	0.037	0.222	0.373	65	26468681
+"Male and female"	"10yrs_2009_2018"	"Kaposi Sarcoma"	"Non-Hispanic Asian or Pacific Islander"	0.171	0.010	0.152	0.192	301	182000876
+"Male and female"	"10yrs_2009_2018"	"Kaposi Sarcoma"	"Hispanic (All Races)"	0.623	0.013	0.598	0.650	2564	543987597
+"Male and female"	"10yrs_2009_2018"	"Kaposi Sarcoma"	"Non-Hispanic Unknown Race"	 	 	 	 	398	0
+"Male"	"1yr_2018"	"All Sites"	"AllRaceEth"	483.344	0.525	482.316	484.375	887451	159440248
+"Male"	"1yr_2018"	"All Sites"	"Non-Hispanic White"	497.844	0.625	496.619	499.071	675718	98364175
+"Male"	"1yr_2018"	"All Sites"	"Non-Hispanic Black"	518.654	1.775	515.180	522.145	95502	20428991
+"Male"	"1yr_2018"	"All Sites"	"Non-Hispanic American Indian/Alaska Native"	400.909	6.004	389.226	412.847	4937	1328319
+"Male"	"1yr_2018"	"All Sites"	"Non-Hispanic Asian or Pacific Islander"	289.770	1.836	286.183	293.390	26072	9748955
+"Male"	"1yr_2018"	"All Sites"	"Hispanic (All Races)"	368.691	1.497	365.762	371.636	69981	29569808
+"Male"	"1yr_2018"	"All Sites"	"Non-Hispanic Unknown Race"	 	 	 	 	15241	0
+"Male"	"1yr_2018"	"Oral Cavity and Pharynx"	"AllRaceEth"	18.027	0.100	17.831	18.225	33922	159440248
+"Male"	"1yr_2018"	"Oral Cavity and Pharynx"	"Non-Hispanic White"	20.087	0.125	19.841	20.334	27560	98364175
+"Male"	"1yr_2018"	"Oral Cavity and Pharynx"	"Non-Hispanic Black"	12.995	0.273	12.466	13.540	2502	20428991
+"Male"	"1yr_2018"	"Oral Cavity and Pharynx"	"Non-Hispanic American Indian/Alaska Native"	16.277	1.169	14.067	18.736	212	1328319
+"Male"	"1yr_2018"	"Oral Cavity and Pharynx"	"Non-Hispanic Asian or Pacific Islander"	12.132	0.365	11.427	12.870	1143	9748955
+"Male"	"1yr_2018"	"Oral Cavity and Pharynx"	"Hispanic (All Races)"	10.693	0.247	10.215	11.187	2133	29569808
+"Male"	"1yr_2018"	"Oral Cavity and Pharynx"	"Non-Hispanic Unknown Race"	 	 	 	 	372	0
+"Male"	"1yr_2018"	"Esophagus"	"AllRaceEth"	7.908	0.067	7.778	8.039	14782	159440248
+"Male"	"1yr_2018"	"Esophagus"	"Non-Hispanic White"	8.891	0.082	8.731	9.054	12411	98364175
+"Male"	"1yr_2018"	"Esophagus"	"Non-Hispanic Black"	5.340	0.180	4.993	5.704	989	20428991
+"Male"	"1yr_2018"	"Esophagus"	"Non-Hispanic American Indian/Alaska Native"	7.693	0.824	6.163	9.484	98	1328319
+"Male"	"1yr_2018"	"Esophagus"	"Non-Hispanic Asian or Pacific Islander"	3.335	0.197	2.961	3.742	301	9748955
+"Male"	"1yr_2018"	"Esophagus"	"Hispanic (All Races)"	4.741	0.170	4.414	5.084	884	29569808
+"Male"	"1yr_2018"	"Esophagus"	"Non-Hispanic Unknown Race"	 	 	 	 	99	0
+"Male"	"1yr_2018"	"Stomach"	"AllRaceEth"	8.343	0.070	8.207	8.481	14988	159440248
+"Male"	"1yr_2018"	"Stomach"	"Non-Hispanic White"	7.098	0.075	6.952	7.246	9534	98364175
+"Male"	"1yr_2018"	"Stomach"	"Non-Hispanic Black"	12.532	0.289	11.971	13.111	2121	20428991
+"Male"	"1yr_2018"	"Stomach"	"Non-Hispanic American Indian/Alaska Native"	9.399	0.933	7.660	11.404	113	1328319
+"Male"	"1yr_2018"	"Stomach"	"Non-Hispanic Asian or Pacific Islander"	11.691	0.374	10.969	12.446	1024	9748955
+"Male"	"1yr_2018"	"Stomach"	"Hispanic (All Races)"	11.481	0.270	10.957	12.021	2080	29569808
+"Male"	"1yr_2018"	"Stomach"	"Non-Hispanic Unknown Race"	 	 	 	 	116	0
+"Male"	"1yr_2018"	"Colon and Rectum"	"AllRaceEth"	42.452	0.158	42.144	42.763	75849	159440248
+"Male"	"1yr_2018"	"Colon and Rectum"	"Non-Hispanic White"	42.136	0.187	41.771	42.504	54736	98364175
+"Male"	"1yr_2018"	"Colon and Rectum"	"Non-Hispanic Black"	49.701	0.559	48.611	50.809	8831	20428991
+"Male"	"1yr_2018"	"Colon and Rectum"	"Non-Hispanic American Indian/Alaska Native"	43.653	2.000	39.821	47.746	528	1328319
+"Male"	"1yr_2018"	"Colon and Rectum"	"Non-Hispanic Asian or Pacific Islander"	34.046	0.621	32.839	35.286	3128	9748955
+"Male"	"1yr_2018"	"Colon and Rectum"	"Hispanic (All Races)"	39.529	0.483	38.587	40.485	7684	29569808
+"Male"	"1yr_2018"	"Colon and Rectum"	"Non-Hispanic Unknown Race"	 	 	 	 	942	0
+"Male"	"1yr_2018"	"Liver and Intrahepatic Bile Duct"	"AllRaceEth"	13.039	0.084	12.876	13.205	25393	159440248
+"Male"	"1yr_2018"	"Liver and Intrahepatic Bile Duct"	"Non-Hispanic White"	11.088	0.090	10.912	11.266	16065	98364175
+"Male"	"1yr_2018"	"Liver and Intrahepatic Bile Duct"	"Non-Hispanic Black"	16.694	0.302	16.106	17.297	3370	20428991
+"Male"	"1yr_2018"	"Liver and Intrahepatic Bile Duct"	"Non-Hispanic American Indian/Alaska Native"	19.829	1.289	17.383	22.524	263	1328319
+"Male"	"1yr_2018"	"Liver and Intrahepatic Bile Duct"	"Non-Hispanic Asian or Pacific Islander"	17.575	0.446	16.712	18.472	1623	9748955
+"Male"	"1yr_2018"	"Liver and Intrahepatic Bile Duct"	"Hispanic (All Races)"	20.322	0.345	19.652	21.007	3941	29569808
+"Male"	"1yr_2018"	"Liver and Intrahepatic Bile Duct"	"Non-Hispanic Unknown Race"	 	 	 	 	131	0
+"Male"	"1yr_2018"	"Pancreas"	"AllRaceEth"	15.217	0.093	15.035	15.401	27864	159440248
+"Male"	"1yr_2018"	"Pancreas"	"Non-Hispanic White"	15.399	0.108	15.187	15.614	21210	98364175
+"Male"	"1yr_2018"	"Pancreas"	"Non-Hispanic Black"	17.927	0.339	17.269	18.603	3150	20428991
+"Male"	"1yr_2018"	"Pancreas"	"Non-Hispanic American Indian/Alaska Native"	11.553	1.014	9.651	13.714	144	1328319
+"Male"	"1yr_2018"	"Pancreas"	"Non-Hispanic Asian or Pacific Islander"	10.545	0.356	9.860	11.265	922	9748955
+"Male"	"1yr_2018"	"Pancreas"	"Hispanic (All Races)"	12.956	0.287	12.399	13.529	2321	29569808
+"Male"	"1yr_2018"	"Pancreas"	"Non-Hispanic Unknown Race"	 	 	 	 	117	0
+"Male"	"1yr_2018"	"Larynx"	"AllRaceEth"	5.111	0.053	5.008	5.216	9736	159440248
+"Male"	"1yr_2018"	"Larynx"	"Non-Hispanic White"	5.211	0.063	5.089	5.335	7348	98364175
+"Male"	"1yr_2018"	"Larynx"	"Non-Hispanic Black"	7.233	0.208	6.831	7.653	1352	20428991
+"Male"	"1yr_2018"	"Larynx"	"Non-Hispanic American Indian/Alaska Native"	5.382	0.674	4.142	6.877	70	1328319
+"Male"	"1yr_2018"	"Larynx"	"Non-Hispanic Asian or Pacific Islander"	2.105	0.156	1.810	2.433	191	9748955
+"Male"	"1yr_2018"	"Larynx"	"Hispanic (All Races)"	3.867	0.156	3.567	4.183	695	29569808
+"Male"	"1yr_2018"	"Larynx"	"Non-Hispanic Unknown Race"	 	 	 	 	80	0
+"Male"	"1yr_2018"	"Lung and Bronchus"	"AllRaceEth"	61.739	0.187	61.373	62.107	113711	159440248
+"Male"	"1yr_2018"	"Lung and Bronchus"	"Non-Hispanic White"	64.878	0.220	64.448	65.311	90894	98364175
+"Male"	"1yr_2018"	"Lung and Bronchus"	"Non-Hispanic Black"	72.257	0.686	70.919	73.613	12551	20428991
+"Male"	"1yr_2018"	"Lung and Bronchus"	"Non-Hispanic American Indian/Alaska Native"	57.252	2.290	52.851	61.915	694	1328319
+"Male"	"1yr_2018"	"Lung and Bronchus"	"Non-Hispanic Asian or Pacific Islander"	40.423	0.700	39.062	41.817	3499	9748955
+"Male"	"1yr_2018"	"Lung and Bronchus"	"Hispanic (All Races)"	34.771	0.493	33.812	35.748	5557	29569808
+"Male"	"1yr_2018"	"Lung and Bronchus"	"Non-Hispanic Unknown Race"	 	 	 	 	516	0
+"Male"	"1yr_2018"	"Melanoma of the Skin"	"AllRaceEth"	28.528	0.130	28.274	28.784	50653	159440248
+"Male"	"1yr_2018"	"Melanoma of the Skin"	"Non-Hispanic White"	36.146	0.173	35.808	36.487	47065	98364175
+"Male"	"1yr_2018"	"Melanoma of the Skin"	"Non-Hispanic Black"	0.973	0.080	0.822	1.143	166	20428991
+"Male"	"1yr_2018"	"Melanoma of the Skin"	"Non-Hispanic American Indian/Alaska Native"	9.504	0.934	7.762	11.512	116	1328319
+"Male"	"1yr_2018"	"Melanoma of the Skin"	"Non-Hispanic Asian or Pacific Islander"	1.547	0.132	1.300	1.827	144	9748955
+"Male"	"1yr_2018"	"Melanoma of the Skin"	"Hispanic (All Races)"	4.733	0.173	4.399	5.083	865	29569808
+"Male"	"1yr_2018"	"Melanoma of the Skin"	"Non-Hispanic Unknown Race"	 	 	 	 	2297	0
+"Male"	"1yr_2018"	"Breast"	"AllRaceEth"	1.269	0.027	1.216	1.323	2276	159440248
+"Male"	"1yr_2018"	"Breast"	"Non-Hispanic White"	1.272	0.032	1.210	1.336	1700	98364175
+"Male"	"1yr_2018"	"Breast"	"Non-Hispanic Black"	1.989	0.112	1.775	2.221	348	20428991
+"Male"	"1yr_2018"	"Breast"	"Non-Hispanic American Indian/Alaska Native"	 	 	 	 	 	1328319
+"Male"	"1yr_2018"	"Breast"	"Non-Hispanic Asian or Pacific Islander"	0.844	0.098	0.662	1.059	77	9748955
+"Male"	"1yr_2018"	"Breast"	"Hispanic (All Races)"	0.588	0.060	0.477	0.715	111	29569808
+"Male"	"1yr_2018"	"Breast"	"Non-Hispanic Unknown Race"	 	 	 	 	30	0
+"Male"	"1yr_2018"	"Cervix Uteri"	"AllRaceEth"	 	 	 	 	 	159440248
+"Male"	"1yr_2018"	"Cervix Uteri"	"Non-Hispanic White"	 	 	 	 	 	98364175
+"Male"	"1yr_2018"	"Cervix Uteri"	"Non-Hispanic Black"	 	 	 	 	 	20428991
+"Male"	"1yr_2018"	"Cervix Uteri"	"Non-Hispanic American Indian/Alaska Native"	 	 	 	 	 	1328319
+"Male"	"1yr_2018"	"Cervix Uteri"	"Non-Hispanic Asian or Pacific Islander"	 	 	 	 	 	9748955
+"Male"	"1yr_2018"	"Cervix Uteri"	"Hispanic (All Races)"	 	 	 	 	 	29569808
+"Male"	"1yr_2018"	"Cervix Uteri"	"Non-Hispanic Unknown Race"	 	 	 	 	 	0
+"Male"	"1yr_2018"	"Corpus and Uterus, NOS"	"AllRaceEth"	 	 	 	 	 	159440248
+"Male"	"1yr_2018"	"Corpus and Uterus, NOS"	"Non-Hispanic White"	 	 	 	 	 	98364175
+"Male"	"1yr_2018"	"Corpus and Uterus, NOS"	"Non-Hispanic Black"	 	 	 	 	 	20428991
+"Male"	"1yr_2018"	"Corpus and Uterus, NOS"	"Non-Hispanic American Indian/Alaska Native"	 	 	 	 	 	1328319
+"Male"	"1yr_2018"	"Corpus and Uterus, NOS"	"Non-Hispanic Asian or Pacific Islander"	 	 	 	 	 	9748955
+"Male"	"1yr_2018"	"Corpus and Uterus, NOS"	"Hispanic (All Races)"	 	 	 	 	 	29569808
+"Male"	"1yr_2018"	"Corpus and Uterus, NOS"	"Non-Hispanic Unknown Race"	 	 	 	 	 	0
+"Male"	"1yr_2018"	"Ovary"	"AllRaceEth"	 	 	 	 	 	159440248
+"Male"	"1yr_2018"	"Ovary"	"Non-Hispanic White"	 	 	 	 	 	98364175
+"Male"	"1yr_2018"	"Ovary"	"Non-Hispanic Black"	 	 	 	 	 	20428991
+"Male"	"1yr_2018"	"Ovary"	"Non-Hispanic American Indian/Alaska Native"	 	 	 	 	 	1328319
+"Male"	"1yr_2018"	"Ovary"	"Non-Hispanic Asian or Pacific Islander"	 	 	 	 	 	9748955
+"Male"	"1yr_2018"	"Ovary"	"Hispanic (All Races)"	 	 	 	 	 	29569808
+"Male"	"1yr_2018"	"Ovary"	"Non-Hispanic Unknown Race"	 	 	 	 	 	0
+"Male"	"1yr_2018"	"Prostate"	"AllRaceEth"	111.890	0.243	111.413	112.368	220233	159440248
+"Male"	"1yr_2018"	"Prostate"	"Non-Hispanic White"	106.150	0.273	105.615	106.687	157150	98364175
+"Male"	"1yr_2018"	"Prostate"	"Non-Hispanic Black"	176.647	1.001	174.691	178.620	34492	20428991
+"Male"	"1yr_2018"	"Prostate"	"Non-Hispanic American Indian/Alaska Native"	70.283	2.449	65.564	75.251	911	1328319
+"Male"	"1yr_2018"	"Prostate"	"Non-Hispanic Asian or Pacific Islander"	58.054	0.818	56.462	59.678	5283	9748955
+"Male"	"1yr_2018"	"Prostate"	"Hispanic (All Races)"	87.181	0.730	85.756	88.622	15980	29569808
+"Male"	"1yr_2018"	"Prostate"	"Non-Hispanic Unknown Race"	 	 	 	 	6417	0
+"Male"	"1yr_2018"	"Testis"	"AllRaceEth"	5.832	0.062	5.711	5.955	9062	159440248
+"Male"	"1yr_2018"	"Testis"	"Non-Hispanic White"	7.085	0.090	6.910	7.264	6458	98364175
+"Male"	"1yr_2018"	"Testis"	"Non-Hispanic Black"	1.604	0.093	1.427	1.797	314	20428991
+"Male"	"1yr_2018"	"Testis"	"Non-Hispanic American Indian/Alaska Native"	5.699	0.671	4.459	7.183	76	1328319
+"Male"	"1yr_2018"	"Testis"	"Non-Hispanic Asian or Pacific Islander"	1.926	0.137	1.667	2.215	202	9748955
+"Male"	"1yr_2018"	"Testis"	"Hispanic (All Races)"	5.603	0.135	5.342	5.875	1810	29569808
+"Male"	"1yr_2018"	"Testis"	"Non-Hispanic Unknown Race"	 	 	 	 	202	0
+"Male"	"1yr_2018"	"Urinary Bladder"	"AllRaceEth"	32.405	0.138	32.135	32.677	57357	159440248
+"Male"	"1yr_2018"	"Urinary Bladder"	"Non-Hispanic White"	36.375	0.167	36.048	36.704	49344	98364175
+"Male"	"1yr_2018"	"Urinary Bladder"	"Non-Hispanic Black"	18.506	0.359	17.809	19.222	3014	20428991
+"Male"	"1yr_2018"	"Urinary Bladder"	"Non-Hispanic American Indian/Alaska Native"	19.260	1.398	16.618	22.183	214	1328319
+"Male"	"1yr_2018"	"Urinary Bladder"	"Non-Hispanic Asian or Pacific Islander"	14.250	0.425	13.429	15.106	1177	9748955
+"Male"	"1yr_2018"	"Urinary Bladder"	"Hispanic (All Races)"	17.939	0.357	17.247	18.650	2829	29569808
+"Male"	"1yr_2018"	"Urinary Bladder"	"Non-Hispanic Unknown Race"	 	 	 	 	779	0
+"Male"	"1yr_2018"	"Kidney and Renal Pelvis"	"AllRaceEth"	23.463	0.116	23.235	23.692	42787	159440248
+"Male"	"1yr_2018"	"Kidney and Renal Pelvis"	"Non-Hispanic White"	23.924	0.140	23.650	24.200	31693	98364175
+"Male"	"1yr_2018"	"Kidney and Renal Pelvis"	"Non-Hispanic Black"	25.038	0.382	24.295	25.798	4720	20428991
+"Male"	"1yr_2018"	"Kidney and Renal Pelvis"	"Non-Hispanic American Indian/Alaska Native"	34.140	1.756	30.785	37.754	411	1328319
+"Male"	"1yr_2018"	"Kidney and Renal Pelvis"	"Non-Hispanic Asian or Pacific Islander"	10.736	0.344	10.072	11.433	1010	9748955
+"Male"	"1yr_2018"	"Kidney and Renal Pelvis"	"Hispanic (All Races)"	22.653	0.355	21.962	23.358	4620	29569808
+"Male"	"1yr_2018"	"Kidney and Renal Pelvis"	"Non-Hispanic Unknown Race"	 	 	 	 	333	0
+"Male"	"1yr_2018"	"Brain and Other Nervous System"	"AllRaceEth"	7.498	0.067	7.367	7.632	12959	159440248
+"Male"	"1yr_2018"	"Brain and Other Nervous System"	"Non-Hispanic White"	8.507	0.089	8.333	8.683	10079	98364175
+"Male"	"1yr_2018"	"Brain and Other Nervous System"	"Non-Hispanic Black"	4.865	0.166	4.545	5.200	934	20428991
+"Male"	"1yr_2018"	"Brain and Other Nervous System"	"Non-Hispanic American Indian/Alaska Native"	5.704	0.696	4.421	7.242	73	1328319
+"Male"	"1yr_2018"	"Brain and Other Nervous System"	"Non-Hispanic Asian or Pacific Islander"	4.369	0.221	3.947	4.824	406	9748955
+"Male"	"1yr_2018"	"Brain and Other Nervous System"	"Hispanic (All Races)"	5.878	0.172	5.545	6.225	1373	29569808
+"Male"	"1yr_2018"	"Brain and Other Nervous System"	"Non-Hispanic Unknown Race"	 	 	 	 	94	0
+"Male"	"1yr_2018"	"Thyroid"	"AllRaceEth"	7.070	0.066	6.942	7.201	12187	159440248
+"Male"	"1yr_2018"	"Thyroid"	"Non-Hispanic White"	7.844	0.086	7.675	8.015	9141	98364175
+"Male"	"1yr_2018"	"Thyroid"	"Non-Hispanic Black"	3.495	0.140	3.226	3.780	676	20428991
+"Male"	"1yr_2018"	"Thyroid"	"Non-Hispanic American Indian/Alaska Native"	6.466	0.733	5.110	8.073	83	1328319
+"Male"	"1yr_2018"	"Thyroid"	"Non-Hispanic Asian or Pacific Islander"	7.390	0.279	6.853	7.957	722	9748955
+"Male"	"1yr_2018"	"Thyroid"	"Hispanic (All Races)"	5.852	0.166	5.531	6.186	1401	29569808
+"Male"	"1yr_2018"	"Thyroid"	"Non-Hispanic Unknown Race"	 	 	 	 	164	0
+"Male"	"1yr_2018"	"Hodgkin Lymphoma"	"AllRaceEth"	2.842	0.043	2.760	2.927	4640	159440248
+"Male"	"1yr_2018"	"Hodgkin Lymphoma"	"Non-Hispanic White"	3.067	0.057	2.957	3.181	3147	98364175
+"Male"	"1yr_2018"	"Hodgkin Lymphoma"	"Non-Hispanic Black"	2.866	0.123	2.630	3.118	576	20428991
+"Male"	"1yr_2018"	"Hodgkin Lymphoma"	"Non-Hispanic American Indian/Alaska Native"	2.297	0.459	1.487	3.381	27	1328319
+"Male"	"1yr_2018"	"Hodgkin Lymphoma"	"Non-Hispanic Asian or Pacific Islander"	1.456	0.123	1.224	1.719	144	9748955
+"Male"	"1yr_2018"	"Hodgkin Lymphoma"	"Hispanic (All Races)"	2.692	0.112	2.477	2.919	686	29569808
+"Male"	"1yr_2018"	"Hodgkin Lymphoma"	"Non-Hispanic Unknown Race"	 	 	 	 	60	0
+"Male"	"1yr_2018"	"Non-Hodgkin Lymphoma"	"AllRaceEth"	22.523	0.116	22.297	22.751	39789	159440248
+"Male"	"1yr_2018"	"Non-Hodgkin Lymphoma"	"Non-Hispanic White"	23.558	0.139	23.286	23.833	30736	98364175
+"Male"	"1yr_2018"	"Non-Hodgkin Lymphoma"	"Non-Hispanic Black"	16.730	0.321	16.106	17.372	3002	20428991
+"Male"	"1yr_2018"	"Non-Hodgkin Lymphoma"	"Non-Hispanic American Indian/Alaska Native"	17.808	1.303	15.345	20.540	208	1328319
+"Male"	"1yr_2018"	"Non-Hodgkin Lymphoma"	"Non-Hispanic Asian or Pacific Islander"	15.551	0.426	14.727	16.409	1395	9748955
+"Male"	"1yr_2018"	"Non-Hodgkin Lymphoma"	"Hispanic (All Races)"	19.955	0.345	19.284	20.641	3908	29569808
+"Male"	"1yr_2018"	"Non-Hodgkin Lymphoma"	"Non-Hispanic Unknown Race"	 	 	 	 	540	0
+"Male"	"1yr_2018"	"Myeloma"	"AllRaceEth"	8.511	0.070	8.374	8.650	15375	159440248
+"Male"	"1yr_2018"	"Myeloma"	"Non-Hispanic White"	7.714	0.077	7.563	7.867	10473	98364175
+"Male"	"1yr_2018"	"Myeloma"	"Non-Hispanic Black"	16.348	0.327	15.714	17.001	2811	20428991
+"Male"	"1yr_2018"	"Myeloma"	"Non-Hispanic American Indian/Alaska Native"	7.778	0.834	6.229	9.588	95	1328319
+"Male"	"1yr_2018"	"Myeloma"	"Non-Hispanic Asian or Pacific Islander"	4.516	0.230	4.076	4.989	404	9748955
+"Male"	"1yr_2018"	"Myeloma"	"Hispanic (All Races)"	7.794	0.222	7.366	8.239	1410	29569808
+"Male"	"1yr_2018"	"Myeloma"	"Non-Hispanic Unknown Race"	 	 	 	 	182	0
+"Male"	"1yr_2018"	"Leukemias"	"AllRaceEth"	17.637	0.103	17.436	17.840	30623	159440248
+"Male"	"1yr_2018"	"Leukemias"	"Non-Hispanic White"	18.620	0.126	18.375	18.868	23698	98364175
+"Male"	"1yr_2018"	"Leukemias"	"Non-Hispanic Black"	13.118	0.289	12.558	13.696	2315	20428991
+"Male"	"1yr_2018"	"Leukemias"	"Non-Hispanic American Indian/Alaska Native"	13.105	1.097	11.043	15.430	155	1328319
+"Male"	"1yr_2018"	"Leukemias"	"Non-Hispanic Asian or Pacific Islander"	10.083	0.342	9.424	10.775	907	9748955
+"Male"	"1yr_2018"	"Leukemias"	"Hispanic (All Races)"	13.496	0.276	12.961	14.047	2925	29569808
+"Male"	"1yr_2018"	"Leukemias"	"Non-Hispanic Unknown Race"	 	 	 	 	623	0
+"Male"	"1yr_2018"	"Mesothelioma"	"AllRaceEth"	1.266	0.028	1.212	1.322	2139	159440248
+"Male"	"1yr_2018"	"Mesothelioma"	"Non-Hispanic White"	1.398	0.033	1.334	1.465	1826	98364175
+"Male"	"1yr_2018"	"Mesothelioma"	"Non-Hispanic Black"	0.696	0.070	0.565	0.847	109	20428991
+"Male"	"1yr_2018"	"Mesothelioma"	"Non-Hispanic American Indian/Alaska Native"	 	 	 	 	 	1328319
+"Male"	"1yr_2018"	"Mesothelioma"	"Non-Hispanic Asian or Pacific Islander"	0.407	0.071	0.280	0.571	34	9748955
+"Male"	"1yr_2018"	"Mesothelioma"	"Hispanic (All Races)"	0.984	0.084	0.826	1.161	152	29569808
+"Male"	"1yr_2018"	"Mesothelioma"	"Non-Hispanic Unknown Race"	 	 	 	 	 	0
+"Male"	"1yr_2018"	"Kaposi Sarcoma"	"AllRaceEth"	0.616	0.020	0.578	0.656	997	159440248
+"Male"	"1yr_2018"	"Kaposi Sarcoma"	"Non-Hispanic White"	0.338	0.018	0.303	0.376	369	98364175
+"Male"	"1yr_2018"	"Kaposi Sarcoma"	"Non-Hispanic Black"	1.624	0.093	1.446	1.818	324	20428991
+"Male"	"1yr_2018"	"Kaposi Sarcoma"	"Non-Hispanic American Indian/Alaska Native"	 	 	 	 	 	1328319
+"Male"	"1yr_2018"	"Kaposi Sarcoma"	"Non-Hispanic Asian or Pacific Islander"	0.279	0.056	0.180	0.411	26	9748955
+"Male"	"1yr_2018"	"Kaposi Sarcoma"	"Hispanic (All Races)"	0.937	0.067	0.810	1.079	229	29569808
+"Male"	"1yr_2018"	"Kaposi Sarcoma"	"Non-Hispanic Unknown Race"	 	 	 	 	42	0
+"Male"	"5yrs_2014_2018"	"All Sites"	"AllRaceEth"	492.402	0.242	491.928	492.877	4344244	793242039
+"Male"	"5yrs_2014_2018"	"All Sites"	"Non-Hispanic White"	506.370	0.285	505.810	506.929	3336244	494940244
+"Male"	"5yrs_2014_2018"	"All Sites"	"Non-Hispanic Black"	534.775	0.832	533.145	536.408	467009	100754448
+"Male"	"5yrs_2014_2018"	"All Sites"	"Non-Hispanic American Indian/Alaska Native"	418.643	2.862	413.052	424.289	24284	6618664
+"Male"	"5yrs_2014_2018"	"All Sites"	"Non-Hispanic Asian or Pacific Islander"	297.770	0.871	296.064	299.482	123753	46791018
+"Male"	"5yrs_2014_2018"	"All Sites"	"Hispanic (All Races)"	377.174	0.711	375.782	378.569	329645	144137665
+"Male"	"5yrs_2014_2018"	"All Sites"	"Non-Hispanic Unknown Race"	 	 	 	 	63309	0
+"Male"	"5yrs_2014_2018"	"Oral Cavity and Pharynx"	"AllRaceEth"	18.182	0.046	18.093	18.272	165928	793242039
+"Male"	"5yrs_2014_2018"	"Oral Cavity and Pharynx"	"Non-Hispanic White"	20.158	0.057	20.047	20.269	135497	494940244
+"Male"	"5yrs_2014_2018"	"Oral Cavity and Pharynx"	"Non-Hispanic Black"	13.878	0.129	13.626	14.133	12828	100754448
+"Male"	"5yrs_2014_2018"	"Oral Cavity and Pharynx"	"Non-Hispanic American Indian/Alaska Native"	16.064	0.533	15.036	17.143	1009	6618664
+"Male"	"5yrs_2014_2018"	"Oral Cavity and Pharynx"	"Non-Hispanic Asian or Pacific Islander"	11.849	0.167	11.524	12.181	5256	46791018
+"Male"	"5yrs_2014_2018"	"Oral Cavity and Pharynx"	"Hispanic (All Races)"	10.643	0.115	10.418	10.871	9812	144137665
+"Male"	"5yrs_2014_2018"	"Oral Cavity and Pharynx"	"Non-Hispanic Unknown Race"	 	 	 	 	1526	0
+"Male"	"5yrs_2014_2018"	"Esophagus"	"AllRaceEth"	7.879	0.030	7.819	7.938	70752	793242039
+"Male"	"5yrs_2014_2018"	"Esophagus"	"Non-Hispanic White"	8.718	0.037	8.646	8.791	59162	494940244
+"Male"	"5yrs_2014_2018"	"Esophagus"	"Non-Hispanic Black"	6.028	0.089	5.855	6.204	5245	100754448
+"Male"	"5yrs_2014_2018"	"Esophagus"	"Non-Hispanic American Indian/Alaska Native"	7.961	0.391	7.213	8.764	471	6618664
+"Male"	"5yrs_2014_2018"	"Esophagus"	"Non-Hispanic Asian or Pacific Islander"	3.607	0.096	3.421	3.800	1497	46791018
+"Male"	"5yrs_2014_2018"	"Esophagus"	"Hispanic (All Races)"	4.839	0.082	4.680	5.001	4031	144137665
+"Male"	"5yrs_2014_2018"	"Esophagus"	"Non-Hispanic Unknown Race"	 	 	 	 	346	0
+"Male"	"5yrs_2014_2018"	"Stomach"	"AllRaceEth"	8.737	0.033	8.673	8.801	75558	793242039
+"Male"	"5yrs_2014_2018"	"Stomach"	"Non-Hispanic White"	7.412	0.035	7.344	7.480	48593	494940244
+"Male"	"5yrs_2014_2018"	"Stomach"	"Non-Hispanic Black"	13.402	0.138	13.133	13.675	10745	100754448
+"Male"	"5yrs_2014_2018"	"Stomach"	"Non-Hispanic American Indian/Alaska Native"	10.011	0.453	9.143	10.937	555	6618664
+"Male"	"5yrs_2014_2018"	"Stomach"	"Non-Hispanic Asian or Pacific Islander"	12.674	0.183	12.318	13.038	5078	46791018
+"Male"	"5yrs_2014_2018"	"Stomach"	"Hispanic (All Races)"	12.074	0.130	11.821	12.330	10111	144137665
+"Male"	"5yrs_2014_2018"	"Stomach"	"Non-Hispanic Unknown Race"	 	 	 	 	476	0
+"Male"	"5yrs_2014_2018"	"Colon and Rectum"	"AllRaceEth"	43.743	0.073	43.601	43.886	379053	793242039
+"Male"	"5yrs_2014_2018"	"Colon and Rectum"	"Non-Hispanic White"	43.417	0.085	43.251	43.584	277636	494940244
+"Male"	"5yrs_2014_2018"	"Colon and Rectum"	"Non-Hispanic Black"	51.825	0.263	51.312	52.342	44073	100754448
+"Male"	"5yrs_2014_2018"	"Colon and Rectum"	"Non-Hispanic American Indian/Alaska Native"	47.179	0.963	45.310	49.103	2714	6618664
+"Male"	"5yrs_2014_2018"	"Colon and Rectum"	"Non-Hispanic Asian or Pacific Islander"	35.483	0.297	34.903	36.070	15065	46791018
+"Male"	"5yrs_2014_2018"	"Colon and Rectum"	"Hispanic (All Races)"	40.655	0.231	40.203	41.110	36018	144137665
+"Male"	"5yrs_2014_2018"	"Colon and Rectum"	"Non-Hispanic Unknown Race"	 	 	 	 	3547	0
+"Male"	"5yrs_2014_2018"	"Liver and Intrahepatic Bile Duct"	"AllRaceEth"	13.196	0.038	13.121	13.271	124612	793242039
+"Male"	"5yrs_2014_2018"	"Liver and Intrahepatic Bile Duct"	"Non-Hispanic White"	11.034	0.041	10.955	11.114	77891	494940244
+"Male"	"5yrs_2014_2018"	"Liver and Intrahepatic Bile Duct"	"Non-Hispanic Black"	17.926	0.142	17.648	18.207	17595	100754448
+"Male"	"5yrs_2014_2018"	"Liver and Intrahepatic Bile Duct"	"Non-Hispanic American Indian/Alaska Native"	22.064	0.616	20.873	23.306	1432	6618664
+"Male"	"5yrs_2014_2018"	"Liver and Intrahepatic Bile Duct"	"Non-Hispanic Asian or Pacific Islander"	19.193	0.218	18.769	19.624	8235	46791018
+"Male"	"5yrs_2014_2018"	"Liver and Intrahepatic Bile Duct"	"Hispanic (All Races)"	20.697	0.161	20.382	21.015	18865	144137665
+"Male"	"5yrs_2014_2018"	"Liver and Intrahepatic Bile Duct"	"Non-Hispanic Unknown Race"	 	 	 	 	594	0
+"Male"	"5yrs_2014_2018"	"Pancreas"	"AllRaceEth"	15.025	0.042	14.942	15.108	131561	793242039
+"Male"	"5yrs_2014_2018"	"Pancreas"	"Non-Hispanic White"	15.192	0.049	15.096	15.288	101124	494940244
+"Male"	"5yrs_2014_2018"	"Pancreas"	"Non-Hispanic Black"	17.874	0.157	17.568	18.184	14797	100754448
+"Male"	"5yrs_2014_2018"	"Pancreas"	"Non-Hispanic American Indian/Alaska Native"	12.935	0.513	11.949	13.976	730	6618664
+"Male"	"5yrs_2014_2018"	"Pancreas"	"Non-Hispanic Asian or Pacific Islander"	10.399	0.166	10.076	10.730	4152	46791018
+"Male"	"5yrs_2014_2018"	"Pancreas"	"Hispanic (All Races)"	12.634	0.134	12.373	12.899	10235	144137665
+"Male"	"5yrs_2014_2018"	"Pancreas"	"Non-Hispanic Unknown Race"	 	 	 	 	523	0
+"Male"	"5yrs_2014_2018"	"Larynx"	"AllRaceEth"	5.423	0.025	5.374	5.472	49727	793242039
+"Male"	"5yrs_2014_2018"	"Larynx"	"Non-Hispanic White"	5.506	0.029	5.449	5.564	37744	494940244
+"Male"	"5yrs_2014_2018"	"Larynx"	"Non-Hispanic Black"	7.861	0.100	7.666	8.059	6988	100754448
+"Male"	"5yrs_2014_2018"	"Larynx"	"Non-Hispanic American Indian/Alaska Native"	5.568	0.318	4.961	6.227	344	6618664
+"Male"	"5yrs_2014_2018"	"Larynx"	"Non-Hispanic Asian or Pacific Islander"	1.986	0.071	1.849	2.130	828	46791018
+"Male"	"5yrs_2014_2018"	"Larynx"	"Hispanic (All Races)"	4.233	0.076	4.085	4.385	3542	144137665
+"Male"	"5yrs_2014_2018"	"Larynx"	"Non-Hispanic Unknown Race"	 	 	 	 	281	0
+"Male"	"5yrs_2014_2018"	"Lung and Bronchus"	"AllRaceEth"	66.174	0.089	66.000	66.349	580261	793242039
+"Male"	"5yrs_2014_2018"	"Lung and Bronchus"	"Non-Hispanic White"	69.424	0.104	69.221	69.628	467356	494940244
+"Male"	"5yrs_2014_2018"	"Lung and Bronchus"	"Non-Hispanic Black"	77.734	0.329	77.091	78.381	63676	100754448
+"Male"	"5yrs_2014_2018"	"Lung and Bronchus"	"Non-Hispanic American Indian/Alaska Native"	61.511	1.127	59.322	63.756	3399	6618664
+"Male"	"5yrs_2014_2018"	"Lung and Bronchus"	"Non-Hispanic Asian or Pacific Islander"	42.780	0.339	42.118	43.450	16890	46791018
+"Male"	"5yrs_2014_2018"	"Lung and Bronchus"	"Hispanic (All Races)"	36.681	0.237	36.218	37.148	26898	144137665
+"Male"	"5yrs_2014_2018"	"Lung and Bronchus"	"Non-Hispanic Unknown Race"	 	 	 	 	2042	0
+"Male"	"5yrs_2014_2018"	"Melanoma of the Skin"	"AllRaceEth"	29.108	0.060	28.991	29.226	249067	793242039
+"Male"	"5yrs_2014_2018"	"Melanoma of the Skin"	"Non-Hispanic White"	36.766	0.079	36.612	36.920	233156	494940244
+"Male"	"5yrs_2014_2018"	"Melanoma of the Skin"	"Non-Hispanic Black"	1.108	0.040	1.031	1.188	885	100754448
+"Male"	"5yrs_2014_2018"	"Melanoma of the Skin"	"Non-Hispanic American Indian/Alaska Native"	10.330	0.452	9.462	11.253	593	6618664
+"Male"	"5yrs_2014_2018"	"Melanoma of the Skin"	"Non-Hispanic Asian or Pacific Islander"	1.539	0.062	1.420	1.666	646	46791018
+"Male"	"5yrs_2014_2018"	"Melanoma of the Skin"	"Hispanic (All Races)"	5.113	0.084	4.951	5.279	4403	144137665
+"Male"	"5yrs_2014_2018"	"Melanoma of the Skin"	"Non-Hispanic Unknown Race"	 	 	 	 	9384	0
+"Male"	"5yrs_2014_2018"	"Breast"	"AllRaceEth"	1.272	0.012	1.248	1.297	11025	793242039
+"Male"	"5yrs_2014_2018"	"Breast"	"Non-Hispanic White"	1.280	0.014	1.252	1.308	8385	494940244
+"Male"	"5yrs_2014_2018"	"Breast"	"Non-Hispanic Black"	1.892	0.051	1.793	1.994	1561	100754448
+"Male"	"5yrs_2014_2018"	"Breast"	"Non-Hispanic American Indian/Alaska Native"	0.550	0.100	0.372	0.783	34	6618664
+"Male"	"5yrs_2014_2018"	"Breast"	"Non-Hispanic Asian or Pacific Islander"	0.737	0.043	0.655	0.826	310	46791018
+"Male"	"5yrs_2014_2018"	"Breast"	"Hispanic (All Races)"	0.752	0.032	0.690	0.817	634	144137665
+"Male"	"5yrs_2014_2018"	"Breast"	"Non-Hispanic Unknown Race"	 	 	 	 	101	0
+"Male"	"5yrs_2014_2018"	"Cervix Uteri"	"AllRaceEth"	 	 	 	 	 	793242039
+"Male"	"5yrs_2014_2018"	"Cervix Uteri"	"Non-Hispanic White"	 	 	 	 	 	494940244
+"Male"	"5yrs_2014_2018"	"Cervix Uteri"	"Non-Hispanic Black"	 	 	 	 	 	100754448
+"Male"	"5yrs_2014_2018"	"Cervix Uteri"	"Non-Hispanic American Indian/Alaska Native"	 	 	 	 	 	6618664
+"Male"	"5yrs_2014_2018"	"Cervix Uteri"	"Non-Hispanic Asian or Pacific Islander"	 	 	 	 	 	46791018
+"Male"	"5yrs_2014_2018"	"Cervix Uteri"	"Hispanic (All Races)"	 	 	 	 	 	144137665
+"Male"	"5yrs_2014_2018"	"Cervix Uteri"	"Non-Hispanic Unknown Race"	 	 	 	 	 	0
+"Male"	"5yrs_2014_2018"	"Corpus and Uterus, NOS"	"AllRaceEth"	 	 	 	 	 	793242039
+"Male"	"5yrs_2014_2018"	"Corpus and Uterus, NOS"	"Non-Hispanic White"	 	 	 	 	 	494940244
+"Male"	"5yrs_2014_2018"	"Corpus and Uterus, NOS"	"Non-Hispanic Black"	 	 	 	 	 	100754448
+"Male"	"5yrs_2014_2018"	"Corpus and Uterus, NOS"	"Non-Hispanic American Indian/Alaska Native"	 	 	 	 	 	6618664
+"Male"	"5yrs_2014_2018"	"Corpus and Uterus, NOS"	"Non-Hispanic Asian or Pacific Islander"	 	 	 	 	 	46791018
+"Male"	"5yrs_2014_2018"	"Corpus and Uterus, NOS"	"Hispanic (All Races)"	 	 	 	 	 	144137665
+"Male"	"5yrs_2014_2018"	"Corpus and Uterus, NOS"	"Non-Hispanic Unknown Race"	 	 	 	 	 	0
+"Male"	"5yrs_2014_2018"	"Ovary"	"AllRaceEth"	 	 	 	 	 	793242039
+"Male"	"5yrs_2014_2018"	"Ovary"	"Non-Hispanic White"	 	 	 	 	 	494940244
+"Male"	"5yrs_2014_2018"	"Ovary"	"Non-Hispanic Black"	 	 	 	 	 	100754448
+"Male"	"5yrs_2014_2018"	"Ovary"	"Non-Hispanic American Indian/Alaska Native"	 	 	 	 	 	6618664
+"Male"	"5yrs_2014_2018"	"Ovary"	"Non-Hispanic Asian or Pacific Islander"	 	 	 	 	 	46791018
+"Male"	"5yrs_2014_2018"	"Ovary"	"Hispanic (All Races)"	 	 	 	 	 	144137665
+"Male"	"5yrs_2014_2018"	"Ovary"	"Non-Hispanic Unknown Race"	 	 	 	 	 	0
+"Male"	"5yrs_2014_2018"	"Prostate"	"AllRaceEth"	107.926	0.109	107.712	108.140	1018941	793242039
+"Male"	"5yrs_2014_2018"	"Prostate"	"Non-Hispanic White"	101.520	0.121	101.282	101.758	727971	494940244
+"Male"	"5yrs_2014_2018"	"Prostate"	"Non-Hispanic Black"	175.457	0.461	174.555	176.363	162016	100754448
+"Male"	"5yrs_2014_2018"	"Prostate"	"Non-Hispanic American Indian/Alaska Native"	73.645	1.183	71.344	76.000	4414	6618664
+"Male"	"5yrs_2014_2018"	"Prostate"	"Non-Hispanic Asian or Pacific Islander"	55.860	0.375	55.128	56.600	23513	46791018
+"Male"	"5yrs_2014_2018"	"Prostate"	"Hispanic (All Races)"	87.853	0.344	87.180	88.529	73616	144137665
+"Male"	"5yrs_2014_2018"	"Prostate"	"Non-Hispanic Unknown Race"	 	 	 	 	27411	0
+"Male"	"5yrs_2014_2018"	"Testis"	"AllRaceEth"	5.780	0.028	5.726	5.835	44811	793242039
+"Male"	"5yrs_2014_2018"	"Testis"	"Non-Hispanic White"	7.060	0.040	6.982	7.139	32567	494940244
+"Male"	"5yrs_2014_2018"	"Testis"	"Non-Hispanic Black"	1.573	0.041	1.493	1.656	1521	100754448
+"Male"	"5yrs_2014_2018"	"Testis"	"Non-Hispanic American Indian/Alaska Native"	6.466	0.322	5.851	7.131	424	6618664
+"Male"	"5yrs_2014_2018"	"Testis"	"Non-Hispanic Asian or Pacific Islander"	2.119	0.065	1.993	2.251	1085	46791018
+"Male"	"5yrs_2014_2018"	"Testis"	"Hispanic (All Races)"	5.299	0.059	5.184	5.417	8422	144137665
+"Male"	"5yrs_2014_2018"	"Testis"	"Non-Hispanic Unknown Race"	 	 	 	 	792	0
+"Male"	"5yrs_2014_2018"	"Urinary Bladder"	"AllRaceEth"	34.364	0.065	34.236	34.492	289898	793242039
+"Male"	"5yrs_2014_2018"	"Urinary Bladder"	"Non-Hispanic White"	38.439	0.078	38.286	38.593	251066	494940244
+"Male"	"5yrs_2014_2018"	"Urinary Bladder"	"Non-Hispanic Black"	19.569	0.172	19.233	19.908	14778	100754448
+"Male"	"5yrs_2014_2018"	"Urinary Bladder"	"Non-Hispanic American Indian/Alaska Native"	21.571	0.697	20.226	22.976	1103	6618664
+"Male"	"5yrs_2014_2018"	"Urinary Bladder"	"Non-Hispanic Asian or Pacific Islander"	14.868	0.204	14.471	15.272	5643	46791018
+"Male"	"5yrs_2014_2018"	"Urinary Bladder"	"Hispanic (All Races)"	19.017	0.173	18.680	19.357	13658	144137665
+"Male"	"5yrs_2014_2018"	"Urinary Bladder"	"Non-Hispanic Unknown Race"	 	 	 	 	3650	0
+"Male"	"5yrs_2014_2018"	"Kidney and Renal Pelvis"	"AllRaceEth"	23.355	0.053	23.252	23.458	206439	793242039
+"Male"	"5yrs_2014_2018"	"Kidney and Renal Pelvis"	"Non-Hispanic White"	23.662	0.063	23.540	23.785	153538	494940244
+"Male"	"5yrs_2014_2018"	"Kidney and Renal Pelvis"	"Non-Hispanic Black"	26.281	0.180	25.928	26.636	23572	100754448
+"Male"	"5yrs_2014_2018"	"Kidney and Renal Pelvis"	"Non-Hispanic American Indian/Alaska Native"	31.207	0.763	29.729	32.738	1860	6618664
+"Male"	"5yrs_2014_2018"	"Kidney and Renal Pelvis"	"Non-Hispanic Asian or Pacific Islander"	11.372	0.166	11.049	11.702	4922	46791018
+"Male"	"5yrs_2014_2018"	"Kidney and Renal Pelvis"	"Hispanic (All Races)"	22.623	0.166	22.298	22.951	21291	144137665
+"Male"	"5yrs_2014_2018"	"Kidney and Renal Pelvis"	"Non-Hispanic Unknown Race"	 	 	 	 	1256	0
+"Male"	"5yrs_2014_2018"	"Brain and Other Nervous System"	"AllRaceEth"	7.659	0.031	7.599	7.720	64601	793242039
+"Male"	"5yrs_2014_2018"	"Brain and Other Nervous System"	"Non-Hispanic White"	8.703	0.040	8.624	8.783	50860	494940244
+"Male"	"5yrs_2014_2018"	"Brain and Other Nervous System"	"Non-Hispanic Black"	4.807	0.075	4.661	4.956	4496	100754448
+"Male"	"5yrs_2014_2018"	"Brain and Other Nervous System"	"Non-Hispanic American Indian/Alaska Native"	5.699	0.322	5.086	6.366	347	6618664
+"Male"	"5yrs_2014_2018"	"Brain and Other Nervous System"	"Non-Hispanic Asian or Pacific Islander"	4.466	0.103	4.267	4.672	1979	46791018
+"Male"	"5yrs_2014_2018"	"Brain and Other Nervous System"	"Hispanic (All Races)"	5.842	0.080	5.686	6.001	6492	144137665
+"Male"	"5yrs_2014_2018"	"Brain and Other Nervous System"	"Non-Hispanic Unknown Race"	 	 	 	 	427	0
+"Male"	"5yrs_2014_2018"	"Thyroid"	"AllRaceEth"	7.312	0.030	7.253	7.371	61867	793242039
+"Male"	"5yrs_2014_2018"	"Thyroid"	"Non-Hispanic White"	8.155	0.039	8.078	8.232	47226	494940244
+"Male"	"5yrs_2014_2018"	"Thyroid"	"Non-Hispanic Black"	3.843	0.067	3.712	3.977	3527	100754448
+"Male"	"5yrs_2014_2018"	"Thyroid"	"Non-Hispanic American Indian/Alaska Native"	5.719	0.319	5.110	6.380	348	6618664
+"Male"	"5yrs_2014_2018"	"Thyroid"	"Non-Hispanic Asian or Pacific Islander"	7.503	0.129	7.252	7.761	3479	46791018
+"Male"	"5yrs_2014_2018"	"Thyroid"	"Hispanic (All Races)"	5.905	0.078	5.753	6.060	6586	144137665
+"Male"	"5yrs_2014_2018"	"Thyroid"	"Non-Hispanic Unknown Race"	 	 	 	 	701	0
+"Male"	"5yrs_2014_2018"	"Hodgkin Lymphoma"	"AllRaceEth"	2.966	0.019	2.928	3.004	24031	793242039
+"Male"	"5yrs_2014_2018"	"Hodgkin Lymphoma"	"Non-Hispanic White"	3.196	0.026	3.146	3.247	16555	494940244
+"Male"	"5yrs_2014_2018"	"Hodgkin Lymphoma"	"Non-Hispanic Black"	3.054	0.057	2.942	3.168	3017	100754448
+"Male"	"5yrs_2014_2018"	"Hodgkin Lymphoma"	"Non-Hispanic American Indian/Alaska Native"	2.040	0.186	1.692	2.439	131	6618664
+"Male"	"5yrs_2014_2018"	"Hodgkin Lymphoma"	"Non-Hispanic Asian or Pacific Islander"	1.574	0.059	1.460	1.694	741	46791018
+"Male"	"5yrs_2014_2018"	"Hodgkin Lymphoma"	"Hispanic (All Races)"	2.709	0.052	2.608	2.813	3294	144137665
+"Male"	"5yrs_2014_2018"	"Hodgkin Lymphoma"	"Non-Hispanic Unknown Race"	 	 	 	 	293	0
+"Male"	"5yrs_2014_2018"	"Non-Hodgkin Lymphoma"	"AllRaceEth"	23.260	0.053	23.155	23.365	198083	793242039
+"Male"	"5yrs_2014_2018"	"Non-Hodgkin Lymphoma"	"Non-Hispanic White"	24.373	0.064	24.248	24.498	154604	494940244
+"Male"	"5yrs_2014_2018"	"Non-Hodgkin Lymphoma"	"Non-Hispanic Black"	17.443	0.150	17.151	17.739	15197	100754448
+"Male"	"5yrs_2014_2018"	"Non-Hodgkin Lymphoma"	"Non-Hispanic American Indian/Alaska Native"	16.457	0.574	15.351	17.619	930	6618664
+"Male"	"5yrs_2014_2018"	"Non-Hodgkin Lymphoma"	"Non-Hispanic Asian or Pacific Islander"	16.014	0.202	15.620	16.415	6643	46791018
+"Male"	"5yrs_2014_2018"	"Non-Hodgkin Lymphoma"	"Hispanic (All Races)"	20.392	0.164	20.072	20.715	18392	144137665
+"Male"	"5yrs_2014_2018"	"Non-Hodgkin Lymphoma"	"Non-Hispanic Unknown Race"	 	 	 	 	2317	0
+"Male"	"5yrs_2014_2018"	"Myeloma"	"AllRaceEth"	8.718	0.032	8.655	8.782	75767	793242039
+"Male"	"5yrs_2014_2018"	"Myeloma"	"Non-Hispanic White"	7.911	0.035	7.841	7.981	52183	494940244
+"Male"	"5yrs_2014_2018"	"Myeloma"	"Non-Hispanic Black"	16.937	0.154	16.637	17.241	13746	100754448
+"Male"	"5yrs_2014_2018"	"Myeloma"	"Non-Hispanic American Indian/Alaska Native"	8.236	0.410	7.453	9.076	457	6618664
+"Male"	"5yrs_2014_2018"	"Myeloma"	"Non-Hispanic Asian or Pacific Islander"	4.900	0.113	4.681	5.126	2001	46791018
+"Male"	"5yrs_2014_2018"	"Myeloma"	"Hispanic (All Races)"	8.119	0.106	7.912	8.330	6696	144137665
+"Male"	"5yrs_2014_2018"	"Myeloma"	"Non-Hispanic Unknown Race"	 	 	 	 	684	0
+"Male"	"5yrs_2014_2018"	"Leukemias"	"AllRaceEth"	18.401	0.048	18.308	18.495	154386	793242039
+"Male"	"5yrs_2014_2018"	"Leukemias"	"Non-Hispanic White"	19.505	0.058	19.392	19.619	121117	494940244
+"Male"	"5yrs_2014_2018"	"Leukemias"	"Non-Hispanic Black"	13.900	0.137	13.632	14.172	11624	100754448
+"Male"	"5yrs_2014_2018"	"Leukemias"	"Non-Hispanic American Indian/Alaska Native"	14.351	0.529	13.333	15.424	829	6618664
+"Male"	"5yrs_2014_2018"	"Leukemias"	"Non-Hispanic Asian or Pacific Islander"	10.305	0.161	9.991	10.626	4306	46791018
+"Male"	"5yrs_2014_2018"	"Leukemias"	"Hispanic (All Races)"	13.795	0.130	13.541	14.052	14160	144137665
+"Male"	"5yrs_2014_2018"	"Leukemias"	"Non-Hispanic Unknown Race"	 	 	 	 	2350	0
+"Male"	"5yrs_2014_2018"	"Mesothelioma"	"AllRaceEth"	1.470	0.014	1.444	1.498	11912	793242039
+"Male"	"5yrs_2014_2018"	"Mesothelioma"	"Non-Hispanic White"	1.618	0.016	1.587	1.651	10216	494940244
+"Male"	"5yrs_2014_2018"	"Mesothelioma"	"Non-Hispanic Black"	0.786	0.035	0.719	0.858	560	100754448
+"Male"	"5yrs_2014_2018"	"Mesothelioma"	"Non-Hispanic American Indian/Alaska Native"	1.112	0.161	0.818	1.469	54	6618664
+"Male"	"5yrs_2014_2018"	"Mesothelioma"	"Non-Hispanic Asian or Pacific Islander"	0.536	0.038	0.464	0.617	205	46791018
+"Male"	"5yrs_2014_2018"	"Mesothelioma"	"Hispanic (All Races)"	1.130	0.042	1.050	1.214	832	144137665
+"Male"	"5yrs_2014_2018"	"Mesothelioma"	"Non-Hispanic Unknown Race"	 	 	 	 	45	0
+"Male"	"5yrs_2014_2018"	"Kaposi Sarcoma"	"AllRaceEth"	0.651	0.009	0.633	0.669	5160	793242039
+"Male"	"5yrs_2014_2018"	"Kaposi Sarcoma"	"Non-Hispanic White"	0.374	0.009	0.357	0.391	2033	494940244
+"Male"	"5yrs_2014_2018"	"Kaposi Sarcoma"	"Non-Hispanic Black"	1.595	0.042	1.514	1.679	1555	100754448
+"Male"	"5yrs_2014_2018"	"Kaposi Sarcoma"	"Non-Hispanic American Indian/Alaska Native"	0.500	0.096	0.330	0.725	30	6618664
+"Male"	"5yrs_2014_2018"	"Kaposi Sarcoma"	"Non-Hispanic Asian or Pacific Islander"	0.312	0.027	0.261	0.370	137	46791018
+"Male"	"5yrs_2014_2018"	"Kaposi Sarcoma"	"Hispanic (All Races)"	1.081	0.034	1.016	1.150	1218	144137665
+"Male"	"5yrs_2014_2018"	"Kaposi Sarcoma"	"Non-Hispanic Unknown Race"	 	 	 	 	187	0
+"Male"	"10yrs_2009_2018"	"All Sites"	"AllRaceEth"	507.363	0.178	507.013	507.713	8444125	1559251032
+"Male"	"10yrs_2009_2018"	"All Sites"	"Non-Hispanic White"	519.426	0.208	519.019	519.834	6546754	987794816
+"Male"	"10yrs_2009_2018"	"All Sites"	"Non-Hispanic Black"	562.461	0.630	561.228	563.696	907056	196218043
+"Male"	"10yrs_2009_2018"	"All Sites"	"Non-Hispanic American Indian/Alaska Native"	425.256	2.165	421.023	429.519	45031	12989257
+"Male"	"10yrs_2009_2018"	"All Sites"	"Non-Hispanic Asian or Pacific Islander"	308.904	0.672	307.589	310.223	227232	87039283
+"Male"	"10yrs_2009_2018"	"All Sites"	"Hispanic (All Races)"	392.169	0.546	391.099	393.241	609786	275209633
+"Male"	"10yrs_2009_2018"	"All Sites"	"Non-Hispanic Unknown Race"	 	 	 	 	108266	0
+"Male"	"10yrs_2009_2018"	"Oral Cavity and Pharynx"	"AllRaceEth"	17.846	0.033	17.782	17.910	309288	1559251032
+"Male"	"10yrs_2009_2018"	"Oral Cavity and Pharynx"	"Non-Hispanic White"	19.527	0.040	19.449	19.605	252563	987794816
+"Male"	"10yrs_2009_2018"	"Oral Cavity and Pharynx"	"Non-Hispanic Black"	14.520	0.096	14.332	14.710	25254	196218043
+"Male"	"10yrs_2009_2018"	"Oral Cavity and Pharynx"	"Non-Hispanic American Indian/Alaska Native"	15.590	0.389	14.836	16.371	1826	12989257
+"Male"	"10yrs_2009_2018"	"Oral Cavity and Pharynx"	"Non-Hispanic Asian or Pacific Islander"	11.684	0.124	11.442	11.931	9346	87039283
+"Male"	"10yrs_2009_2018"	"Oral Cavity and Pharynx"	"Hispanic (All Races)"	10.754	0.087	10.584	10.926	17836	275209633
+"Male"	"10yrs_2009_2018"	"Oral Cavity and Pharynx"	"Non-Hispanic Unknown Race"	 	 	 	 	2463	0
+"Male"	"10yrs_2009_2018"	"Esophagus"	"AllRaceEth"	8.024	0.022	7.980	8.068	135626	1559251032
+"Male"	"10yrs_2009_2018"	"Esophagus"	"Non-Hispanic White"	8.760	0.027	8.708	8.812	113422	987794816
+"Male"	"10yrs_2009_2018"	"Esophagus"	"Non-Hispanic Black"	6.780	0.069	6.645	6.917	10941	196218043
+"Male"	"10yrs_2009_2018"	"Esophagus"	"Non-Hispanic American Indian/Alaska Native"	7.317	0.283	6.774	7.891	780	12989257
+"Male"	"10yrs_2009_2018"	"Esophagus"	"Non-Hispanic Asian or Pacific Islander"	3.648	0.073	3.506	3.795	2663	87039283
+"Male"	"10yrs_2009_2018"	"Esophagus"	"Hispanic (All Races)"	4.951	0.062	4.830	5.075	7284	275209633
+"Male"	"10yrs_2009_2018"	"Esophagus"	"Non-Hispanic Unknown Race"	 	 	 	 	536	0
+"Male"	"10yrs_2009_2018"	"Stomach"	"AllRaceEth"	8.995	0.024	8.948	9.043	146580	1559251032
+"Male"	"10yrs_2009_2018"	"Stomach"	"Non-Hispanic White"	7.640	0.025	7.591	7.690	95642	987794816
+"Male"	"10yrs_2009_2018"	"Stomach"	"Non-Hispanic Black"	14.092	0.105	13.888	14.298	20800	196218043
+"Male"	"10yrs_2009_2018"	"Stomach"	"Non-Hispanic American Indian/Alaska Native"	10.356	0.348	9.685	11.059	1035	12989257
+"Male"	"10yrs_2009_2018"	"Stomach"	"Non-Hispanic Asian or Pacific Islander"	13.569	0.144	13.289	13.853	9578	87039283
+"Male"	"10yrs_2009_2018"	"Stomach"	"Hispanic (All Races)"	12.595	0.100	12.400	12.792	18732	275209633
+"Male"	"10yrs_2009_2018"	"Stomach"	"Non-Hispanic Unknown Race"	 	 	 	 	793	0
+"Male"	"10yrs_2009_2018"	"Colon and Rectum"	"AllRaceEth"	45.382	0.054	45.276	45.487	744450	1559251032
+"Male"	"10yrs_2009_2018"	"Colon and Rectum"	"Non-Hispanic White"	44.825	0.062	44.704	44.946	553833	987794816
+"Male"	"10yrs_2009_2018"	"Colon and Rectum"	"Non-Hispanic Black"	55.190	0.200	54.798	55.584	86500	196218043
+"Male"	"10yrs_2009_2018"	"Colon and Rectum"	"Non-Hispanic American Indian/Alaska Native"	47.545	0.723	46.138	48.983	5037	12989257
+"Male"	"10yrs_2009_2018"	"Colon and Rectum"	"Non-Hispanic Asian or Pacific Islander"	36.987	0.230	36.538	37.440	27793	87039283
+"Male"	"10yrs_2009_2018"	"Colon and Rectum"	"Hispanic (All Races)"	42.077	0.178	41.729	42.428	65394	275209633
+"Male"	"10yrs_2009_2018"	"Colon and Rectum"	"Non-Hispanic Unknown Race"	 	 	 	 	5893	0
+"Male"	"10yrs_2009_2018"	"Liver and Intrahepatic Bile Duct"	"AllRaceEth"	12.649	0.027	12.596	12.703	224697	1559251032
+"Male"	"10yrs_2009_2018"	"Liver and Intrahepatic Bile Duct"	"Non-Hispanic White"	10.457	0.029	10.401	10.513	140046	987794816
+"Male"	"10yrs_2009_2018"	"Liver and Intrahepatic Bile Duct"	"Non-Hispanic Black"	17.737	0.104	17.534	17.941	32463	196218043
+"Male"	"10yrs_2009_2018"	"Liver and Intrahepatic Bile Duct"	"Non-Hispanic American Indian/Alaska Native"	20.038	0.438	19.188	20.916	2389	12989257
+"Male"	"10yrs_2009_2018"	"Liver and Intrahepatic Bile Duct"	"Non-Hispanic Asian or Pacific Islander"	20.109	0.168	19.781	20.440	15409	87039283
+"Male"	"10yrs_2009_2018"	"Liver and Intrahepatic Bile Duct"	"Hispanic (All Races)"	20.389	0.120	20.155	20.626	33375	275209633
+"Male"	"10yrs_2009_2018"	"Liver and Intrahepatic Bile Duct"	"Non-Hispanic Unknown Race"	 	 	 	 	1015	0
+"Male"	"10yrs_2009_2018"	"Pancreas"	"AllRaceEth"	14.646	0.030	14.587	14.706	241030	1559251032
+"Male"	"10yrs_2009_2018"	"Pancreas"	"Non-Hispanic White"	14.734	0.035	14.666	14.802	186833	987794816
+"Male"	"10yrs_2009_2018"	"Pancreas"	"Non-Hispanic Black"	17.659	0.115	17.434	17.886	26957	196218043
+"Male"	"10yrs_2009_2018"	"Pancreas"	"Non-Hispanic American Indian/Alaska Native"	12.472	0.378	11.741	13.234	1278	12989257
+"Male"	"10yrs_2009_2018"	"Pancreas"	"Non-Hispanic Asian or Pacific Islander"	10.300	0.126	10.055	10.549	7214	87039283
+"Male"	"10yrs_2009_2018"	"Pancreas"	"Hispanic (All Races)"	12.477	0.100	12.281	12.675	17875	275209633
+"Male"	"10yrs_2009_2018"	"Pancreas"	"Non-Hispanic Unknown Race"	 	 	 	 	873	0
+"Male"	"10yrs_2009_2018"	"Larynx"	"AllRaceEth"	5.810	0.019	5.773	5.847	100389	1559251032
+"Male"	"10yrs_2009_2018"	"Larynx"	"Non-Hispanic White"	5.873	0.022	5.831	5.915	76956	987794816
+"Male"	"10yrs_2009_2018"	"Larynx"	"Non-Hispanic Black"	8.411	0.076	8.263	8.561	13911	196218043
+"Male"	"10yrs_2009_2018"	"Larynx"	"Non-Hispanic American Indian/Alaska Native"	5.332	0.234	4.883	5.810	598	12989257
+"Male"	"10yrs_2009_2018"	"Larynx"	"Non-Hispanic Asian or Pacific Islander"	2.156	0.056	2.047	2.269	1576	87039283
+"Male"	"10yrs_2009_2018"	"Larynx"	"Hispanic (All Races)"	4.612	0.060	4.496	4.731	6839	275209633
+"Male"	"10yrs_2009_2018"	"Larynx"	"Non-Hispanic Unknown Race"	 	 	 	 	509	0
+"Male"	"10yrs_2009_2018"	"Lung and Bronchus"	"AllRaceEth"	70.507	0.067	70.376	70.639	1156654	1559251032
+"Male"	"10yrs_2009_2018"	"Lung and Bronchus"	"Non-Hispanic White"	73.552	0.077	73.401	73.704	937685	987794816
+"Male"	"10yrs_2009_2018"	"Lung and Bronchus"	"Non-Hispanic Black"	84.177	0.252	83.683	84.673	126925	196218043
+"Male"	"10yrs_2009_2018"	"Lung and Bronchus"	"Non-Hispanic American Indian/Alaska Native"	65.053	0.876	63.347	66.791	6434	12989257
+"Male"	"10yrs_2009_2018"	"Lung and Bronchus"	"Non-Hispanic Asian or Pacific Islander"	44.866	0.264	44.350	45.387	30918	87039283
+"Male"	"10yrs_2009_2018"	"Lung and Bronchus"	"Hispanic (All Races)"	39.340	0.185	38.979	39.704	51240	275209633
+"Male"	"10yrs_2009_2018"	"Lung and Bronchus"	"Non-Hispanic Unknown Race"	 	 	 	 	3452	0
+"Male"	"10yrs_2009_2018"	"Melanoma of the Skin"	"AllRaceEth"	27.925	0.042	27.842	28.008	452802	1559251032
+"Male"	"10yrs_2009_2018"	"Melanoma of the Skin"	"Non-Hispanic White"	35.033	0.055	34.925	35.141	426541	987794816
+"Male"	"10yrs_2009_2018"	"Melanoma of the Skin"	"Non-Hispanic Black"	1.115	0.029	1.059	1.173	1667	196218043
+"Male"	"10yrs_2009_2018"	"Melanoma of the Skin"	"Non-Hispanic American Indian/Alaska Native"	10.247	0.342	9.587	10.939	1056	12989257
+"Male"	"10yrs_2009_2018"	"Melanoma of the Skin"	"Non-Hispanic Asian or Pacific Islander"	1.553	0.047	1.462	1.649	1154	87039283
+"Male"	"10yrs_2009_2018"	"Melanoma of the Skin"	"Hispanic (All Races)"	5.016	0.062	4.894	5.139	7780	275209633
+"Male"	"10yrs_2009_2018"	"Melanoma of the Skin"	"Non-Hispanic Unknown Race"	 	 	 	 	14604	0
+"Male"	"10yrs_2009_2018"	"Breast"	"AllRaceEth"	1.273	0.009	1.256	1.291	20865	1559251032
+"Male"	"10yrs_2009_2018"	"Breast"	"Non-Hispanic White"	1.280	0.010	1.260	1.300	16081	987794816
+"Male"	"10yrs_2009_2018"	"Breast"	"Non-Hispanic Black"	1.906	0.038	1.833	1.981	2906	196218043
+"Male"	"10yrs_2009_2018"	"Breast"	"Non-Hispanic American Indian/Alaska Native"	0.539	0.074	0.404	0.704	61	12989257
+"Male"	"10yrs_2009_2018"	"Breast"	"Non-Hispanic Asian or Pacific Islander"	0.677	0.031	0.617	0.740	508	87039283
+"Male"	"10yrs_2009_2018"	"Breast"	"Hispanic (All Races)"	0.763	0.024	0.716	0.812	1156	275209633
+"Male"	"10yrs_2009_2018"	"Breast"	"Non-Hispanic Unknown Race"	 	 	 	 	153	0
+"Male"	"10yrs_2009_2018"	"Cervix Uteri"	"AllRaceEth"	 	 	 	 	 	1559251032
+"Male"	"10yrs_2009_2018"	"Cervix Uteri"	"Non-Hispanic White"	 	 	 	 	 	987794816
+"Male"	"10yrs_2009_2018"	"Cervix Uteri"	"Non-Hispanic Black"	 	 	 	 	 	196218043
+"Male"	"10yrs_2009_2018"	"Cervix Uteri"	"Non-Hispanic American Indian/Alaska Native"	 	 	 	 	 	12989257
+"Male"	"10yrs_2009_2018"	"Cervix Uteri"	"Non-Hispanic Asian or Pacific Islander"	 	 	 	 	 	87039283
+"Male"	"10yrs_2009_2018"	"Cervix Uteri"	"Hispanic (All Races)"	 	 	 	 	 	275209633
+"Male"	"10yrs_2009_2018"	"Cervix Uteri"	"Non-Hispanic Unknown Race"	 	 	 	 	 	0
+"Male"	"10yrs_2009_2018"	"Corpus and Uterus, NOS"	"AllRaceEth"	 	 	 	 	 	1559251032
+"Male"	"10yrs_2009_2018"	"Corpus and Uterus, NOS"	"Non-Hispanic White"	 	 	 	 	 	987794816
+"Male"	"10yrs_2009_2018"	"Corpus and Uterus, NOS"	"Non-Hispanic Black"	 	 	 	 	 	196218043
+"Male"	"10yrs_2009_2018"	"Corpus and Uterus, NOS"	"Non-Hispanic American Indian/Alaska Native"	 	 	 	 	 	12989257
+"Male"	"10yrs_2009_2018"	"Corpus and Uterus, NOS"	"Non-Hispanic Asian or Pacific Islander"	 	 	 	 	 	87039283
+"Male"	"10yrs_2009_2018"	"Corpus and Uterus, NOS"	"Hispanic (All Races)"	 	 	 	 	 	275209633
+"Male"	"10yrs_2009_2018"	"Corpus and Uterus, NOS"	"Non-Hispanic Unknown Race"	 	 	 	 	 	0
+"Male"	"10yrs_2009_2018"	"Ovary"	"AllRaceEth"	 	 	 	 	 	1559251032
+"Male"	"10yrs_2009_2018"	"Ovary"	"Non-Hispanic White"	 	 	 	 	 	987794816
+"Male"	"10yrs_2009_2018"	"Ovary"	"Non-Hispanic Black"	 	 	 	 	 	196218043
+"Male"	"10yrs_2009_2018"	"Ovary"	"Non-Hispanic American Indian/Alaska Native"	 	 	 	 	 	12989257
+"Male"	"10yrs_2009_2018"	"Ovary"	"Non-Hispanic Asian or Pacific Islander"	 	 	 	 	 	87039283
+"Male"	"10yrs_2009_2018"	"Ovary"	"Hispanic (All Races)"	 	 	 	 	 	275209633
+"Male"	"10yrs_2009_2018"	"Ovary"	"Non-Hispanic Unknown Race"	 	 	 	 	 	0
+"Male"	"10yrs_2009_2018"	"Prostate"	"AllRaceEth"	116.859	0.083	116.697	117.022	2063705	1559251032
+"Male"	"10yrs_2009_2018"	"Prostate"	"Non-Hispanic White"	110.164	0.092	109.985	110.344	1495361	987794816
+"Male"	"10yrs_2009_2018"	"Prostate"	"Non-Hispanic Black"	190.138	0.356	189.441	190.836	320804	196218043
+"Male"	"10yrs_2009_2018"	"Prostate"	"Non-Hispanic American Indian/Alaska Native"	82.691	0.947	80.846	84.567	8893	12989257
+"Male"	"10yrs_2009_2018"	"Prostate"	"Non-Hispanic Asian or Pacific Islander"	60.853	0.296	60.274	61.437	45092	87039283
+"Male"	"10yrs_2009_2018"	"Prostate"	"Hispanic (All Races)"	97.480	0.273	96.946	98.016	143992	275209633
+"Male"	"10yrs_2009_2018"	"Prostate"	"Non-Hispanic Unknown Race"	 	 	 	 	49563	0
+"Male"	"10yrs_2009_2018"	"Testis"	"AllRaceEth"	5.670	0.019	5.632	5.708	86558	1559251032
+"Male"	"10yrs_2009_2018"	"Testis"	"Non-Hispanic White"	6.971	0.028	6.916	7.026	64495	987794816
+"Male"	"10yrs_2009_2018"	"Testis"	"Non-Hispanic Black"	1.521	0.029	1.465	1.579	2868	196218043
+"Male"	"10yrs_2009_2018"	"Testis"	"Non-Hispanic American Indian/Alaska Native"	6.070	0.221	5.646	6.520	788	12989257
+"Male"	"10yrs_2009_2018"	"Testis"	"Non-Hispanic Asian or Pacific Islander"	2.010	0.046	1.920	2.103	1921	87039283
+"Male"	"10yrs_2009_2018"	"Testis"	"Hispanic (All Races)"	4.943	0.041	4.863	5.025	15144	275209633
+"Male"	"10yrs_2009_2018"	"Testis"	"Non-Hispanic Unknown Race"	 	 	 	 	1342	0
+"Male"	"10yrs_2009_2018"	"Urinary Bladder"	"AllRaceEth"	35.566	0.048	35.471	35.661	562344	1559251032
+"Male"	"10yrs_2009_2018"	"Urinary Bladder"	"Non-Hispanic White"	39.640	0.058	39.528	39.753	491394	987794816
+"Male"	"10yrs_2009_2018"	"Urinary Bladder"	"Non-Hispanic Black"	19.951	0.128	19.701	20.204	27683	196218043
+"Male"	"10yrs_2009_2018"	"Urinary Bladder"	"Non-Hispanic American Indian/Alaska Native"	21.364	0.525	20.348	22.414	1960	12989257
+"Male"	"10yrs_2009_2018"	"Urinary Bladder"	"Non-Hispanic Asian or Pacific Islander"	15.219	0.157	14.913	15.529	10101	87039283
+"Male"	"10yrs_2009_2018"	"Urinary Bladder"	"Hispanic (All Races)"	19.730	0.133	19.472	19.992	25092	275209633
+"Male"	"10yrs_2009_2018"	"Urinary Bladder"	"Non-Hispanic Unknown Race"	 	 	 	 	6114	0
+"Male"	"10yrs_2009_2018"	"Kidney and Renal Pelvis"	"AllRaceEth"	22.731	0.038	22.657	22.805	381986	1559251032
+"Male"	"10yrs_2009_2018"	"Kidney and Renal Pelvis"	"Non-Hispanic White"	22.986	0.044	22.900	23.072	287935	987794816
+"Male"	"10yrs_2009_2018"	"Kidney and Renal Pelvis"	"Non-Hispanic Black"	25.656	0.131	25.401	25.914	43011	196218043
+"Male"	"10yrs_2009_2018"	"Kidney and Renal Pelvis"	"Non-Hispanic American Indian/Alaska Native"	29.955	0.552	28.882	31.056	3339	12989257
+"Male"	"10yrs_2009_2018"	"Kidney and Renal Pelvis"	"Non-Hispanic Asian or Pacific Islander"	11.318	0.125	11.074	11.566	8723	87039283
+"Male"	"10yrs_2009_2018"	"Kidney and Renal Pelvis"	"Hispanic (All Races)"	21.986	0.124	21.745	22.230	36937	275209633
+"Male"	"10yrs_2009_2018"	"Kidney and Renal Pelvis"	"Non-Hispanic Unknown Race"	 	 	 	 	2041	0
+"Male"	"10yrs_2009_2018"	"Brain and Other Nervous System"	"AllRaceEth"	7.771	0.022	7.727	7.815	125992	1559251032
+"Male"	"10yrs_2009_2018"	"Brain and Other Nervous System"	"Non-Hispanic White"	8.778	0.029	8.722	8.835	99949	987794816
+"Male"	"10yrs_2009_2018"	"Brain and Other Nervous System"	"Non-Hispanic Black"	4.903	0.055	4.795	5.013	8702	196218043
+"Male"	"10yrs_2009_2018"	"Brain and Other Nervous System"	"Non-Hispanic American Indian/Alaska Native"	5.726	0.234	5.276	6.203	677	12989257
+"Male"	"10yrs_2009_2018"	"Brain and Other Nervous System"	"Non-Hispanic Asian or Pacific Islander"	4.499	0.077	4.350	4.652	3639	87039283
+"Male"	"10yrs_2009_2018"	"Brain and Other Nervous System"	"Hispanic (All Races)"	5.926	0.060	5.809	6.045	12224	275209633
+"Male"	"10yrs_2009_2018"	"Brain and Other Nervous System"	"Non-Hispanic Unknown Race"	 	 	 	 	801	0
+"Male"	"10yrs_2009_2018"	"Thyroid"	"AllRaceEth"	7.212	0.021	7.170	7.254	118113	1559251032
+"Male"	"10yrs_2009_2018"	"Thyroid"	"Non-Hispanic White"	8.050	0.028	7.996	8.104	91879	987794816
+"Male"	"10yrs_2009_2018"	"Thyroid"	"Non-Hispanic Black"	3.829	0.049	3.734	3.926	6660	196218043
+"Male"	"10yrs_2009_2018"	"Thyroid"	"Non-Hispanic American Indian/Alaska Native"	5.427	0.223	4.998	5.882	644	12989257
+"Male"	"10yrs_2009_2018"	"Thyroid"	"Non-Hispanic Asian or Pacific Islander"	7.270	0.095	7.086	7.458	6168	87039283
+"Male"	"10yrs_2009_2018"	"Thyroid"	"Hispanic (All Races)"	5.649	0.057	5.538	5.761	11539	275209633
+"Male"	"10yrs_2009_2018"	"Thyroid"	"Non-Hispanic Unknown Race"	 	 	 	 	1223	0
+"Male"	"10yrs_2009_2018"	"Hodgkin Lymphoma"	"AllRaceEth"	3.046	0.014	3.018	3.073	48055	1559251032
+"Male"	"10yrs_2009_2018"	"Hodgkin Lymphoma"	"Non-Hispanic White"	3.273	0.018	3.237	3.309	33557	987794816
+"Male"	"10yrs_2009_2018"	"Hodgkin Lymphoma"	"Non-Hispanic Black"	3.158	0.042	3.076	3.241	6011	196218043
+"Male"	"10yrs_2009_2018"	"Hodgkin Lymphoma"	"Non-Hispanic American Indian/Alaska Native"	2.031	0.133	1.778	2.309	256	12989257
+"Male"	"10yrs_2009_2018"	"Hodgkin Lymphoma"	"Non-Hispanic Asian or Pacific Islander"	1.537	0.043	1.454	1.624	1336	87039283
+"Male"	"10yrs_2009_2018"	"Hodgkin Lymphoma"	"Hispanic (All Races)"	2.793	0.039	2.717	2.871	6388	275209633
+"Male"	"10yrs_2009_2018"	"Hodgkin Lymphoma"	"Non-Hispanic Unknown Race"	 	 	 	 	507	0
+"Male"	"10yrs_2009_2018"	"Non-Hodgkin Lymphoma"	"AllRaceEth"	23.536	0.039	23.460	23.613	380005	1559251032
+"Male"	"10yrs_2009_2018"	"Non-Hodgkin Lymphoma"	"Non-Hispanic White"	24.652	0.046	24.562	24.743	299947	987794816
+"Male"	"10yrs_2009_2018"	"Non-Hodgkin Lymphoma"	"Non-Hispanic Black"	17.631	0.110	17.416	17.847	28991	196218043
+"Male"	"10yrs_2009_2018"	"Non-Hodgkin Lymphoma"	"Non-Hispanic American Indian/Alaska Native"	16.720	0.432	15.885	17.586	1748	12989257
+"Male"	"10yrs_2009_2018"	"Non-Hodgkin Lymphoma"	"Non-Hispanic Asian or Pacific Islander"	16.154	0.153	15.855	16.457	11932	87039283
+"Male"	"10yrs_2009_2018"	"Non-Hodgkin Lymphoma"	"Hispanic (All Races)"	20.544	0.123	20.302	20.787	33441	275209633
+"Male"	"10yrs_2009_2018"	"Non-Hodgkin Lymphoma"	"Non-Hispanic Unknown Race"	 	 	 	 	3946	0
+"Male"	"10yrs_2009_2018"	"Myeloma"	"AllRaceEth"	8.566	0.023	8.520	8.612	140079	1559251032
+"Male"	"10yrs_2009_2018"	"Myeloma"	"Non-Hispanic White"	7.781	0.025	7.732	7.831	97716	987794816
+"Male"	"10yrs_2009_2018"	"Myeloma"	"Non-Hispanic Black"	16.648	0.112	16.429	16.869	25083	196218043
+"Male"	"10yrs_2009_2018"	"Myeloma"	"Non-Hispanic American Indian/Alaska Native"	7.544	0.296	6.975	8.145	760	12989257
+"Male"	"10yrs_2009_2018"	"Myeloma"	"Non-Hispanic Asian or Pacific Islander"	4.958	0.086	4.791	5.129	3568	87039283
+"Male"	"10yrs_2009_2018"	"Myeloma"	"Hispanic (All Races)"	8.144	0.080	7.987	8.303	11927	275209633
+"Male"	"10yrs_2009_2018"	"Myeloma"	"Non-Hispanic Unknown Race"	 	 	 	 	1025	0
+"Male"	"10yrs_2009_2018"	"Leukemias"	"AllRaceEth"	18.524	0.035	18.456	18.592	294936	1559251032
+"Male"	"10yrs_2009_2018"	"Leukemias"	"Non-Hispanic White"	19.589	0.042	19.507	19.671	233563	987794816
+"Male"	"10yrs_2009_2018"	"Leukemias"	"Non-Hispanic Black"	14.104	0.102	13.905	14.305	22019	196218043
+"Male"	"10yrs_2009_2018"	"Leukemias"	"Non-Hispanic American Indian/Alaska Native"	14.042	0.392	13.284	14.830	1500	12989257
+"Male"	"10yrs_2009_2018"	"Leukemias"	"Non-Hispanic Asian or Pacific Islander"	10.352	0.122	10.115	10.593	7768	87039283
+"Male"	"10yrs_2009_2018"	"Leukemias"	"Hispanic (All Races)"	13.933	0.098	13.741	14.127	26181	275209633
+"Male"	"10yrs_2009_2018"	"Leukemias"	"Non-Hispanic Unknown Race"	 	 	 	 	3905	0
+"Male"	"10yrs_2009_2018"	"Mesothelioma"	"AllRaceEth"	1.612	0.010	1.591	1.632	24596	1559251032
+"Male"	"10yrs_2009_2018"	"Mesothelioma"	"Non-Hispanic White"	1.775	0.012	1.751	1.799	21386	987794816
+"Male"	"10yrs_2009_2018"	"Mesothelioma"	"Non-Hispanic Black"	0.851	0.027	0.798	0.905	1118	196218043
+"Male"	"10yrs_2009_2018"	"Mesothelioma"	"Non-Hispanic American Indian/Alaska Native"	1.170	0.126	0.936	1.441	100	12989257
+"Male"	"10yrs_2009_2018"	"Mesothelioma"	"Non-Hispanic Asian or Pacific Islander"	0.539	0.030	0.483	0.600	355	87039283
+"Male"	"10yrs_2009_2018"	"Mesothelioma"	"Hispanic (All Races)"	1.200	0.032	1.138	1.265	1563	275209633
+"Male"	"10yrs_2009_2018"	"Mesothelioma"	"Non-Hispanic Unknown Race"	 	 	 	 	74	0
+"Male"	"10yrs_2009_2018"	"Kaposi Sarcoma"	"AllRaceEth"	0.686	0.007	0.673	0.699	10482	1559251032
+"Male"	"10yrs_2009_2018"	"Kaposi Sarcoma"	"Non-Hispanic White"	0.422	0.007	0.409	0.435	4443	987794816
+"Male"	"10yrs_2009_2018"	"Kaposi Sarcoma"	"Non-Hispanic Black"	1.646	0.031	1.586	1.707	3058	196218043
+"Male"	"10yrs_2009_2018"	"Kaposi Sarcoma"	"Non-Hispanic American Indian/Alaska Native"	0.531	0.073	0.398	0.694	59	12989257
+"Male"	"10yrs_2009_2018"	"Kaposi Sarcoma"	"Non-Hispanic Asian or Pacific Islander"	0.338	0.021	0.298	0.382	274	87039283
+"Male"	"10yrs_2009_2018"	"Kaposi Sarcoma"	"Hispanic (All Races)"	1.127	0.026	1.076	1.179	2313	275209633
+"Male"	"10yrs_2009_2018"	"Kaposi Sarcoma"	"Non-Hispanic Unknown Race"	 	 	 	 	335	0
+"Female"	"1yr_2018"	"All Sites"	"AllRaceEth"	420.874	0.468	419.958	421.793	861947	164367226
+"Female"	"1yr_2018"	"All Sites"	"Non-Hispanic White"	439.571	0.584	438.427	440.717	638954	101160065
+"Female"	"1yr_2018"	"All Sites"	"Non-Hispanic Black"	400.863	1.340	398.242	403.498	93892	22223585
+"Female"	"1yr_2018"	"All Sites"	"Non-Hispanic American Indian/Alaska Native"	392.527	5.448	381.922	403.353	5534	1380531
+"Female"	"1yr_2018"	"All Sites"	"Non-Hispanic Asian or Pacific Islander"	301.400	1.660	298.156	304.672	33857	10585702
+"Female"	"1yr_2018"	"All Sites"	"Hispanic (All Races)"	345.448	1.250	343.001	347.907	80107	29017343
+"Female"	"1yr_2018"	"All Sites"	"Non-Hispanic Unknown Race"	 	 	 	 	9603	0
+"Female"	"1yr_2018"	"Oral Cavity and Pharynx"	"AllRaceEth"	6.566	0.058	6.453	6.680	13755	164367226
+"Female"	"1yr_2018"	"Oral Cavity and Pharynx"	"Non-Hispanic White"	7.161	0.073	7.019	7.306	10748	101160065
+"Female"	"1yr_2018"	"Oral Cavity and Pharynx"	"Non-Hispanic Black"	4.887	0.147	4.604	5.184	1163	22223585
+"Female"	"1yr_2018"	"Oral Cavity and Pharynx"	"Non-Hispanic American Indian/Alaska Native"	4.653	0.585	3.577	5.954	68	1380531
+"Female"	"1yr_2018"	"Oral Cavity and Pharynx"	"Non-Hispanic Asian or Pacific Islander"	4.998	0.213	4.590	5.433	568	10585702
+"Female"	"1yr_2018"	"Oral Cavity and Pharynx"	"Hispanic (All Races)"	4.487	0.144	4.210	4.777	1029	29017343
+"Female"	"1yr_2018"	"Oral Cavity and Pharynx"	"Non-Hispanic Unknown Race"	 	 	 	 	179	0
+"Female"	"1yr_2018"	"Esophagus"	"AllRaceEth"	1.765	0.029	1.709	1.823	3887	164367226
+"Female"	"1yr_2018"	"Esophagus"	"Non-Hispanic White"	1.859	0.035	1.791	1.929	3016	101160065
+"Female"	"1yr_2018"	"Esophagus"	"Non-Hispanic Black"	2.085	0.095	1.903	2.281	502	22223585
+"Female"	"1yr_2018"	"Esophagus"	"Non-Hispanic American Indian/Alaska Native"	1.799	0.364	1.157	2.671	26	1380531
+"Female"	"1yr_2018"	"Esophagus"	"Non-Hispanic Asian or Pacific Islander"	0.988	0.096	0.810	1.195	110	10585702
+"Female"	"1yr_2018"	"Esophagus"	"Hispanic (All Races)"	1.016	0.070	0.882	1.162	218	29017343
+"Female"	"1yr_2018"	"Esophagus"	"Non-Hispanic Unknown Race"	 	 	 	 	 	0
+"Female"	"1yr_2018"	"Stomach"	"AllRaceEth"	4.622	0.049	4.527	4.719	9556	164367226
+"Female"	"1yr_2018"	"Stomach"	"Non-Hispanic White"	3.439	0.050	3.342	3.539	5245	101160065
+"Female"	"1yr_2018"	"Stomach"	"Non-Hispanic Black"	7.419	0.184	7.063	7.789	1702	22223585
+"Female"	"1yr_2018"	"Stomach"	"Non-Hispanic American Indian/Alaska Native"	6.485	0.705	5.177	8.022	90	1380531
+"Female"	"1yr_2018"	"Stomach"	"Non-Hispanic Asian or Pacific Islander"	6.587	0.247	6.111	7.091	730	10585702
+"Female"	"1yr_2018"	"Stomach"	"Hispanic (All Races)"	7.571	0.188	7.207	7.948	1699	29017343
+"Female"	"1yr_2018"	"Stomach"	"Non-Hispanic Unknown Race"	 	 	 	 	90	0
+"Female"	"1yr_2018"	"Colon and Rectum"	"AllRaceEth"	32.507	0.129	32.255	32.760	67613	164367226
+"Female"	"1yr_2018"	"Colon and Rectum"	"Non-Hispanic White"	32.485	0.156	32.181	32.792	48685	101160065
+"Female"	"1yr_2018"	"Colon and Rectum"	"Non-Hispanic Black"	36.749	0.406	35.958	37.555	8557	22223585
+"Female"	"1yr_2018"	"Colon and Rectum"	"Non-Hispanic American Indian/Alaska Native"	34.938	1.627	31.821	38.277	491	1380531
+"Female"	"1yr_2018"	"Colon and Rectum"	"Non-Hispanic Asian or Pacific Islander"	24.011	0.470	23.098	24.951	2678	10585702
+"Female"	"1yr_2018"	"Colon and Rectum"	"Hispanic (All Races)"	28.710	0.365	27.998	29.434	6479	29017343
+"Female"	"1yr_2018"	"Colon and Rectum"	"Non-Hispanic Unknown Race"	 	 	 	 	723	0
+"Female"	"1yr_2018"	"Liver and Intrahepatic Bile Duct"	"AllRaceEth"	4.745	0.048	4.652	4.839	10410	164367226
+"Female"	"1yr_2018"	"Liver and Intrahepatic Bile Duct"	"Non-Hispanic White"	4.003	0.052	3.901	4.107	6361	101160065
+"Female"	"1yr_2018"	"Liver and Intrahepatic Bile Duct"	"Non-Hispanic Black"	5.376	0.151	5.084	5.681	1331	22223585
+"Female"	"1yr_2018"	"Liver and Intrahepatic Bile Duct"	"Non-Hispanic American Indian/Alaska Native"	9.889	0.844	8.305	11.691	147	1380531
+"Female"	"1yr_2018"	"Liver and Intrahepatic Bile Duct"	"Non-Hispanic Asian or Pacific Islander"	6.379	0.243	5.911	6.873	713	10585702
+"Female"	"1yr_2018"	"Liver and Intrahepatic Bile Duct"	"Hispanic (All Races)"	8.433	0.204	8.038	8.841	1800	29017343
+"Female"	"1yr_2018"	"Liver and Intrahepatic Bile Duct"	"Non-Hispanic Unknown Race"	 	 	 	 	58	0
+"Female"	"1yr_2018"	"Pancreas"	"AllRaceEth"	11.776	0.075	11.630	11.924	25772	164367226
+"Female"	"1yr_2018"	"Pancreas"	"Non-Hispanic White"	11.381	0.087	11.212	11.553	18460	101160065
+"Female"	"1yr_2018"	"Pancreas"	"Non-Hispanic Black"	15.742	0.266	15.225	16.272	3666	22223585
+"Female"	"1yr_2018"	"Pancreas"	"Non-Hispanic American Indian/Alaska Native"	11.422	0.932	9.669	13.400	160	1380531
+"Female"	"1yr_2018"	"Pancreas"	"Non-Hispanic Asian or Pacific Islander"	9.176	0.295	8.607	9.772	1001	10585702
+"Female"	"1yr_2018"	"Pancreas"	"Hispanic (All Races)"	11.326	0.238	10.866	11.801	2387	29017343
+"Female"	"1yr_2018"	"Pancreas"	"Non-Hispanic Unknown Race"	 	 	 	 	98	0
+"Female"	"1yr_2018"	"Larynx"	"AllRaceEth"	1.154	0.024	1.108	1.202	2504	164367226
+"Female"	"1yr_2018"	"Larynx"	"Non-Hispanic White"	1.271	0.030	1.213	1.332	1938	101160065
+"Female"	"1yr_2018"	"Larynx"	"Non-Hispanic Black"	1.427	0.077	1.280	1.587	358	22223585
+"Female"	"1yr_2018"	"Larynx"	"Non-Hispanic American Indian/Alaska Native"	1.063	0.273	0.597	1.758	16	1380531
+"Female"	"1yr_2018"	"Larynx"	"Non-Hispanic Asian or Pacific Islander"	0.192	0.042	0.119	0.294	22	10585702
+"Female"	"1yr_2018"	"Larynx"	"Hispanic (All Races)"	0.679	0.056	0.573	0.797	153	29017343
+"Female"	"1yr_2018"	"Larynx"	"Non-Hispanic Unknown Race"	 	 	 	 	17	0
+"Female"	"1yr_2018"	"Lung and Bronchus"	"AllRaceEth"	49.627	0.152	49.329	49.927	109718	164367226
+"Female"	"1yr_2018"	"Lung and Bronchus"	"Non-Hispanic White"	54.829	0.188	54.461	55.199	89465	101160065
+"Female"	"1yr_2018"	"Lung and Bronchus"	"Non-Hispanic Black"	46.106	0.450	45.228	46.997	11004	22223585
+"Female"	"1yr_2018"	"Lung and Bronchus"	"Non-Hispanic American Indian/Alaska Native"	51.439	1.955	47.678	55.419	739	1380531
+"Female"	"1yr_2018"	"Lung and Bronchus"	"Non-Hispanic Asian or Pacific Islander"	28.162	0.514	27.164	29.187	3101	10585702
+"Female"	"1yr_2018"	"Lung and Bronchus"	"Hispanic (All Races)"	24.299	0.350	23.618	24.993	5054	29017343
+"Female"	"1yr_2018"	"Lung and Bronchus"	"Non-Hispanic Unknown Race"	 	 	 	 	355	0
+"Female"	"1yr_2018"	"Melanoma of the Skin"	"AllRaceEth"	18.027	0.100	17.832	18.224	35102	164367226
+"Female"	"1yr_2018"	"Melanoma of the Skin"	"Non-Hispanic White"	24.269	0.146	23.983	24.557	31701	101160065
+"Female"	"1yr_2018"	"Melanoma of the Skin"	"Non-Hispanic Black"	0.826	0.061	0.710	0.955	190	22223585
+"Female"	"1yr_2018"	"Melanoma of the Skin"	"Non-Hispanic American Indian/Alaska Native"	7.633	0.759	6.219	9.273	107	1380531
+"Female"	"1yr_2018"	"Melanoma of the Skin"	"Non-Hispanic Asian or Pacific Islander"	1.095	0.101	0.907	1.312	122	10585702
+"Female"	"1yr_2018"	"Melanoma of the Skin"	"Hispanic (All Races)"	4.484	0.141	4.212	4.769	1058	29017343
+"Female"	"1yr_2018"	"Melanoma of the Skin"	"Non-Hispanic Unknown Race"	 	 	 	 	1924	0
+"Female"	"1yr_2018"	"Breast"	"AllRaceEth"	128.477	0.262	127.964	128.991	258152	164367226
+"Female"	"1yr_2018"	"Breast"	"Non-Hispanic White"	134.361	0.328	133.718	135.006	189942	101160065
+"Female"	"1yr_2018"	"Breast"	"Non-Hispanic Black"	125.992	0.753	124.519	127.478	29354	22223585
+"Female"	"1yr_2018"	"Breast"	"Non-Hispanic American Indian/Alaska Native"	99.536	2.741	94.235	105.058	1412	1380531
+"Female"	"1yr_2018"	"Breast"	"Non-Hispanic Asian or Pacific Islander"	103.902	0.967	102.015	105.816	11814	10585702
+"Female"	"1yr_2018"	"Breast"	"Hispanic (All Races)"	99.071	0.661	97.780	100.375	23347	29017343
+"Female"	"1yr_2018"	"Breast"	"Non-Hispanic Unknown Race"	 	 	 	 	2283	0
+"Female"	"1yr_2018"	"Cervix Uteri"	"AllRaceEth"	7.634	0.069	7.499	7.771	12967	164367226
+"Female"	"1yr_2018"	"Cervix Uteri"	"Non-Hispanic White"	7.132	0.087	6.964	7.304	7667	101160065
+"Female"	"1yr_2018"	"Cervix Uteri"	"Non-Hispanic Black"	8.720	0.203	8.327	9.128	1930	22223585
+"Female"	"1yr_2018"	"Cervix Uteri"	"Non-Hispanic American Indian/Alaska Native"	9.433	0.873	7.799	11.302	122	1380531
+"Female"	"1yr_2018"	"Cervix Uteri"	"Non-Hispanic Asian or Pacific Islander"	5.805	0.229	5.364	6.272	655	10585702
+"Female"	"1yr_2018"	"Cervix Uteri"	"Hispanic (All Races)"	9.636	0.198	9.253	10.032	2445	29017343
+"Female"	"1yr_2018"	"Cervix Uteri"	"Non-Hispanic Unknown Race"	 	 	 	 	148	0
+"Female"	"1yr_2018"	"Corpus and Uterus, NOS"	"AllRaceEth"	27.717	0.118	27.486	27.949	58755	164367226
+"Female"	"1yr_2018"	"Corpus and Uterus, NOS"	"Non-Hispanic White"	27.739	0.143	27.460	28.020	41919	101160065
+"Female"	"1yr_2018"	"Corpus and Uterus, NOS"	"Non-Hispanic Black"	28.956	0.350	28.274	29.650	7200	22223585
+"Female"	"1yr_2018"	"Corpus and Uterus, NOS"	"Non-Hispanic American Indian/Alaska Native"	26.363	1.392	23.706	29.239	383	1380531
+"Female"	"1yr_2018"	"Corpus and Uterus, NOS"	"Non-Hispanic Asian or Pacific Islander"	22.252	0.443	21.391	23.140	2579	10585702
+"Female"	"1yr_2018"	"Corpus and Uterus, NOS"	"Hispanic (All Races)"	25.727	0.333	25.078	26.389	6186	29017343
+"Female"	"1yr_2018"	"Corpus and Uterus, NOS"	"Non-Hispanic Unknown Race"	 	 	 	 	488	0
+"Female"	"1yr_2018"	"Ovary"	"AllRaceEth"	9.985	0.073	9.842	10.128	20047	164367226
+"Female"	"1yr_2018"	"Ovary"	"Non-Hispanic White"	10.233	0.090	10.056	10.412	14516	101160065
+"Female"	"1yr_2018"	"Ovary"	"Non-Hispanic Black"	8.176	0.192	7.805	8.560	1910	22223585
+"Female"	"1yr_2018"	"Ovary"	"Non-Hispanic American Indian/Alaska Native"	10.806	0.907	9.102	12.736	150	1380531
+"Female"	"1yr_2018"	"Ovary"	"Non-Hispanic Asian or Pacific Islander"	9.112	0.288	8.556	9.696	1025	10585702
+"Female"	"1yr_2018"	"Ovary"	"Hispanic (All Races)"	9.594	0.205	9.196	10.004	2291	29017343
+"Female"	"1yr_2018"	"Ovary"	"Non-Hispanic Unknown Race"	 	 	 	 	155	0
+"Female"	"1yr_2018"	"Prostate"	"AllRaceEth"	 	 	 	 	 	164367226
+"Female"	"1yr_2018"	"Prostate"	"Non-Hispanic White"	 	 	 	 	 	101160065
+"Female"	"1yr_2018"	"Prostate"	"Non-Hispanic Black"	 	 	 	 	 	22223585
+"Female"	"1yr_2018"	"Prostate"	"Non-Hispanic American Indian/Alaska Native"	 	 	 	 	 	1380531
+"Female"	"1yr_2018"	"Prostate"	"Non-Hispanic Asian or Pacific Islander"	 	 	 	 	 	10585702
+"Female"	"1yr_2018"	"Prostate"	"Hispanic (All Races)"	 	 	 	 	 	29017343
+"Female"	"1yr_2018"	"Prostate"	"Non-Hispanic Unknown Race"	 	 	 	 	 	0
+"Female"	"1yr_2018"	"Testis"	"AllRaceEth"	 	 	 	 	 	164367226
+"Female"	"1yr_2018"	"Testis"	"Non-Hispanic White"	 	 	 	 	 	101160065
+"Female"	"1yr_2018"	"Testis"	"Non-Hispanic Black"	 	 	 	 	 	22223585
+"Female"	"1yr_2018"	"Testis"	"Non-Hispanic American Indian/Alaska Native"	 	 	 	 	 	1380531
+"Female"	"1yr_2018"	"Testis"	"Non-Hispanic Asian or Pacific Islander"	 	 	 	 	 	10585702
+"Female"	"1yr_2018"	"Testis"	"Hispanic (All Races)"	 	 	 	 	 	29017343
+"Female"	"1yr_2018"	"Testis"	"Non-Hispanic Unknown Race"	 	 	 	 	 	0
+"Female"	"1yr_2018"	"Urinary Bladder"	"AllRaceEth"	8.132	0.062	8.011	8.254	17945	164367226
+"Female"	"1yr_2018"	"Urinary Bladder"	"Non-Hispanic White"	9.055	0.077	8.905	9.207	14788	101160065
+"Female"	"1yr_2018"	"Urinary Bladder"	"Non-Hispanic Black"	6.262	0.169	5.935	6.602	1433	22223585
+"Female"	"1yr_2018"	"Urinary Bladder"	"Non-Hispanic American Indian/Alaska Native"	5.062	0.625	3.912	6.443	71	1380531
+"Female"	"1yr_2018"	"Urinary Bladder"	"Non-Hispanic Asian or Pacific Islander"	3.487	0.180	3.142	3.860	385	10585702
+"Female"	"1yr_2018"	"Urinary Bladder"	"Hispanic (All Races)"	5.080	0.160	4.772	5.402	1059	29017343
+"Female"	"1yr_2018"	"Urinary Bladder"	"Non-Hispanic Unknown Race"	 	 	 	 	209	0
+"Female"	"1yr_2018"	"Kidney and Renal Pelvis"	"AllRaceEth"	11.996	0.079	11.841	12.152	24629	164367226
+"Female"	"1yr_2018"	"Kidney and Renal Pelvis"	"Non-Hispanic White"	11.931	0.097	11.743	12.122	17286	101160065
+"Female"	"1yr_2018"	"Kidney and Renal Pelvis"	"Non-Hispanic Black"	13.595	0.245	13.119	14.083	3246	22223585
+"Female"	"1yr_2018"	"Kidney and Renal Pelvis"	"Non-Hispanic American Indian/Alaska Native"	19.236	1.195	16.966	21.727	277	1380531
+"Female"	"1yr_2018"	"Kidney and Renal Pelvis"	"Non-Hispanic Asian or Pacific Islander"	5.489	0.223	5.060	5.946	622	10585702
+"Female"	"1yr_2018"	"Kidney and Renal Pelvis"	"Hispanic (All Races)"	13.090	0.242	12.619	13.573	3056	29017343
+"Female"	"1yr_2018"	"Kidney and Renal Pelvis"	"Non-Hispanic Unknown Race"	 	 	 	 	142	0
+"Female"	"1yr_2018"	"Brain and Other Nervous System"	"AllRaceEth"	5.335	0.055	5.228	5.443	10100	164367226
+"Female"	"1yr_2018"	"Brain and Other Nervous System"	"Non-Hispanic White"	6.050	0.075	5.905	6.198	7678	101160065
+"Female"	"1yr_2018"	"Brain and Other Nervous System"	"Non-Hispanic Black"	3.360	0.124	3.122	3.612	765	22223585
+"Female"	"1yr_2018"	"Brain and Other Nervous System"	"Non-Hispanic American Indian/Alaska Native"	3.618	0.516	2.679	4.784	52	1380531
+"Female"	"1yr_2018"	"Brain and Other Nervous System"	"Non-Hispanic Asian or Pacific Islander"	3.256	0.177	2.918	3.622	350	10585702
+"Female"	"1yr_2018"	"Brain and Other Nervous System"	"Hispanic (All Races)"	4.662	0.141	4.391	4.945	1175	29017343
+"Female"	"1yr_2018"	"Brain and Other Nervous System"	"Non-Hispanic Unknown Race"	 	 	 	 	80	0
+"Female"	"1yr_2018"	"Thyroid"	"AllRaceEth"	19.675	0.110	19.459	19.893	33856	164367226
+"Female"	"1yr_2018"	"Thyroid"	"Non-Hispanic White"	20.407	0.145	20.123	20.693	22279	101160065
+"Female"	"1yr_2018"	"Thyroid"	"Non-Hispanic Black"	11.905	0.236	11.448	12.375	2678	22223585
+"Female"	"1yr_2018"	"Thyroid"	"Non-Hispanic American Indian/Alaska Native"	21.134	1.292	18.677	23.819	283	1380531
+"Female"	"1yr_2018"	"Thyroid"	"Non-Hispanic Asian or Pacific Islander"	21.956	0.444	21.095	22.844	2495	10585702
+"Female"	"1yr_2018"	"Thyroid"	"Hispanic (All Races)"	21.382	0.291	20.816	21.959	5595	29017343
+"Female"	"1yr_2018"	"Thyroid"	"Non-Hispanic Unknown Race"	 	 	 	 	526	0
+"Female"	"1yr_2018"	"Hodgkin Lymphoma"	"AllRaceEth"	2.288	0.038	2.214	2.363	3851	164367226
+"Female"	"1yr_2018"	"Hodgkin Lymphoma"	"Non-Hispanic White"	2.512	0.052	2.412	2.616	2590	101160065
+"Female"	"1yr_2018"	"Hodgkin Lymphoma"	"Non-Hispanic Black"	2.362	0.105	2.160	2.576	524	22223585
+"Female"	"1yr_2018"	"Hodgkin Lymphoma"	"Non-Hispanic American Indian/Alaska Native"	1.760	0.367	1.116	2.639	24	1380531
+"Female"	"1yr_2018"	"Hodgkin Lymphoma"	"Non-Hispanic Asian or Pacific Islander"	1.202	0.106	1.004	1.429	133	10585702
+"Female"	"1yr_2018"	"Hodgkin Lymphoma"	"Hispanic (All Races)"	1.951	0.087	1.783	2.130	530	29017343
+"Female"	"1yr_2018"	"Hodgkin Lymphoma"	"Non-Hispanic Unknown Race"	 	 	 	 	50	0
+"Female"	"1yr_2018"	"Non-Hodgkin Lymphoma"	"AllRaceEth"	15.601	0.089	15.427	15.776	32621	164367226
+"Female"	"1yr_2018"	"Non-Hodgkin Lymphoma"	"Non-Hispanic White"	16.114	0.108	15.902	16.328	24541	101160065
+"Female"	"1yr_2018"	"Non-Hodgkin Lymphoma"	"Non-Hispanic Black"	12.126	0.234	11.671	12.594	2802	22223585
+"Female"	"1yr_2018"	"Non-Hodgkin Lymphoma"	"Non-Hispanic American Indian/Alaska Native"	12.713	0.983	10.860	14.791	178	1380531
+"Female"	"1yr_2018"	"Non-Hodgkin Lymphoma"	"Non-Hispanic Asian or Pacific Islander"	10.890	0.318	10.277	11.532	1210	10585702
+"Female"	"1yr_2018"	"Non-Hodgkin Lymphoma"	"Hispanic (All Races)"	15.280	0.268	14.760	15.813	3442	29017343
+"Female"	"1yr_2018"	"Non-Hodgkin Lymphoma"	"Non-Hispanic Unknown Race"	 	 	 	 	448	0
+"Female"	"1yr_2018"	"Myeloma"	"AllRaceEth"	5.680	0.053	5.578	5.785	12216	164367226
+"Female"	"1yr_2018"	"Myeloma"	"Non-Hispanic White"	4.642	0.056	4.532	4.753	7372	101160065
+"Female"	"1yr_2018"	"Myeloma"	"Non-Hispanic Black"	12.681	0.238	12.219	13.157	2975	22223585
+"Female"	"1yr_2018"	"Myeloma"	"Non-Hispanic American Indian/Alaska Native"	6.428	0.696	5.136	7.946	91	1380531
+"Female"	"1yr_2018"	"Myeloma"	"Non-Hispanic Asian or Pacific Islander"	2.958	0.167	2.640	3.304	324	10585702
+"Female"	"1yr_2018"	"Myeloma"	"Hispanic (All Races)"	6.143	0.173	5.809	6.490	1328	29017343
+"Female"	"1yr_2018"	"Myeloma"	"Non-Hispanic Unknown Race"	 	 	 	 	126	0
+"Female"	"1yr_2018"	"Leukemias"	"AllRaceEth"	10.734	0.075	10.587	10.883	21586	164367226
+"Female"	"1yr_2018"	"Leukemias"	"Non-Hispanic White"	11.102	0.094	10.918	11.288	15946	101160065
+"Female"	"1yr_2018"	"Leukemias"	"Non-Hispanic Black"	8.722	0.199	8.337	9.121	2007	22223585
+"Female"	"1yr_2018"	"Leukemias"	"Non-Hispanic American Indian/Alaska Native"	10.247	0.867	8.617	12.097	147	1380531
+"Female"	"1yr_2018"	"Leukemias"	"Non-Hispanic Asian or Pacific Islander"	6.532	0.251	6.049	7.044	697	10585702
+"Female"	"1yr_2018"	"Leukemias"	"Hispanic (All Races)"	9.501	0.203	9.107	9.907	2349	29017343
+"Female"	"1yr_2018"	"Leukemias"	"Non-Hispanic Unknown Race"	 	 	 	 	440	0
+"Female"	"1yr_2018"	"Mesothelioma"	"AllRaceEth"	0.384	0.014	0.357	0.412	809	164367226
+"Female"	"1yr_2018"	"Mesothelioma"	"Non-Hispanic White"	0.417	0.017	0.384	0.452	646	101160065
+"Female"	"1yr_2018"	"Mesothelioma"	"Non-Hispanic Black"	0.201	0.030	0.146	0.269	47	22223585
+"Female"	"1yr_2018"	"Mesothelioma"	"Non-Hispanic American Indian/Alaska Native"	 	 	 	 	 	1380531
+"Female"	"1yr_2018"	"Mesothelioma"	"Non-Hispanic Asian or Pacific Islander"	 	 	 	 	 	10585702
+"Female"	"1yr_2018"	"Mesothelioma"	"Hispanic (All Races)"	0.433	0.045	0.349	0.530	96	29017343
+"Female"	"1yr_2018"	"Mesothelioma"	"Non-Hispanic Unknown Race"	 	 	 	 	 	0
+"Female"	"1yr_2018"	"Kaposi Sarcoma"	"AllRaceEth"	0.054	0.005	0.044	0.065	108	164367226
+"Female"	"1yr_2018"	"Kaposi Sarcoma"	"Non-Hispanic White"	0.033	0.005	0.024	0.045	50	101160065
+"Female"	"1yr_2018"	"Kaposi Sarcoma"	"Non-Hispanic Black"	0.118	0.024	0.076	0.174	26	22223585
+"Female"	"1yr_2018"	"Kaposi Sarcoma"	"Non-Hispanic American Indian/Alaska Native"	 	 	 	 	 	1380531
+"Female"	"1yr_2018"	"Kaposi Sarcoma"	"Non-Hispanic Asian or Pacific Islander"	 	 	 	 	 	10585702
+"Female"	"1yr_2018"	"Kaposi Sarcoma"	"Hispanic (All Races)"	0.124	0.026	0.079	0.183	24	29017343
+"Female"	"1yr_2018"	"Kaposi Sarcoma"	"Non-Hispanic Unknown Race"	 	 	 	 	 	0
+"Female"	"5yrs_2014_2018"	"All Sites"	"AllRaceEth"	425.625	0.212	425.208	426.041	4245529	817884641
+"Female"	"5yrs_2014_2018"	"All Sites"	"Non-Hispanic White"	445.494	0.263	444.978	446.010	3188223	509150885
+"Female"	"5yrs_2014_2018"	"All Sites"	"Non-Hispanic Black"	408.192	0.617	406.984	409.403	458161	109688058
+"Female"	"5yrs_2014_2018"	"All Sites"	"Non-Hispanic American Indian/Alaska Native"	393.494	2.500	388.609	398.425	26484	6870658
+"Female"	"5yrs_2014_2018"	"All Sites"	"Non-Hispanic Asian or Pacific Islander"	300.205	0.765	298.706	301.709	158497	50965538
+"Female"	"5yrs_2014_2018"	"All Sites"	"Hispanic (All Races)"	345.084	0.580	343.948	346.222	374603	141209502
+"Female"	"5yrs_2014_2018"	"All Sites"	"Non-Hispanic Unknown Race"	 	 	 	 	39561	0
+"Female"	"5yrs_2014_2018"	"Oral Cavity and Pharynx"	"AllRaceEth"	6.541	0.026	6.491	6.593	66558	817884641
+"Female"	"5yrs_2014_2018"	"Oral Cavity and Pharynx"	"Non-Hispanic White"	7.094	0.033	7.030	7.158	52172	509150885
+"Female"	"5yrs_2014_2018"	"Oral Cavity and Pharynx"	"Non-Hispanic Black"	5.094	0.068	4.962	5.230	5845	109688058
+"Female"	"5yrs_2014_2018"	"Oral Cavity and Pharynx"	"Non-Hispanic American Indian/Alaska Native"	5.613	0.294	5.052	6.220	391	6870658
+"Female"	"5yrs_2014_2018"	"Oral Cavity and Pharynx"	"Non-Hispanic Asian or Pacific Islander"	5.255	0.101	5.059	5.457	2799	50965538
+"Female"	"5yrs_2014_2018"	"Oral Cavity and Pharynx"	"Hispanic (All Races)"	4.353	0.066	4.225	4.484	4636	141209502
+"Female"	"5yrs_2014_2018"	"Oral Cavity and Pharynx"	"Non-Hispanic Unknown Race"	 	 	 	 	715	0
+"Female"	"5yrs_2014_2018"	"Esophagus"	"AllRaceEth"	1.765	0.013	1.739	1.791	18786	817884641
+"Female"	"5yrs_2014_2018"	"Esophagus"	"Non-Hispanic White"	1.842	0.016	1.811	1.873	14584	509150885
+"Female"	"5yrs_2014_2018"	"Esophagus"	"Non-Hispanic Black"	2.130	0.044	2.045	2.218	2458	109688058
+"Female"	"5yrs_2014_2018"	"Esophagus"	"Non-Hispanic American Indian/Alaska Native"	1.688	0.160	1.388	2.033	120	6870658
+"Female"	"5yrs_2014_2018"	"Esophagus"	"Non-Hispanic Asian or Pacific Islander"	0.967	0.044	0.883	1.058	495	50965538
+"Female"	"5yrs_2014_2018"	"Esophagus"	"Hispanic (All Races)"	1.084	0.034	1.018	1.153	1049	141209502
+"Female"	"5yrs_2014_2018"	"Esophagus"	"Non-Hispanic Unknown Race"	 	 	 	 	80	0
+"Female"	"5yrs_2014_2018"	"Stomach"	"AllRaceEth"	4.656	0.022	4.613	4.700	47125	817884641
+"Female"	"5yrs_2014_2018"	"Stomach"	"Non-Hispanic White"	3.486	0.022	3.442	3.530	26299	509150885
+"Female"	"5yrs_2014_2018"	"Stomach"	"Non-Hispanic Black"	7.485	0.085	7.320	7.653	8171	109688058
+"Female"	"5yrs_2014_2018"	"Stomach"	"Non-Hispanic American Indian/Alaska Native"	6.207	0.316	5.603	6.858	414	6870658
+"Female"	"5yrs_2014_2018"	"Stomach"	"Non-Hispanic Asian or Pacific Islander"	7.426	0.122	7.188	7.670	3798	50965538
+"Female"	"5yrs_2014_2018"	"Stomach"	"Hispanic (All Races)"	7.792	0.089	7.618	7.968	8099	141209502
+"Female"	"5yrs_2014_2018"	"Stomach"	"Non-Hispanic Unknown Race"	 	 	 	 	344	0
+"Female"	"5yrs_2014_2018"	"Colon and Rectum"	"AllRaceEth"	33.556	0.059	33.441	33.672	340962	817884641
+"Female"	"5yrs_2014_2018"	"Colon and Rectum"	"Non-Hispanic White"	33.541	0.071	33.403	33.680	248500	509150885
+"Female"	"5yrs_2014_2018"	"Colon and Rectum"	"Non-Hispanic Black"	38.543	0.190	38.172	38.917	43110	109688058
+"Female"	"5yrs_2014_2018"	"Colon and Rectum"	"Non-Hispanic American Indian/Alaska Native"	38.021	0.782	36.504	39.584	2532	6870658
+"Female"	"5yrs_2014_2018"	"Colon and Rectum"	"Non-Hispanic Asian or Pacific Islander"	25.553	0.225	25.114	25.998	13299	50965538
+"Female"	"5yrs_2014_2018"	"Colon and Rectum"	"Hispanic (All Races)"	29.357	0.172	29.021	29.697	30681	141209502
+"Female"	"5yrs_2014_2018"	"Colon and Rectum"	"Non-Hispanic Unknown Race"	 	 	 	 	2840	0
+"Female"	"5yrs_2014_2018"	"Liver and Intrahepatic Bile Duct"	"AllRaceEth"	4.714	0.022	4.672	4.756	49875	817884641
+"Female"	"5yrs_2014_2018"	"Liver and Intrahepatic Bile Duct"	"Non-Hispanic White"	3.957	0.023	3.911	4.003	30634	509150885
+"Female"	"5yrs_2014_2018"	"Liver and Intrahepatic Bile Duct"	"Non-Hispanic Black"	5.548	0.070	5.411	5.687	6599	109688058
+"Female"	"5yrs_2014_2018"	"Liver and Intrahepatic Bile Duct"	"Non-Hispanic American Indian/Alaska Native"	9.102	0.374	8.383	9.866	638	6870658
+"Female"	"5yrs_2014_2018"	"Liver and Intrahepatic Bile Duct"	"Non-Hispanic Asian or Pacific Islander"	7.116	0.121	6.882	7.357	3618	50965538
+"Female"	"5yrs_2014_2018"	"Liver and Intrahepatic Bile Duct"	"Hispanic (All Races)"	8.240	0.094	8.058	8.426	8167	141209502
+"Female"	"5yrs_2014_2018"	"Liver and Intrahepatic Bile Duct"	"Non-Hispanic Unknown Race"	 	 	 	 	219	0
+"Female"	"5yrs_2014_2018"	"Pancreas"	"AllRaceEth"	11.589	0.034	11.523	11.655	122632	817884641
+"Female"	"5yrs_2014_2018"	"Pancreas"	"Non-Hispanic White"	11.310	0.039	11.233	11.386	89742	509150885
+"Female"	"5yrs_2014_2018"	"Pancreas"	"Non-Hispanic Black"	15.094	0.119	14.861	15.330	16696	109688058
+"Female"	"5yrs_2014_2018"	"Pancreas"	"Non-Hispanic American Indian/Alaska Native"	10.800	0.421	9.991	11.657	705	6870658
+"Female"	"5yrs_2014_2018"	"Pancreas"	"Non-Hispanic Asian or Pacific Islander"	8.891	0.135	8.627	9.160	4463	50965538
+"Female"	"5yrs_2014_2018"	"Pancreas"	"Hispanic (All Races)"	10.958	0.109	10.745	11.174	10619	141209502
+"Female"	"5yrs_2014_2018"	"Pancreas"	"Non-Hispanic Unknown Race"	 	 	 	 	407	0
+"Female"	"5yrs_2014_2018"	"Larynx"	"AllRaceEth"	1.228	0.011	1.206	1.250	12875	817884641
+"Female"	"5yrs_2014_2018"	"Larynx"	"Non-Hispanic White"	1.357	0.014	1.330	1.385	10159	509150885
+"Female"	"5yrs_2014_2018"	"Larynx"	"Non-Hispanic Black"	1.490	0.036	1.420	1.563	1781	109688058
+"Female"	"5yrs_2014_2018"	"Larynx"	"Non-Hispanic American Indian/Alaska Native"	1.348	0.141	1.086	1.654	98	6870658
+"Female"	"5yrs_2014_2018"	"Larynx"	"Non-Hispanic Asian or Pacific Islander"	0.217	0.021	0.178	0.262	112	50965538
+"Female"	"5yrs_2014_2018"	"Larynx"	"Hispanic (All Races)"	0.617	0.025	0.570	0.668	653	141209502
+"Female"	"5yrs_2014_2018"	"Larynx"	"Non-Hispanic Unknown Race"	 	 	 	 	72	0
+"Female"	"5yrs_2014_2018"	"Lung and Bronchus"	"AllRaceEth"	51.142	0.071	51.003	51.280	541515	817884641
+"Female"	"5yrs_2014_2018"	"Lung and Bronchus"	"Non-Hispanic White"	56.323	0.086	56.154	56.493	444518	509150885
+"Female"	"5yrs_2014_2018"	"Lung and Bronchus"	"Non-Hispanic Black"	47.546	0.210	47.135	47.960	53695	109688058
+"Female"	"5yrs_2014_2018"	"Lung and Bronchus"	"Non-Hispanic American Indian/Alaska Native"	52.266	0.917	50.485	54.093	3501	6870658
+"Female"	"5yrs_2014_2018"	"Lung and Bronchus"	"Non-Hispanic Asian or Pacific Islander"	28.282	0.240	27.814	28.756	14435	50965538
+"Female"	"5yrs_2014_2018"	"Lung and Bronchus"	"Hispanic (All Races)"	24.808	0.165	24.486	25.133	23827	141209502
+"Female"	"5yrs_2014_2018"	"Lung and Bronchus"	"Non-Hispanic Unknown Race"	 	 	 	 	1539	0
+"Female"	"5yrs_2014_2018"	"Melanoma of the Skin"	"AllRaceEth"	18.102	0.045	18.014	18.190	172012	817884641
+"Female"	"5yrs_2014_2018"	"Melanoma of the Skin"	"Non-Hispanic White"	24.273	0.065	24.145	24.402	156589	509150885
+"Female"	"5yrs_2014_2018"	"Melanoma of the Skin"	"Non-Hispanic Black"	0.906	0.029	0.849	0.966	985	109688058
+"Female"	"5yrs_2014_2018"	"Melanoma of the Skin"	"Non-Hispanic American Indian/Alaska Native"	7.510	0.349	6.842	8.225	491	6870658
+"Female"	"5yrs_2014_2018"	"Melanoma of the Skin"	"Non-Hispanic Asian or Pacific Islander"	1.231	0.049	1.137	1.331	652	50965538
+"Female"	"5yrs_2014_2018"	"Melanoma of the Skin"	"Hispanic (All Races)"	4.685	0.067	4.556	4.818	5231	141209502
+"Female"	"5yrs_2014_2018"	"Melanoma of the Skin"	"Non-Hispanic Unknown Race"	 	 	 	 	8064	0
+"Female"	"5yrs_2014_2018"	"Breast"	"AllRaceEth"	127.456	0.117	127.227	127.687	1252899	817884641
+"Female"	"5yrs_2014_2018"	"Breast"	"Non-Hispanic White"	133.030	0.146	132.745	133.316	931347	509150885
+"Female"	"5yrs_2014_2018"	"Breast"	"Non-Hispanic Black"	127.856	0.345	127.180	128.534	143647	109688058
+"Female"	"5yrs_2014_2018"	"Breast"	"Non-Hispanic American Indian/Alaska Native"	103.887	1.274	101.404	106.415	7101	6870658
+"Female"	"5yrs_2014_2018"	"Breast"	"Non-Hispanic Asian or Pacific Islander"	99.484	0.435	98.632	100.341	53578	50965538
+"Female"	"5yrs_2014_2018"	"Breast"	"Hispanic (All Races)"	97.909	0.304	97.313	98.506	108389	141209502
+"Female"	"5yrs_2014_2018"	"Breast"	"Non-Hispanic Unknown Race"	 	 	 	 	8837	0
+"Female"	"5yrs_2014_2018"	"Cervix Uteri"	"AllRaceEth"	7.746	0.031	7.684	7.807	65482	817884641
+"Female"	"5yrs_2014_2018"	"Cervix Uteri"	"Non-Hispanic White"	7.296	0.039	7.219	7.372	39421	509150885
+"Female"	"5yrs_2014_2018"	"Cervix Uteri"	"Non-Hispanic Black"	8.906	0.092	8.726	9.090	9675	109688058
+"Female"	"5yrs_2014_2018"	"Cervix Uteri"	"Non-Hispanic American Indian/Alaska Native"	9.585	0.397	8.824	10.394	613	6870658
+"Female"	"5yrs_2014_2018"	"Cervix Uteri"	"Non-Hispanic Asian or Pacific Islander"	6.186	0.108	5.975	6.402	3328	50965538
+"Female"	"5yrs_2014_2018"	"Cervix Uteri"	"Hispanic (All Races)"	9.733	0.091	9.554	9.913	11766	141209502
+"Female"	"5yrs_2014_2018"	"Cervix Uteri"	"Non-Hispanic Unknown Race"	 	 	 	 	679	0
+"Female"	"5yrs_2014_2018"	"Corpus and Uterus, NOS"	"AllRaceEth"	27.473	0.053	27.369	27.577	283968	817884641
+"Female"	"5yrs_2014_2018"	"Corpus and Uterus, NOS"	"Non-Hispanic White"	27.852	0.064	27.727	27.978	207250	509150885
+"Female"	"5yrs_2014_2018"	"Corpus and Uterus, NOS"	"Non-Hispanic Black"	28.191	0.158	27.882	28.503	33339	109688058
+"Female"	"5yrs_2014_2018"	"Corpus and Uterus, NOS"	"Non-Hispanic American Indian/Alaska Native"	24.555	0.610	23.374	25.781	1731	6870658
+"Female"	"5yrs_2014_2018"	"Corpus and Uterus, NOS"	"Non-Hispanic Asian or Pacific Islander"	20.680	0.196	20.297	21.068	11417	50965538
+"Female"	"5yrs_2014_2018"	"Corpus and Uterus, NOS"	"Hispanic (All Races)"	24.850	0.152	24.554	25.149	28066	141209502
+"Female"	"5yrs_2014_2018"	"Corpus and Uterus, NOS"	"Non-Hispanic Unknown Race"	 	 	 	 	2165	0
+"Female"	"5yrs_2014_2018"	"Ovary"	"AllRaceEth"	10.773	0.034	10.707	10.840	106350	817884641
+"Female"	"5yrs_2014_2018"	"Ovary"	"Non-Hispanic White"	11.142	0.042	11.060	11.224	78714	509150885
+"Female"	"5yrs_2014_2018"	"Ovary"	"Non-Hispanic Black"	8.823	0.091	8.646	9.003	9910	109688058
+"Female"	"5yrs_2014_2018"	"Ovary"	"Non-Hispanic American Indian/Alaska Native"	10.680	0.411	9.889	11.517	719	6870658
+"Female"	"5yrs_2014_2018"	"Ovary"	"Non-Hispanic Asian or Pacific Islander"	9.244	0.133	8.985	9.509	4953	50965538
+"Female"	"5yrs_2014_2018"	"Ovary"	"Hispanic (All Races)"	10.160	0.098	9.969	10.354	11367	141209502
+"Female"	"5yrs_2014_2018"	"Ovary"	"Non-Hispanic Unknown Race"	 	 	 	 	687	0
+"Female"	"5yrs_2014_2018"	"Prostate"	"AllRaceEth"	 	 	 	 	 	817884641
+"Female"	"5yrs_2014_2018"	"Prostate"	"Non-Hispanic White"	 	 	 	 	 	509150885
+"Female"	"5yrs_2014_2018"	"Prostate"	"Non-Hispanic Black"	 	 	 	 	 	109688058
+"Female"	"5yrs_2014_2018"	"Prostate"	"Non-Hispanic American Indian/Alaska Native"	 	 	 	 	 	6870658
+"Female"	"5yrs_2014_2018"	"Prostate"	"Non-Hispanic Asian or Pacific Islander"	 	 	 	 	 	50965538
+"Female"	"5yrs_2014_2018"	"Prostate"	"Hispanic (All Races)"	 	 	 	 	 	141209502
+"Female"	"5yrs_2014_2018"	"Prostate"	"Non-Hispanic Unknown Race"	 	 	 	 	 	0
+"Female"	"5yrs_2014_2018"	"Testis"	"AllRaceEth"	 	 	 	 	 	817884641
+"Female"	"5yrs_2014_2018"	"Testis"	"Non-Hispanic White"	 	 	 	 	 	509150885
+"Female"	"5yrs_2014_2018"	"Testis"	"Non-Hispanic Black"	 	 	 	 	 	109688058
+"Female"	"5yrs_2014_2018"	"Testis"	"Non-Hispanic American Indian/Alaska Native"	 	 	 	 	 	6870658
+"Female"	"5yrs_2014_2018"	"Testis"	"Non-Hispanic Asian or Pacific Islander"	 	 	 	 	 	50965538
+"Female"	"5yrs_2014_2018"	"Testis"	"Hispanic (All Races)"	 	 	 	 	 	141209502
+"Female"	"5yrs_2014_2018"	"Testis"	"Non-Hispanic Unknown Race"	 	 	 	 	 	0
+"Female"	"5yrs_2014_2018"	"Urinary Bladder"	"AllRaceEth"	8.533	0.029	8.477	8.590	90633	817884641
+"Female"	"5yrs_2014_2018"	"Urinary Bladder"	"Non-Hispanic White"	9.490	0.036	9.420	9.560	75476	509150885
+"Female"	"5yrs_2014_2018"	"Urinary Bladder"	"Non-Hispanic Black"	6.550	0.079	6.396	6.708	7095	109688058
+"Female"	"5yrs_2014_2018"	"Urinary Bladder"	"Non-Hispanic American Indian/Alaska Native"	5.543	0.304	4.962	6.172	358	6870658
+"Female"	"5yrs_2014_2018"	"Urinary Bladder"	"Non-Hispanic Asian or Pacific Islander"	3.613	0.086	3.446	3.787	1810	50965538
+"Female"	"5yrs_2014_2018"	"Urinary Bladder"	"Hispanic (All Races)"	5.024	0.074	4.879	5.171	4791	141209502
+"Female"	"5yrs_2014_2018"	"Urinary Bladder"	"Non-Hispanic Unknown Race"	 	 	 	 	1103	0
+"Female"	"5yrs_2014_2018"	"Kidney and Renal Pelvis"	"AllRaceEth"	11.942	0.036	11.872	12.012	119527	817884641
+"Female"	"5yrs_2014_2018"	"Kidney and Renal Pelvis"	"Non-Hispanic White"	11.908	0.043	11.824	11.993	85359	509150885
+"Female"	"5yrs_2014_2018"	"Kidney and Renal Pelvis"	"Non-Hispanic Black"	13.592	0.112	13.373	13.813	15404	109688058
+"Female"	"5yrs_2014_2018"	"Kidney and Renal Pelvis"	"Non-Hispanic American Indian/Alaska Native"	17.461	0.519	16.457	18.509	1208	6870658
+"Female"	"5yrs_2014_2018"	"Kidney and Renal Pelvis"	"Non-Hispanic Asian or Pacific Islander"	5.523	0.104	5.320	5.731	2893	50965538
+"Female"	"5yrs_2014_2018"	"Kidney and Renal Pelvis"	"Hispanic (All Races)"	12.884	0.112	12.666	13.105	14064	141209502
+"Female"	"5yrs_2014_2018"	"Kidney and Renal Pelvis"	"Non-Hispanic Unknown Race"	 	 	 	 	599	0
+"Female"	"5yrs_2014_2018"	"Brain and Other Nervous System"	"AllRaceEth"	5.506	0.025	5.457	5.555	51013	817884641
+"Female"	"5yrs_2014_2018"	"Brain and Other Nervous System"	"Non-Hispanic White"	6.234	0.034	6.168	6.301	39172	509150885
+"Female"	"5yrs_2014_2018"	"Brain and Other Nervous System"	"Non-Hispanic Black"	3.527	0.057	3.415	3.641	3905	109688058
+"Female"	"5yrs_2014_2018"	"Brain and Other Nervous System"	"Non-Hispanic American Indian/Alaska Native"	3.908	0.244	3.444	4.417	270	6870658
+"Female"	"5yrs_2014_2018"	"Brain and Other Nervous System"	"Non-Hispanic Asian or Pacific Islander"	3.225	0.081	3.069	3.387	1645	50965538
+"Female"	"5yrs_2014_2018"	"Brain and Other Nervous System"	"Hispanic (All Races)"	4.662	0.065	4.536	4.791	5638	141209502
+"Female"	"5yrs_2014_2018"	"Brain and Other Nervous System"	"Non-Hispanic Unknown Race"	 	 	 	 	383	0
+"Female"	"5yrs_2014_2018"	"Thyroid"	"AllRaceEth"	20.830	0.051	20.731	20.930	178030	817884641
+"Female"	"5yrs_2014_2018"	"Thyroid"	"Non-Hispanic White"	22.046	0.067	21.915	22.178	120852	509150885
+"Female"	"5yrs_2014_2018"	"Thyroid"	"Non-Hispanic Black"	13.244	0.112	13.025	13.465	14572	109688058
+"Female"	"5yrs_2014_2018"	"Thyroid"	"Non-Hispanic American Indian/Alaska Native"	18.978	0.548	17.920	20.082	1264	6870658
+"Female"	"5yrs_2014_2018"	"Thyroid"	"Non-Hispanic Asian or Pacific Islander"	22.294	0.204	21.895	22.698	12143	50965538
+"Female"	"5yrs_2014_2018"	"Thyroid"	"Hispanic (All Races)"	21.546	0.134	21.285	21.810	26964	141209502
+"Female"	"5yrs_2014_2018"	"Thyroid"	"Non-Hispanic Unknown Race"	 	 	 	 	2235	0
+"Female"	"5yrs_2014_2018"	"Hodgkin Lymphoma"	"AllRaceEth"	2.337	0.017	2.304	2.371	19508	817884641
+"Female"	"5yrs_2014_2018"	"Hodgkin Lymphoma"	"Non-Hispanic White"	2.564	0.023	2.518	2.610	13243	509150885
+"Female"	"5yrs_2014_2018"	"Hodgkin Lymphoma"	"Non-Hispanic Black"	2.368	0.047	2.277	2.462	2612	109688058
+"Female"	"5yrs_2014_2018"	"Hodgkin Lymphoma"	"Non-Hispanic American Indian/Alaska Native"	1.579	0.154	1.291	1.912	109	6870658
+"Female"	"5yrs_2014_2018"	"Hodgkin Lymphoma"	"Non-Hispanic Asian or Pacific Islander"	1.164	0.048	1.073	1.262	613	50965538
+"Female"	"5yrs_2014_2018"	"Hodgkin Lymphoma"	"Hispanic (All Races)"	2.081	0.042	2.000	2.164	2713	141209502
+"Female"	"5yrs_2014_2018"	"Hodgkin Lymphoma"	"Non-Hispanic Unknown Race"	 	 	 	 	218	0
+"Female"	"5yrs_2014_2018"	"Non-Hodgkin Lymphoma"	"AllRaceEth"	15.973	0.041	15.893	16.053	161885	817884641
+"Female"	"5yrs_2014_2018"	"Non-Hodgkin Lymphoma"	"Non-Hispanic White"	16.553	0.049	16.457	16.650	123234	509150885
+"Female"	"5yrs_2014_2018"	"Non-Hodgkin Lymphoma"	"Non-Hispanic Black"	12.347	0.108	12.137	12.560	13690	109688058
+"Female"	"5yrs_2014_2018"	"Non-Hodgkin Lymphoma"	"Non-Hispanic American Indian/Alaska Native"	13.312	0.467	12.412	14.259	868	6870658
+"Female"	"5yrs_2014_2018"	"Non-Hodgkin Lymphoma"	"Non-Hispanic Asian or Pacific Islander"	11.049	0.149	10.759	11.344	5717	50965538
+"Female"	"5yrs_2014_2018"	"Non-Hodgkin Lymphoma"	"Hispanic (All Races)"	15.756	0.127	15.509	16.006	16452	141209502
+"Female"	"5yrs_2014_2018"	"Non-Hodgkin Lymphoma"	"Non-Hispanic Unknown Race"	 	 	 	 	1924	0
+"Female"	"5yrs_2014_2018"	"Myeloma"	"AllRaceEth"	5.748	0.024	5.701	5.795	59870	817884641
+"Female"	"5yrs_2014_2018"	"Myeloma"	"Non-Hispanic White"	4.815	0.026	4.765	4.865	37528	509150885
+"Female"	"5yrs_2014_2018"	"Myeloma"	"Non-Hispanic Black"	12.560	0.109	12.347	12.775	13917	109688058
+"Female"	"5yrs_2014_2018"	"Myeloma"	"Non-Hispanic American Indian/Alaska Native"	6.154	0.317	5.547	6.808	401	6870658
+"Female"	"5yrs_2014_2018"	"Myeloma"	"Non-Hispanic Asian or Pacific Islander"	3.137	0.080	2.983	3.297	1613	50965538
+"Female"	"5yrs_2014_2018"	"Myeloma"	"Hispanic (All Races)"	5.893	0.079	5.739	6.049	5891	141209502
+"Female"	"5yrs_2014_2018"	"Myeloma"	"Non-Hispanic Unknown Race"	 	 	 	 	520	0
+"Female"	"5yrs_2014_2018"	"Leukemias"	"AllRaceEth"	11.210	0.035	11.142	11.279	109983	817884641
+"Female"	"5yrs_2014_2018"	"Leukemias"	"Non-Hispanic White"	11.695	0.043	11.611	11.780	82906	509150885
+"Female"	"5yrs_2014_2018"	"Leukemias"	"Non-Hispanic Black"	9.194	0.093	9.011	9.378	10087	109688058
+"Female"	"5yrs_2014_2018"	"Leukemias"	"Non-Hispanic American Indian/Alaska Native"	9.593	0.392	8.840	10.392	634	6870658
+"Female"	"5yrs_2014_2018"	"Leukemias"	"Non-Hispanic Asian or Pacific Islander"	6.487	0.115	6.263	6.716	3281	50965538
+"Female"	"5yrs_2014_2018"	"Leukemias"	"Hispanic (All Races)"	9.765	0.096	9.578	9.954	11376	141209502
+"Female"	"5yrs_2014_2018"	"Leukemias"	"Non-Hispanic Unknown Race"	 	 	 	 	1699	0
+"Female"	"5yrs_2014_2018"	"Mesothelioma"	"AllRaceEth"	0.397	0.006	0.385	0.410	4066	817884641
+"Female"	"5yrs_2014_2018"	"Mesothelioma"	"Non-Hispanic White"	0.443	0.008	0.427	0.459	3370	509150885
+"Female"	"5yrs_2014_2018"	"Mesothelioma"	"Non-Hispanic Black"	0.205	0.014	0.178	0.234	220	109688058
+"Female"	"5yrs_2014_2018"	"Mesothelioma"	"Non-Hispanic American Indian/Alaska Native"	0.409	0.083	0.263	0.604	26	6870658
+"Female"	"5yrs_2014_2018"	"Mesothelioma"	"Non-Hispanic Asian or Pacific Islander"	0.155	0.018	0.122	0.193	79	50965538
+"Female"	"5yrs_2014_2018"	"Mesothelioma"	"Hispanic (All Races)"	0.344	0.019	0.308	0.382	356	141209502
+"Female"	"5yrs_2014_2018"	"Mesothelioma"	"Non-Hispanic Unknown Race"	 	 	 	 	 	0
+"Female"	"5yrs_2014_2018"	"Kaposi Sarcoma"	"AllRaceEth"	0.063	0.003	0.058	0.068	615	817884641
+"Female"	"5yrs_2014_2018"	"Kaposi Sarcoma"	"Non-Hispanic White"	0.038	0.002	0.034	0.043	300	509150885
+"Female"	"5yrs_2014_2018"	"Kaposi Sarcoma"	"Non-Hispanic Black"	0.138	0.012	0.116	0.163	143	109688058
+"Female"	"5yrs_2014_2018"	"Kaposi Sarcoma"	"Non-Hispanic American Indian/Alaska Native"	 	 	 	 	 	6870658
+"Female"	"5yrs_2014_2018"	"Kaposi Sarcoma"	"Non-Hispanic Asian or Pacific Islander"	0.035	0.009	0.020	0.056	17	50965538
+"Female"	"5yrs_2014_2018"	"Kaposi Sarcoma"	"Hispanic (All Races)"	0.117	0.011	0.095	0.141	108	141209502
+"Female"	"5yrs_2014_2018"	"Kaposi Sarcoma"	"Non-Hispanic Unknown Race"	 	 	 	 	42	0
+"Female"	"10yrs_2009_2018"	"All Sites"	"AllRaceEth"	425.512	0.152	425.213	425.811	8150366	1609495410
+"Female"	"10yrs_2009_2018"	"All Sites"	"Non-Hispanic White"	444.517	0.186	444.152	444.883	6209069	1018125162
+"Female"	"10yrs_2009_2018"	"All Sites"	"Non-Hispanic Black"	411.920	0.451	411.037	412.804	869019	214151267
+"Female"	"10yrs_2009_2018"	"All Sites"	"Non-Hispanic American Indian/Alaska Native"	387.838	1.820	384.279	391.421	48694	13479424
+"Female"	"10yrs_2009_2018"	"All Sites"	"Non-Hispanic Asian or Pacific Islander"	299.174	0.570	298.058	300.294	284619	94961593
+"Female"	"10yrs_2009_2018"	"All Sites"	"Hispanic (All Races)"	341.987	0.431	341.144	342.833	672600	268777964
+"Female"	"10yrs_2009_2018"	"All Sites"	"Non-Hispanic Unknown Race"	 	 	 	 	66365	0
+"Female"	"10yrs_2009_2018"	"Oral Cavity and Pharynx"	"AllRaceEth"	6.470	0.019	6.433	6.506	125843	1609495410
+"Female"	"10yrs_2009_2018"	"Oral Cavity and Pharynx"	"Non-Hispanic White"	6.966	0.023	6.921	7.011	99442	1018125162
+"Female"	"10yrs_2009_2018"	"Oral Cavity and Pharynx"	"Non-Hispanic Black"	5.189	0.050	5.092	5.288	11242	214151267
+"Female"	"10yrs_2009_2018"	"Oral Cavity and Pharynx"	"Non-Hispanic American Indian/Alaska Native"	5.659	0.217	5.242	6.101	730	13479424
+"Female"	"10yrs_2009_2018"	"Oral Cavity and Pharynx"	"Non-Hispanic Asian or Pacific Islander"	5.215	0.075	5.069	5.365	4983	94961593
+"Female"	"10yrs_2009_2018"	"Oral Cavity and Pharynx"	"Hispanic (All Races)"	4.293	0.049	4.198	4.390	8285	268777964
+"Female"	"10yrs_2009_2018"	"Oral Cavity and Pharynx"	"Non-Hispanic Unknown Race"	 	 	 	 	1161	0
+"Female"	"10yrs_2009_2018"	"Esophagus"	"AllRaceEth"	1.786	0.010	1.767	1.804	36157	1609495410
+"Female"	"10yrs_2009_2018"	"Esophagus"	"Non-Hispanic White"	1.837	0.011	1.815	1.859	28164	1018125162
+"Female"	"10yrs_2009_2018"	"Esophagus"	"Non-Hispanic Black"	2.263	0.033	2.199	2.329	4839	214151267
+"Female"	"10yrs_2009_2018"	"Esophagus"	"Non-Hispanic American Indian/Alaska Native"	1.893	0.128	1.650	2.161	236	13479424
+"Female"	"10yrs_2009_2018"	"Esophagus"	"Non-Hispanic Asian or Pacific Islander"	0.988	0.034	0.923	1.056	889	94961593
+"Female"	"10yrs_2009_2018"	"Esophagus"	"Hispanic (All Races)"	1.081	0.026	1.031	1.132	1874	268777964
+"Female"	"10yrs_2009_2018"	"Esophagus"	"Non-Hispanic Unknown Race"	 	 	 	 	155	0
+"Female"	"10yrs_2009_2018"	"Stomach"	"AllRaceEth"	4.660	0.016	4.629	4.691	90781	1609495410
+"Female"	"10yrs_2009_2018"	"Stomach"	"Non-Hispanic White"	3.509	0.016	3.478	3.541	51855	1018125162
+"Female"	"10yrs_2009_2018"	"Stomach"	"Non-Hispanic Black"	7.720	0.063	7.598	7.844	15722	214151267
+"Female"	"10yrs_2009_2018"	"Stomach"	"Non-Hispanic American Indian/Alaska Native"	6.227	0.235	5.776	6.704	756	13479424
+"Female"	"10yrs_2009_2018"	"Stomach"	"Non-Hispanic Asian or Pacific Islander"	7.932	0.095	7.746	8.121	7194	94961593
+"Female"	"10yrs_2009_2018"	"Stomach"	"Hispanic (All Races)"	7.874	0.067	7.743	8.007	14657	268777964
+"Female"	"10yrs_2009_2018"	"Stomach"	"Non-Hispanic Unknown Race"	 	 	 	 	597	0
+"Female"	"10yrs_2009_2018"	"Colon and Rectum"	"AllRaceEth"	34.616	0.043	34.532	34.700	678970	1609495410
+"Female"	"10yrs_2009_2018"	"Colon and Rectum"	"Non-Hispanic White"	34.441	0.050	34.342	34.540	503861	1018125162
+"Female"	"10yrs_2009_2018"	"Colon and Rectum"	"Non-Hispanic Black"	40.723	0.142	40.445	41.003	85379	214151267
+"Female"	"10yrs_2009_2018"	"Colon and Rectum"	"Non-Hispanic American Indian/Alaska Native"	37.631	0.574	36.514	38.772	4624	13479424
+"Female"	"10yrs_2009_2018"	"Colon and Rectum"	"Non-Hispanic Asian or Pacific Islander"	26.856	0.173	26.518	27.198	24913	94961593
+"Female"	"10yrs_2009_2018"	"Colon and Rectum"	"Hispanic (All Races)"	29.797	0.130	29.542	30.053	55444	268777964
+"Female"	"10yrs_2009_2018"	"Colon and Rectum"	"Non-Hispanic Unknown Race"	 	 	 	 	4749	0
+"Female"	"10yrs_2009_2018"	"Liver and Intrahepatic Bile Duct"	"AllRaceEth"	4.421	0.015	4.391	4.450	88696	1609495410
+"Female"	"10yrs_2009_2018"	"Liver and Intrahepatic Bile Duct"	"Non-Hispanic White"	3.653	0.016	3.621	3.685	54533	1018125162
+"Female"	"10yrs_2009_2018"	"Liver and Intrahepatic Bile Duct"	"Non-Hispanic Black"	5.366	0.050	5.268	5.466	11840	214151267
+"Female"	"10yrs_2009_2018"	"Liver and Intrahepatic Bile Duct"	"Non-Hispanic American Indian/Alaska Native"	8.665	0.271	8.141	9.213	1108	13479424
+"Female"	"10yrs_2009_2018"	"Liver and Intrahepatic Bile Duct"	"Non-Hispanic Asian or Pacific Islander"	7.442	0.093	7.261	7.626	6689	94961593
+"Female"	"10yrs_2009_2018"	"Liver and Intrahepatic Bile Duct"	"Hispanic (All Races)"	7.972	0.069	7.838	8.109	14141	268777964
+"Female"	"10yrs_2009_2018"	"Liver and Intrahepatic Bile Duct"	"Non-Hispanic Unknown Race"	 	 	 	 	385	0
+"Female"	"10yrs_2009_2018"	"Pancreas"	"AllRaceEth"	11.310	0.024	11.262	11.357	228188	1609495410
+"Female"	"10yrs_2009_2018"	"Pancreas"	"Non-Hispanic White"	11.025	0.027	10.971	11.079	169451	1018125162
+"Female"	"10yrs_2009_2018"	"Pancreas"	"Non-Hispanic Black"	14.842	0.087	14.673	15.013	30492	214151267
+"Female"	"10yrs_2009_2018"	"Pancreas"	"Non-Hispanic American Indian/Alaska Native"	10.102	0.302	9.519	10.711	1208	13479424
+"Female"	"10yrs_2009_2018"	"Pancreas"	"Non-Hispanic Asian or Pacific Islander"	8.856	0.102	8.657	9.058	7824	94961593
+"Female"	"10yrs_2009_2018"	"Pancreas"	"Hispanic (All Races)"	10.711	0.081	10.553	10.871	18512	268777964
+"Female"	"10yrs_2009_2018"	"Pancreas"	"Non-Hispanic Unknown Race"	 	 	 	 	701	0
+"Female"	"10yrs_2009_2018"	"Larynx"	"AllRaceEth"	1.299	0.008	1.283	1.316	25883	1609495410
+"Female"	"10yrs_2009_2018"	"Larynx"	"Non-Hispanic White"	1.418	0.010	1.398	1.438	20540	1018125162
+"Female"	"10yrs_2009_2018"	"Larynx"	"Non-Hispanic Black"	1.619	0.028	1.565	1.674	3602	214151267
+"Female"	"10yrs_2009_2018"	"Larynx"	"Non-Hispanic American Indian/Alaska Native"	1.238	0.099	1.053	1.448	169	13479424
+"Female"	"10yrs_2009_2018"	"Larynx"	"Non-Hispanic Asian or Pacific Islander"	0.258	0.017	0.226	0.294	237	94961593
+"Female"	"10yrs_2009_2018"	"Larynx"	"Hispanic (All Races)"	0.647	0.019	0.610	0.685	1222	268777964
+"Female"	"10yrs_2009_2018"	"Larynx"	"Non-Hispanic Unknown Race"	 	 	 	 	113	0
+"Female"	"10yrs_2009_2018"	"Lung and Bronchus"	"AllRaceEth"	52.460	0.052	52.359	52.562	1049779	1609495410
+"Female"	"10yrs_2009_2018"	"Lung and Bronchus"	"Non-Hispanic White"	57.410	0.063	57.286	57.533	868107	1018125162
+"Female"	"10yrs_2009_2018"	"Lung and Bronchus"	"Non-Hispanic Black"	49.441	0.157	49.134	49.750	103415	214151267
+"Female"	"10yrs_2009_2018"	"Lung and Bronchus"	"Non-Hispanic American Indian/Alaska Native"	52.248	0.683	50.919	53.603	6334	13479424
+"Female"	"10yrs_2009_2018"	"Lung and Bronchus"	"Non-Hispanic Asian or Pacific Islander"	28.673	0.182	28.317	29.031	25826	94961593
+"Female"	"10yrs_2009_2018"	"Lung and Bronchus"	"Hispanic (All Races)"	25.305	0.124	25.062	25.550	43524	268777964
+"Female"	"10yrs_2009_2018"	"Lung and Bronchus"	"Non-Hispanic Unknown Race"	 	 	 	 	2573	0
+"Female"	"10yrs_2009_2018"	"Melanoma of the Skin"	"AllRaceEth"	17.303	0.032	17.241	17.365	316297	1609495410
+"Female"	"10yrs_2009_2018"	"Melanoma of the Skin"	"Non-Hispanic White"	23.005	0.045	22.916	23.093	290094	1018125162
+"Female"	"10yrs_2009_2018"	"Melanoma of the Skin"	"Non-Hispanic Black"	0.943	0.022	0.900	0.986	1939	214151267
+"Female"	"10yrs_2009_2018"	"Melanoma of the Skin"	"Non-Hispanic American Indian/Alaska Native"	7.019	0.244	6.549	7.514	877	13479424
+"Female"	"10yrs_2009_2018"	"Melanoma of the Skin"	"Non-Hispanic Asian or Pacific Islander"	1.215	0.036	1.145	1.288	1158	94961593
+"Female"	"10yrs_2009_2018"	"Melanoma of the Skin"	"Hispanic (All Races)"	4.474	0.048	4.380	4.570	9196	268777964
+"Female"	"10yrs_2009_2018"	"Melanoma of the Skin"	"Non-Hispanic Unknown Race"	 	 	 	 	13033	0
+"Female"	"10yrs_2009_2018"	"Breast"	"AllRaceEth"	126.220	0.084	126.056	126.384	2389277	1609495410
+"Female"	"10yrs_2009_2018"	"Breast"	"Non-Hispanic White"	131.481	0.102	131.280	131.681	1802206	1018125162
+"Female"	"10yrs_2009_2018"	"Breast"	"Non-Hispanic Black"	127.443	0.249	126.955	127.933	271060	214151267
+"Female"	"10yrs_2009_2018"	"Breast"	"Non-Hispanic American Indian/Alaska Native"	101.387	0.917	99.598	103.200	13052	13479424
+"Female"	"10yrs_2009_2018"	"Breast"	"Non-Hispanic Asian or Pacific Islander"	96.463	0.318	95.841	97.088	94509	94961593
+"Female"	"10yrs_2009_2018"	"Breast"	"Hispanic (All Races)"	96.246	0.224	95.807	96.687	193755	268777964
+"Female"	"10yrs_2009_2018"	"Breast"	"Non-Hispanic Unknown Race"	 	 	 	 	14695	0
+"Female"	"10yrs_2009_2018"	"Cervix Uteri"	"AllRaceEth"	7.710	0.022	7.667	7.753	128211	1609495410
+"Female"	"10yrs_2009_2018"	"Cervix Uteri"	"Non-Hispanic White"	7.183	0.027	7.130	7.236	77939	1018125162
+"Female"	"10yrs_2009_2018"	"Cervix Uteri"	"Non-Hispanic Black"	9.374	0.068	9.241	9.509	19545	214151267
+"Female"	"10yrs_2009_2018"	"Cervix Uteri"	"Non-Hispanic American Indian/Alaska Native"	9.721	0.284	9.171	10.294	1222	13479424
+"Female"	"10yrs_2009_2018"	"Cervix Uteri"	"Non-Hispanic Asian or Pacific Islander"	6.278	0.081	6.121	6.438	6193	94961593
+"Female"	"10yrs_2009_2018"	"Cervix Uteri"	"Hispanic (All Races)"	9.845	0.068	9.713	9.979	22115	268777964
+"Female"	"10yrs_2009_2018"	"Cervix Uteri"	"Non-Hispanic Unknown Race"	 	 	 	 	1197	0
+"Female"	"10yrs_2009_2018"	"Corpus and Uterus, NOS"	"AllRaceEth"	26.658	0.037	26.585	26.732	527375	1609495410
+"Female"	"10yrs_2009_2018"	"Corpus and Uterus, NOS"	"Non-Hispanic White"	27.225	0.045	27.137	27.313	393653	1018125162
+"Female"	"10yrs_2009_2018"	"Corpus and Uterus, NOS"	"Non-Hispanic Black"	26.813	0.113	26.592	27.035	58856	214151267
+"Female"	"10yrs_2009_2018"	"Corpus and Uterus, NOS"	"Non-Hispanic American Indian/Alaska Native"	23.940	0.437	23.091	24.813	3193	13479424
+"Female"	"10yrs_2009_2018"	"Corpus and Uterus, NOS"	"Non-Hispanic Asian or Pacific Islander"	19.743	0.142	19.466	20.024	19814	94961593
+"Female"	"10yrs_2009_2018"	"Corpus and Uterus, NOS"	"Hispanic (All Races)"	23.546	0.110	23.331	23.763	48198	268777964
+"Female"	"10yrs_2009_2018"	"Corpus and Uterus, NOS"	"Non-Hispanic Unknown Race"	 	 	 	 	3661	0
+"Female"	"10yrs_2009_2018"	"Ovary"	"AllRaceEth"	11.282	0.025	11.233	11.331	214800	1609495410
+"Female"	"10yrs_2009_2018"	"Ovary"	"Non-Hispanic White"	11.742	0.030	11.683	11.802	162572	1018125162
+"Female"	"10yrs_2009_2018"	"Ovary"	"Non-Hispanic Black"	9.233	0.067	9.102	9.366	19550	214151267
+"Female"	"10yrs_2009_2018"	"Ovary"	"Non-Hispanic American Indian/Alaska Native"	11.070	0.305	10.481	11.684	1409	13479424
+"Female"	"10yrs_2009_2018"	"Ovary"	"Non-Hispanic Asian or Pacific Islander"	9.347	0.099	9.154	9.544	9104	94961593
+"Female"	"10yrs_2009_2018"	"Ovary"	"Hispanic (All Races)"	10.350	0.074	10.206	10.495	21071	268777964
+"Female"	"10yrs_2009_2018"	"Ovary"	"Non-Hispanic Unknown Race"	 	 	 	 	1094	0
+"Female"	"10yrs_2009_2018"	"Prostate"	"AllRaceEth"	 	 	 	 	 	1609495410
+"Female"	"10yrs_2009_2018"	"Prostate"	"Non-Hispanic White"	 	 	 	 	 	1018125162
+"Female"	"10yrs_2009_2018"	"Prostate"	"Non-Hispanic Black"	 	 	 	 	 	214151267
+"Female"	"10yrs_2009_2018"	"Prostate"	"Non-Hispanic American Indian/Alaska Native"	 	 	 	 	 	13479424
+"Female"	"10yrs_2009_2018"	"Prostate"	"Non-Hispanic Asian or Pacific Islander"	 	 	 	 	 	94961593
+"Female"	"10yrs_2009_2018"	"Prostate"	"Hispanic (All Races)"	 	 	 	 	 	268777964
+"Female"	"10yrs_2009_2018"	"Prostate"	"Non-Hispanic Unknown Race"	 	 	 	 	 	0
+"Female"	"10yrs_2009_2018"	"Testis"	"AllRaceEth"	 	 	 	 	 	1609495410
+"Female"	"10yrs_2009_2018"	"Testis"	"Non-Hispanic White"	 	 	 	 	 	1018125162
+"Female"	"10yrs_2009_2018"	"Testis"	"Non-Hispanic Black"	 	 	 	 	 	214151267
+"Female"	"10yrs_2009_2018"	"Testis"	"Non-Hispanic American Indian/Alaska Native"	 	 	 	 	 	13479424
+"Female"	"10yrs_2009_2018"	"Testis"	"Non-Hispanic Asian or Pacific Islander"	 	 	 	 	 	94961593
+"Female"	"10yrs_2009_2018"	"Testis"	"Hispanic (All Races)"	 	 	 	 	 	268777964
+"Female"	"10yrs_2009_2018"	"Testis"	"Non-Hispanic Unknown Race"	 	 	 	 	 	0
+"Female"	"10yrs_2009_2018"	"Urinary Bladder"	"AllRaceEth"	8.773	0.021	8.732	8.815	177162	1609495410
+"Female"	"10yrs_2009_2018"	"Urinary Bladder"	"Non-Hispanic White"	9.713	0.026	9.663	9.764	149123	1018125162
+"Female"	"10yrs_2009_2018"	"Urinary Bladder"	"Non-Hispanic Black"	6.680	0.059	6.565	6.796	13403	214151267
+"Female"	"10yrs_2009_2018"	"Urinary Bladder"	"Non-Hispanic American Indian/Alaska Native"	5.630	0.228	5.192	6.092	663	13479424
+"Female"	"10yrs_2009_2018"	"Urinary Bladder"	"Non-Hispanic Asian or Pacific Islander"	3.712	0.066	3.583	3.843	3261	94961593
+"Female"	"10yrs_2009_2018"	"Urinary Bladder"	"Hispanic (All Races)"	5.121	0.056	5.011	5.232	8721	268777964
+"Female"	"10yrs_2009_2018"	"Urinary Bladder"	"Non-Hispanic Unknown Race"	 	 	 	 	1991	0
+"Female"	"10yrs_2009_2018"	"Kidney and Renal Pelvis"	"AllRaceEth"	11.689	0.025	11.640	11.739	224488	1609495410
+"Female"	"10yrs_2009_2018"	"Kidney and Renal Pelvis"	"Non-Hispanic White"	11.664	0.030	11.605	11.723	163139	1018125162
+"Female"	"10yrs_2009_2018"	"Kidney and Renal Pelvis"	"Non-Hispanic Black"	13.399	0.081	13.241	13.559	28458	214151267
+"Female"	"10yrs_2009_2018"	"Kidney and Renal Pelvis"	"Non-Hispanic American Indian/Alaska Native"	16.934	0.375	16.208	17.685	2186	13479424
+"Female"	"10yrs_2009_2018"	"Kidney and Renal Pelvis"	"Non-Hispanic Asian or Pacific Islander"	5.300	0.077	5.151	5.453	4961	94961593
+"Female"	"10yrs_2009_2018"	"Kidney and Renal Pelvis"	"Hispanic (All Races)"	12.561	0.082	12.399	12.723	24707	268777964
+"Female"	"10yrs_2009_2018"	"Kidney and Renal Pelvis"	"Non-Hispanic Unknown Race"	 	 	 	 	1037	0
+"Female"	"10yrs_2009_2018"	"Brain and Other Nervous System"	"AllRaceEth"	5.606	0.018	5.571	5.642	100571	1609495410
+"Female"	"10yrs_2009_2018"	"Brain and Other Nervous System"	"Non-Hispanic White"	6.338	0.024	6.291	6.385	78258	1018125162
+"Female"	"10yrs_2009_2018"	"Brain and Other Nervous System"	"Non-Hispanic Black"	3.623	0.042	3.541	3.706	7667	214151267
+"Female"	"10yrs_2009_2018"	"Brain and Other Nervous System"	"Non-Hispanic American Indian/Alaska Native"	4.012	0.180	3.667	4.380	526	13479424
+"Female"	"10yrs_2009_2018"	"Brain and Other Nervous System"	"Non-Hispanic Asian or Pacific Islander"	3.225	0.060	3.109	3.344	3006	94961593
+"Female"	"10yrs_2009_2018"	"Brain and Other Nervous System"	"Hispanic (All Races)"	4.649	0.048	4.556	4.744	10465	268777964
+"Female"	"10yrs_2009_2018"	"Brain and Other Nervous System"	"Non-Hispanic Unknown Race"	 	 	 	 	649	0
+"Female"	"10yrs_2009_2018"	"Thyroid"	"AllRaceEth"	20.921	0.036	20.850	20.992	351141	1609495410
+"Female"	"10yrs_2009_2018"	"Thyroid"	"Non-Hispanic White"	22.330	0.047	22.237	22.423	245333	1018125162
+"Female"	"10yrs_2009_2018"	"Thyroid"	"Non-Hispanic Black"	13.429	0.081	13.271	13.589	28526	214151267
+"Female"	"10yrs_2009_2018"	"Thyroid"	"Non-Hispanic American Indian/Alaska Native"	17.574	0.377	16.843	18.329	2274	13479424
+"Female"	"10yrs_2009_2018"	"Thyroid"	"Non-Hispanic Asian or Pacific Islander"	22.190	0.150	21.897	22.486	22320	94961593
+"Female"	"10yrs_2009_2018"	"Thyroid"	"Hispanic (All Races)"	20.938	0.097	20.748	21.130	48631	268777964
+"Female"	"10yrs_2009_2018"	"Thyroid"	"Non-Hispanic Unknown Race"	 	 	 	 	4057	0
+"Female"	"10yrs_2009_2018"	"Hodgkin Lymphoma"	"AllRaceEth"	2.375	0.012	2.351	2.399	38895	1609495410
+"Female"	"10yrs_2009_2018"	"Hodgkin Lymphoma"	"Non-Hispanic White"	2.614	0.017	2.582	2.647	26999	1018125162
+"Female"	"10yrs_2009_2018"	"Hodgkin Lymphoma"	"Non-Hispanic Black"	2.376	0.034	2.311	2.443	5116	214151267
+"Female"	"10yrs_2009_2018"	"Hodgkin Lymphoma"	"Non-Hispanic American Indian/Alaska Native"	1.481	0.109	1.276	1.710	196	13479424
+"Female"	"10yrs_2009_2018"	"Hodgkin Lymphoma"	"Non-Hispanic Asian or Pacific Islander"	1.128	0.034	1.062	1.198	1106	94961593
+"Female"	"10yrs_2009_2018"	"Hodgkin Lymphoma"	"Hispanic (All Races)"	2.068	0.030	2.008	2.128	5064	268777964
+"Female"	"10yrs_2009_2018"	"Hodgkin Lymphoma"	"Non-Hispanic Unknown Race"	 	 	 	 	414	0
+"Female"	"10yrs_2009_2018"	"Non-Hodgkin Lymphoma"	"AllRaceEth"	16.200	0.029	16.142	16.257	314223	1609495410
+"Female"	"10yrs_2009_2018"	"Non-Hodgkin Lymphoma"	"Non-Hispanic White"	16.825	0.035	16.756	16.895	243303	1018125162
+"Female"	"10yrs_2009_2018"	"Non-Hodgkin Lymphoma"	"Non-Hispanic Black"	12.405	0.078	12.252	12.560	25971	214151267
+"Female"	"10yrs_2009_2018"	"Non-Hodgkin Lymphoma"	"Non-Hispanic American Indian/Alaska Native"	13.493	0.346	12.823	14.187	1637	13479424
+"Female"	"10yrs_2009_2018"	"Non-Hodgkin Lymphoma"	"Non-Hispanic Asian or Pacific Islander"	11.035	0.111	10.818	11.255	10236	94961593
+"Female"	"10yrs_2009_2018"	"Non-Hodgkin Lymphoma"	"Hispanic (All Races)"	15.735	0.095	15.551	15.922	29636	268777964
+"Female"	"10yrs_2009_2018"	"Non-Hodgkin Lymphoma"	"Non-Hispanic Unknown Race"	 	 	 	 	3440	0
+"Female"	"10yrs_2009_2018"	"Myeloma"	"AllRaceEth"	5.631	0.017	5.597	5.664	111905	1609495410
+"Female"	"10yrs_2009_2018"	"Myeloma"	"Non-Hispanic White"	4.740	0.018	4.705	4.776	71573	1018125162
+"Female"	"10yrs_2009_2018"	"Myeloma"	"Non-Hispanic Black"	12.380	0.079	12.226	12.535	25636	214151267
+"Female"	"10yrs_2009_2018"	"Myeloma"	"Non-Hispanic American Indian/Alaska Native"	5.728	0.226	5.293	6.188	692	13479424
+"Female"	"10yrs_2009_2018"	"Myeloma"	"Non-Hispanic Asian or Pacific Islander"	3.127	0.060	3.012	3.246	2867	94961593
+"Female"	"10yrs_2009_2018"	"Myeloma"	"Hispanic (All Races)"	5.747	0.058	5.633	5.862	10303	268777964
+"Female"	"10yrs_2009_2018"	"Myeloma"	"Non-Hispanic Unknown Race"	 	 	 	 	834	0
+"Female"	"10yrs_2009_2018"	"Leukemias"	"AllRaceEth"	11.271	0.025	11.222	11.320	213003	1609495410
+"Female"	"10yrs_2009_2018"	"Leukemias"	"Non-Hispanic White"	11.762	0.031	11.702	11.822	162886	1018125162
+"Female"	"10yrs_2009_2018"	"Leukemias"	"Non-Hispanic Black"	9.228	0.068	9.095	9.362	19143	214151267
+"Female"	"10yrs_2009_2018"	"Leukemias"	"Non-Hispanic American Indian/Alaska Native"	9.794	0.288	9.238	10.375	1230	13479424
+"Female"	"10yrs_2009_2018"	"Leukemias"	"Non-Hispanic Asian or Pacific Islander"	6.543	0.086	6.376	6.714	6007	94961593
+"Female"	"10yrs_2009_2018"	"Leukemias"	"Hispanic (All Races)"	9.706	0.071	9.568	9.846	20910	268777964
+"Female"	"10yrs_2009_2018"	"Leukemias"	"Non-Hispanic Unknown Race"	 	 	 	 	2827	0
+"Female"	"10yrs_2009_2018"	"Mesothelioma"	"AllRaceEth"	0.407	0.005	0.398	0.416	7979	1609495410
+"Female"	"10yrs_2009_2018"	"Mesothelioma"	"Non-Hispanic White"	0.452	0.006	0.441	0.463	6698	1018125162
+"Female"	"10yrs_2009_2018"	"Mesothelioma"	"Non-Hispanic Black"	0.215	0.011	0.195	0.237	434	214151267
+"Female"	"10yrs_2009_2018"	"Mesothelioma"	"Non-Hispanic American Indian/Alaska Native"	0.343	0.055	0.243	0.469	41	13479424
+"Female"	"10yrs_2009_2018"	"Mesothelioma"	"Non-Hispanic Asian or Pacific Islander"	0.157	0.013	0.132	0.186	142	94961593
+"Female"	"10yrs_2009_2018"	"Mesothelioma"	"Hispanic (All Races)"	0.347	0.014	0.320	0.375	641	268777964
+"Female"	"10yrs_2009_2018"	"Mesothelioma"	"Non-Hispanic Unknown Race"	 	 	 	 	23	0
+"Female"	"10yrs_2009_2018"	"Kaposi Sarcoma"	"AllRaceEth"	0.069	0.002	0.065	0.073	1295	1609495410
+"Female"	"10yrs_2009_2018"	"Kaposi Sarcoma"	"Non-Hispanic White"	0.041	0.002	0.038	0.044	641	1018125162
+"Female"	"10yrs_2009_2018"	"Kaposi Sarcoma"	"Non-Hispanic Black"	0.152	0.009	0.135	0.171	307	214151267
+"Female"	"10yrs_2009_2018"	"Kaposi Sarcoma"	"Non-Hispanic American Indian/Alaska Native"	 	 	 	 	 	13479424
+"Female"	"10yrs_2009_2018"	"Kaposi Sarcoma"	"Non-Hispanic Asian or Pacific Islander"	0.031	0.006	0.020	0.045	27	94961593
+"Female"	"10yrs_2009_2018"	"Kaposi Sarcoma"	"Hispanic (All Races)"	0.155	0.010	0.136	0.175	251	268777964
+"Female"	"10yrs_2009_2018"	"Kaposi Sarcoma"	"Non-Hispanic Unknown Race"	 	 	 	 	63	0

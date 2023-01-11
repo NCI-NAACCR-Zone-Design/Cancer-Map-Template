@@ -1,28 +1,39 @@
 /* 51_ZoneWebToolRates - Generate cancer rate table for the web tool from SEER*Stat results */
 
+/* 5/25/2022 - added a Zone Design AUTOCALL macro library for commonly used macros */
+/* 5/25/2022 - modified Excel file imports to use new ZD_ImportExcel macro */
+/* 5/25/2022 - modified Excel file export to use new ZD_ExportExcel macro */
+/* 6/27/2022 - eliminated special processing for using SEER vs non-SEER database and
+    removed the generation of suppression summary tables */
+/* 6/28/2022 - simplified processing of nationwide rate data for results from the new
+    NPCR SEER*Stat database */
+/* 11/23/2022 - modified to use ZoneIDFull for linking datasets and to use
+    a ZoneID for the web tool without the StFIPS or the trailing repetition letters */
+
 options sysprintfont=("Courier New" 8) leftmargin=0.75in nocenter compress=no;
-ods graphics on;
 
 %let stateAbbr=IA;    /* Set state/registry abbreviation */
 %let runNum=IA01; /* Run number used for Step 2 AZTool execution */
-%let year1=2015;  /* Latest year */
-%let year5=2011_2015;  /* 5-year range */
-%let year10=2006_2015;  /* 10-year range */
+%let year1=2018;  /* Latest year */
+%let year5=2014_2018;  /* 5-year range */
+%let year10=2009_2018;  /* 10-year range */
 %let nationwide=yes;  /* Include nationwide rates (yes|no)? */
-%let allUSdset=AllUS_Combined_v2_to2015; /* USCS dataset with national rates */
+%let allUSdset=AllUS_Combined_2021subm_to2018; /* USCS dataset with national rates */
 
 /* Specify data path here for portability: */
 %let pathbase=C:\Work\WebToolTables;
 
 libname ZONEDATA "&pathbase.";
-ods pdf file="&pathbase.\51_ZoneWebToolRates_&runNum..pdf";
+ods pdf file="&pathbase.\51_ZoneWebToolRates_&stateAbbr.to&year1..pdf";
+
+/* Set up the Zone Design AUTOCALL macro library */
+filename ZDAUTOS "&pathbase.\ZDMacros";
+options mautosource sasautos=(SASAUTOS ZDAUTOS);
 
 /* Import the final zone list Excel file */
-PROC IMPORT OUT=ZoneList
-            DATAFILE="&pathbase.\ZoneList_&runNum._final.xlsx"
-            DBMS=XLSX REPLACE;
-     SHEET="SummaryStats";
-run;
+%ZD_ImportExcel(sourcefile=&pathbase.\ZoneList_&runNum._final.xlsx, 
+    sheetname=FullStats, /*11/23/22 Update to sheetname*/
+    targetds=ZoneList);
 
 /* Import SEER*Stat rate session results - by zone */
 PROC IMPORT OUT=SEERin_zones
@@ -33,6 +44,7 @@ PROC IMPORT OUT=SEERin_zones
     DATAROW=2;
     GUESSINGROWS=1000; /* Zone names may be truncated */
 run;
+
 /* Import SEER*Stat rate session results - state as a whole */
 PROC IMPORT OUT=SEERin_state
             DATAFILE="&pathbase.\&stateAbbr.state_RateCalcs.txt"
@@ -42,10 +54,9 @@ PROC IMPORT OUT=SEERin_state
     DATAROW=2;
     GUESSINGROWS=1000;
 run;
+
 %if &nationwide. = %quote(yes) %then %do;
 /* Import SEER*Stat rate session results - US as a whole */
-/* These results are from a run done by NPCR folks against a CDC-internal database
-    and they include 1, 5, and 10 year results */
 PROC IMPORT OUT=SEERin_allUS
             DATAFILE="&pathbase.\National_Cancer_Rates\&allUSdset..txt"
             DBMS=DLM REPLACE;
@@ -56,65 +67,55 @@ PROC IMPORT OUT=SEERin_allUS
 run;
 %end; /* &nationwide=yes processing */
 
-/* Import SEER*Stat cancer site table */
-PROC IMPORT OUT=SeerStatSites
-            DATAFILE="&pathbase.\CancerSiteTable_&stateAbbr..xlsx"
-            DBMS=XLSX REPLACE;
-     SHEET="SEER_Stat";
-run;
-
-/* Import WebTool tables for site, years, and races */
-PROC IMPORT OUT=WebTool_CancerSites
-            DATAFILE="&pathbase.\CancerSiteTable_&stateAbbr..xlsx"
-            DBMS=XLSX REPLACE;
-     SHEET="Webtool CANCERSITE";
-run;
-PROC IMPORT OUT=WebTool_Years
-            DATAFILE="&pathbase.\CancerSiteTable_&stateAbbr..xlsx"
-            DBMS=XLSX REPLACE;
-     SHEET="Webtool TIME";
-run;
-PROC IMPORT OUT=WebTool_RaceEthGroups
-            DATAFILE="&pathbase.\CancerSiteTable_&stateAbbr..xlsx"
-            DBMS=XLSX REPLACE;
-     SHEET="Webtool RACE";
-run;
-
-/* Clear formats, informats and labels for imported datasets */
+/* Clear formats, informats and labels for SEER*Stat rate session datasets */
 proc datasets lib=work nolist;
-    MODIFY ZoneList; FORMAT _char_; INFORMAT _char_; ATTRIB _all_ label=''; run;
     MODIFY SEERin_zones; FORMAT _all_; INFORMAT _all_; ATTRIB _all_ label=''; run;
     MODIFY SEERin_state; FORMAT _all_; INFORMAT _all_; ATTRIB _all_ label=''; run;
     %if &nationwide. = %quote(yes) %then %do;
         MODIFY SEERin_allUS; FORMAT _all_; INFORMAT _all_; ATTRIB _all_ label=''; run;
     %end; /* &nationwide=yes processing */
-    MODIFY SeerStatSites; FORMAT _all_; INFORMAT _all_; ATTRIB _all_ label=''; run;
-    MODIFY WebTool_CancerSites; FORMAT _all_; INFORMAT _all_; ATTRIB _all_ label=''; run;
-    MODIFY WebTool_Years; FORMAT _all_; INFORMAT _all_; ATTRIB _all_ label=''; run;
-    MODIFY WebTool_RaceEthGroups; FORMAT _all_; INFORMAT _all_; ATTRIB _all_ label=''; run;
 quit;
 
+/* Import SEER*Stat cancer site table */
+%ZD_ImportExcel(sourcefile=&pathbase.\CancerSiteTable_&stateAbbr..xlsx,
+    sheetname=SEER_Stat,
+    targetds=SeerStatSites);
 
-/* Extract ZoneID and possibly truncated ZoneName */
+/* Import WebTool tables for site, years, and races */
+%ZD_ImportExcel(sourcefile=&pathbase.\CancerSiteTable_&stateAbbr..xlsx,
+    sheetname=Webtool CANCERSITE,
+    targetds=WebTool_CancerSites);
+%ZD_ImportExcel(sourcefile=&pathbase.\CancerSiteTable_&stateAbbr..xlsx,
+    sheetname=Webtool TIME,
+    targetds=WebTool_Years);
+%ZD_ImportExcel(sourcefile=&pathbase.\CancerSiteTable_&stateAbbr..xlsx,
+    sheetname=Webtool RACE,
+    targetds=WebTool_RaceEthGroups);
+
+/* In the SEER*Stat zone rate dataset, rename the Zone ID variable */
+/* 11/23/2022: modified to use ZoneIDFull */
 data SEERin_zones2;
-    length ZoneID $10 ZoneNameTrunc $200;
+    length ZoneIDFull $10;
     set SEERin_zones;
-    ZoneID = scan(Zones_&runNum._final,1,':');
-    ZoneNameTrunc = scan(Zones_&runNum._final,2,':');
+    ZoneIDFull = ZoneID_&stateAbbr.;
+    drop ZoneID_&stateAbbr.;
 run;
 
-/* Add full zone name */
-proc sort data=SEERin_zones2; by ZoneID; run;
-proc sort data=ZoneList; by ZoneIDOrig; run;
+/* Add full zone name and create a ZoneID for use with the web tool */
+/* 11/23/2022: use ZoneIDFull as the linkage key and add code to create ZoneID */
+proc sort data=SEERin_zones2; by ZoneIDFull; run;
+proc sort data=ZoneList; by ZoneIDFull; run;
 data SEERin_zones3;
     length ZoneID $10 ZoneName $200;
     merge SEERin_zones2 (in=inData)
-        ZoneList (in=inNames keep=ZoneName ZoneIDOrig
-            rename=(ZoneIDOrig=ZoneID));
-    by ZoneID;
+        ZoneList (in=inNames keep=ZoneName ZoneIDFull /*11/23/2022 use ZoneIDFull rather than ZoneIDOrig*/
+            /*rename=(ZoneIDOrig=ZoneID)*/);
+    by ZoneIDFull;
     if inData;
-    if not inNames then putlog "*** Missing zone name for ZoneID: " ZoneID;
-    drop ZoneNameTrunc Zones_&runNum._final;
+    if not inNames then putlog "*** Missing zone name for ZoneID: " ZoneIDFull;
+	ZoneID = substr(ZoneIDFull,3); /* 11/23/2022: Strip off the leading StFIPS code */
+    ZoneID = compress(ZoneID,'abcdefghijklmnopqrstuvwxyz'); /* 11/23/2022: Remove repetition letters */
+    drop ZoneIDFull; /* 11/23/2022 */
 run;
 
 /* Add a ZoneID variable to the state dataset so we can combine with zones */
@@ -133,9 +134,13 @@ data SEERin_allUS2;
 run;
 %end; /* &nationwide=yes processing */
 
-/* Combine zone and state datasets */
+/* Combine zone and state (and possibly national) datasets */
 data RateTable;
-    set SEERin_zones3 SEERin_state2;
+    set SEERin_zones3 SEERin_state2
+    %if &nationwide. = %quote(yes) %then %do;
+    SEERin_allUS2
+    %end; /* &nationwide=yes processing */
+    ;
 run;
 
 /* Clean up the data and rename columns */
@@ -173,69 +178,12 @@ data RateTable2;
         Population = PopTot;
 run;
 
-%if &nationwide. = %quote(yes) %then %do;
-/* Clean up the US data and rename columns to match */
-/* (Because these data come from the CDC USCS SEER*Stat database,
-    race and ethnicity are in separate variables.) */
-data RateTable_US;
-    length ZoneID $10 SexNew $10 Site $40 Years $5 RaceEth $12;
-    set SEERin_allUS2;
-    if index(LatestYears_1_5_10,"&year1.") > 0; /* Keep just the years ending in the &year1. value */
-    if Sex = 'Male and female' then SexNew = 'Both';
-    else SexNew = Sex;
-    Site = USCS_Sites;
-    select (LatestYears_1_5_10);
-        when ("1yr_&year1.")    Years='01yr';
-        when ("5yrs_&year5.")   Years='05yrs';
-        when ("10yrs_&year10.") Years='10yrs';
-        otherwise               Years='???';
-        end;
-    /* Set RaceEth variable and delete unneeded combinations */
-    if      (Race_recode_for_uscs = 'All races') and
-            (Origin_recode_with_AllOrigins = 'AllOrigins')
-                then RaceEth='.AllRaceEth';
-    else if (Race_recode_for_uscs = 'White') and
-            (Origin_recode_with_AllOrigins = 'Non-Spanish-Hispanic-Latino')
-                then RaceEth='White_NH';
-    else if (Race_recode_for_uscs = 'Black') and
-            (Origin_recode_with_AllOrigins = 'Non-Spanish-Hispanic-Latino')
-                then RaceEth='Black_NH';
-    else if (Race_recode_for_uscs = 'Asian or Pacific Islander') and
-            (Origin_recode_with_AllOrigins = 'Non-Spanish-Hispanic-Latino')
-                then RaceEth='API_NH';
-    else if (Race_recode_for_uscs = 'American Indian/Alaska Native') and
-            (Origin_recode_with_AllOrigins = 'Non-Spanish-Hispanic-Latino')
-                then RaceEth='AIAN_NH';
-    else if (Race_recode_for_uscs = 'All races') and
-            (Origin_recode_with_AllOrigins = 'Spanish-Hispanic-Latino')
-                then RaceEth='Hispanic';
-    else delete; /* Delete unneeded combinations */
-    drop Sex USCS_Sites LatestYears_1_5_10 Race_recode_for_uscs Origin_recode_with_AllOrigins Standard_Error;
-    rename
-        SexNew = Sex
-        Age_Adjusted_Rate = AAIR
-        Lower_Confidence_Interval = LCI
-        Upper_Confidence_Interval = UCI
-        Count = Cases
-        Population = PopTot;
-run;
-%end; /* &nationwide=yes processing */
-
-/* Add the US data to the main rate table */
-data RateTable3;
-    set RateTable2
-        %if &nationwide. = %quote(yes) %then %do;
-        RateTable_US
-        %end; /* &nationwide=yes processing */
-        ;
-run;
-
 /* Modify sex-specific site names and remove opposite sex observations */
-proc sort data=RateTable3; /* Sort by Site and Sex last so we can verify the changes */
+proc sort data=RateTable2; /* Sort by Site and Sex last so we can verify the changes */
     by ZoneID Years RaceEth Site Sex;
 run;
-data RateTable4;
-    set RateTable3;
+data RateTable3;
+    set RateTable2;
     SexSpecSite = 0; /* Sex-specific site flag */
     if Site = 'Breast' then do;
         SexSpecSite = 1;
@@ -271,7 +219,7 @@ run;
 
 /* Create a cancer site sort sequence field based on state rates */
 data SiteSortSeq;
-    set RateTable4;
+    set RateTable3;
     if ZoneID = "Statewide";
     if Years = '10yrs';
     if RaceEth = '.AllRaceEth';
@@ -288,10 +236,10 @@ data SiteSortSeq2;
 run;
 
 /* Add the site sort sequence field to the rate table */
-proc sort data=RateTable4; by Site; run;
+proc sort data=RateTable3; by Site; run;
 proc sort data=SiteSortSeq2; by Site; run;
-data RateTable5;
-    merge RateTable4 (in=inRates)
+data RateTable4;
+    merge RateTable3 (in=inRates)
         SiteSortSeq2 (in=inSort drop=AAIR);
     by Site;
     if inRates;
@@ -306,11 +254,11 @@ data SeerStatSites2;
     if Site_sex ^= '' then Site_full = catt(Site_SEERStat_var, ' (', Site_sex, ')');
     else Site_full = Site_SEERStat_var;
 run;
-proc sort data=RateTable5; by Site_full; run;
+proc sort data=RateTable4; by Site_full; run;
 proc sort data=SeerStatSites2; by Site_full; run;
-data RateTable6;
+data RateTable5;
     length ZoneID $10 Sex $10 Site_short $10 Years $5 RaceEth $12;
-    merge RateTable5 (in=inRates)
+    merge RateTable4 (in=inRates)
         SeerStatSites2 (in=inSites);
     by Site_full;
     if inRates;
@@ -320,7 +268,7 @@ run;
 
 /* Suppress counts and rates if 15 or fewer cases */
 data RateTable_wSuppr;
-    set RateTable6;
+    set RateTable5;
     if Cases < 16 then do;
         Cases = .;
         AAIR = .;
@@ -484,163 +432,36 @@ run;
 %FinalSort(ds=RateTable_WebTool4,zoneIdVar=Zone,lastBy=);
 
 
-/* Generate summary tables of percent suppressed */
-
-/* Create a dataset with just the zone rates (no state or US rates) */
-data RateTable_wSupprZonesOnly;
-    set RateTable_wSuppr;
-    if ZoneID in ("Statewide", "Nationwide") then delete;
-run;
-
-/* Calculate percent suppressed and clean up */
-%MACRO CalcPct(classVars=, suffix=);
-proc summary data=RateTable_wSupprZonesOnly noprint nway;
-    var LT16cases;
-    class &classVars. ByGroup Years;
-    output out=Summ&suffix. SUM= / AUTONAME AUTOLABEL;
-run;
-data Summ&suffix.2;
-    set Summ&suffix.;
-    if LT16cases_Sum = . then LT16cases_Sum = 0;
-    PctZoneSuppr = 100 * LT16cases_Sum / _FREQ_;
-    format PctZoneSuppr 7.2;
-    drop _TYPE_;
-    rename _FREQ_ = NumCells
-        LT16cases_Sum = SupprCells;
-run;
-data Summ&suffix.3;
-    retain PctSuppr_1yr PctSuppr_5yrs PctSuppr_10yrs .;
-    set Summ&suffix.2;
-    by &classVars. ByGroup;
-    if Years = '01yr' then PctSuppr_1yr = PctZoneSuppr;
-    if Years = '05yrs' then PctSuppr_5yrs = PctZoneSuppr;
-    if Years = '10yrs' then PctSuppr_10yrs = PctZoneSuppr;
-    if last.ByGroup then do;
-        output;
-        PctSuppr_1yr = .;
-        PctSuppr_5yrs = .;
-        PctSuppr_10yrs = .;
-        end;
-    format PctSuppr_1yr PctSuppr_5yrs PctSuppr_10yrs 7.2;
-    drop Years SupprCells PctZoneSuppr;
-run;
-proc sort data=Summ&suffix.3; by ByGroup; run;
-%MEND CalcPct;
-%CalcPct(classVars=, suffix=All);
-%CalcPct(classVars=RaceEth, suffix=Race);
-%CalcPct(classVars=SiteSort Site_short, suffix=Site);
-%CalcPct(classVars=RaceEth SiteSort Site_short, suffix=RaceSite);
-
-/* Delete the '.AllRaceEth' rows from the by-race-and-site dataset */
-data SummRaceSite4;
-    set SummRaceSite3;
-    if RaceEth = '.AllRaceEth' then delete;
-run;
-proc sort data=SummRaceSite4; by ByGroup descending RaceEth; run;
-
-/* Set up to export selected suppression summary tables to Excel */
-data ExcelSumm_BySite
-     ExcelSumm_BySiteSex;
-    length Site_short $10 NumCells 8;
-    set SummSite3;
-    if ByGroup = '1-BySite'    then output ExcelSumm_BySite;
-    if ByGroup = '2-BySiteSex' then output ExcelSumm_BySiteSex;
-    drop SiteSort ByGroup;
-run;
-data ExcelSumm_BySiteWhiteNH
-     ExcelSumm_BySiteHisp
-     ExcelSumm_BySiteBlackNH
-     ExcelSumm_BySiteAPINH
-     ExcelSumm_BySiteAIANNH;
-    length RaceEth $12 Site_short $10 NumCells 8;
-    set SummRaceSite4;
-    if ByGroup = '3-BySiteRaceEth' then do;
-        if RaceEth = 'White_NH' then output ExcelSumm_BySiteWhiteNH;
-        if RaceEth = 'Hispanic' then output ExcelSumm_BySiteHisp;
-        if RaceEth = 'Black_NH' then output ExcelSumm_BySiteBlackNH;
-        if RaceEth = 'API_NH' then output ExcelSumm_BySiteAPINH;
-        if RaceEth = 'AIAN_NH' then output ExcelSumm_BySiteAIANNH;
-        end;
-    drop SiteSort ByGroup;
-run;
-
-
 /* Save the main SAS datasets */
-data ZONEDATA.RateTable_&stateAbbr._wSuppr;  /* Rates with suppression */
+data ZONEDATA.RateTable_&stateAbbr.to&year1._wSuppr;  /* Rates with suppression */
     set RateTable_wSuppr;
 run;
-data ZONEDATA.RateTable_&stateAbbr._WebTool;  /* Rates for WebTool */
+data ZONEDATA.RateTable_&stateAbbr.to&year1._WebTool;  /* Rates for WebTool */
     set RateTable_WebTool4;
 run;
 
-/* Export web tool dataset to a CSV files */
+/* Export web tool dataset to a CSV file */
 proc export data=RateTable_WebTool (drop=SiteSort)
-            OUTFILE= "&pathbase.\RateTable_&stateAbbr._WebTool.csv"
+            OUTFILE= "&pathbase.\RateTable_&stateAbbr.to&year1._WebTool.csv"
             DBMS=csv REPLACE;
      PUTNAMES=YES;
 run;
 
-/* Export selected suppression summary tables to Excel */
-%MACRO ExportExcel(dset=);
-proc export data=ExcelSumm_&dset.
-            OUTFILE= "&pathbase.\RateTable_&stateAbbr._SupprSumm.xlsx"
-            DBMS=XLSX REPLACE;
-     SHEET="&dset.";
-run;
-%MEND ExportExcel;
-%ExportExcel(dset=BySite);
-%ExportExcel(dset=BySiteSex);
-%ExportExcel(dset=BySiteWhiteNH);
-%ExportExcel(dset=BySiteBlackNH);
-%ExportExcel(dset=BySiteHisp);
-%ExportExcel(dset=BySiteAPINH);
-%ExportExcel(dset=BySiteAIANNH);
-===
-/* Export selected suppression summary tables to Excel */
-/* Delete the target Excel file if it exists */
-data _null_;
-    fname = 'todelete';
-    rc = filename(fname, "&pathbase.\RateTable_&stateAbbr._SupprSumm.xlsx");
-    if rc = 0 and fexist(fname) then do;
-        rc = fdelete(fname);
-        if rc > 0 then putlog "*** Failed to delete previous Excel file, rc=" rc;
-        end;
-    rc = filename(fname);
-run;
-/* Assign a libname to the target Excel file */
-libname OutExcel "&pathbase.\RateTable_&stateAbbr._SupprSumm.xlsx";
-/* Macro to create a worksheet */
-%MACRO ExportExcel(dset=);
-data OutExcel.&dset.; /* Worksheet = &dset. */
-    set ExcelSumm_&dset.;
-run;
-%MEND ExportExcel;
-/* Create worksheets */
-%ExportExcel(dset=BySite);
-%ExportExcel(dset=BySiteSex);
-%ExportExcel(dset=BySiteWhiteNH);
-%ExportExcel(dset=BySiteBlackNH);
-%ExportExcel(dset=BySiteHisp);
-%ExportExcel(dset=BySiteAPINH);
-%ExportExcel(dset=BySiteAIANNH);
-/* Close the Excel file */
-libname OutExcel;
-
 
 /* Summary statistics */
-title "51_ZoneWebToolRates_&runNum. - summary statistics for web tool rate table";
-proc freq data=ZONEDATA.RateTable_&stateAbbr._WebTool;
+title "51_ZoneWebToolRates_&stateAbbr.to&year1. - summary statistics for web tool rate table";
+proc freq data=ZONEDATA.RateTable_&stateAbbr.to&year1._WebTool;
     table Cancer / list missing;
     table Sex / list missing;
     table Years / list missing;
 run;
 ods pdf STARTPAGE=NO;
-proc means data=ZONEDATA.RateTable_&stateAbbr._WebTool;
+proc means data=ZONEDATA.RateTable_&stateAbbr.to&year1._WebTool;
 run;
 ods pdf STARTPAGE=YES;
 
-title "51_ZoneWebToolRates_&runNum. - summary statistics for original rates with suppression";
-proc freq data=ZONEDATA.RateTable_&stateAbbr._wSuppr;
+title "51_ZoneWebToolRates_&stateAbbr.to&year1. - summary statistics for original rates with suppression";
+proc freq data=ZONEDATA.RateTable_&stateAbbr.to&year1._wSuppr;
     table Site_short / list missing;
     table Sex / list missing;
     table Years / list missing;
@@ -650,32 +471,10 @@ proc freq data=ZONEDATA.RateTable_&stateAbbr._wSuppr;
     table Years*ByGroup*LT16cases / list missing;
 run;
 ods pdf STARTPAGE=NO;
-proc means data=ZONEDATA.RateTable_&stateAbbr._wSuppr;
+proc means data=ZONEDATA.RateTable_&stateAbbr.to&year1._wSuppr;
     var AAIR LCI UCI Cases PopTot;
 run;
 ods pdf STARTPAGE=YES;
-
-/* Print the zone suppression summary tables */
-title "51_ZoneWebToolRates_&runNum. - zone suppression summary tables";
-proc print data=SummAll3 split='_';
-    ID ByGroup;
-    var NumCells PctSuppr_1yr PctSuppr_5yrs PctSuppr_10yrs;
-run;
-proc print data=SummRace3 split='_';
-    by ByGroup;
-    ID RaceEth;
-    var NumCells PctSuppr_1yr PctSuppr_5yrs PctSuppr_10yrs;
-run;
-proc print data=SummSite3 split='_';
-    by ByGroup;
-    ID Site_short;
-    var NumCells PctSuppr_1yr PctSuppr_5yrs PctSuppr_10yrs;
-run;
-proc print data=SummRaceSite4 split='_';
-    by ByGroup descending RaceEth;
-    ID RaceEth Site_short;
-    var NumCells PctSuppr_1yr PctSuppr_5yrs PctSuppr_10yrs;
-run;
 
 
 ods pdf close;
