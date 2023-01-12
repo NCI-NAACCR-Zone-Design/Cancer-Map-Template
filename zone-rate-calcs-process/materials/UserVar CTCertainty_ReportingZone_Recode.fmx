@@ -1,0 +1,16 @@
+[Field Links]
+Census Tr Certainty 2010 for Reporting Zone Analysis recode=Census Tr Certainty 2010 for Cancer Reporting Zone Analyses
+
+[FormatDataType]
+Census Tr Certainty 2010 for Reporting Zone Analysis recode=I
+
+[FormatCaseSensitivity]
+Census Tr Certainty 2010 for Reporting Zone Analysis recode=true
+
+[FormatEditableByUser]
+Census Tr Certainty 2010 for Reporting Zone Analysis recode=true
+
+[Format=Census Tr Certainty 2010 for Reporting Zone Analysis recode]
+1-2,6,8=High certainty (1,2,6) or low certainty but tract not required for zone
+1-6,8-9,14=All values
+

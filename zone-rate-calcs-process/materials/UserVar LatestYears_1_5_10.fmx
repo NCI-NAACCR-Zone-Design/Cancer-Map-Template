@@ -1,0 +1,17 @@
+[Field Links]
+LatestYears_1_5_10=Year of diagnosis
+
+[FormatDataType]
+LatestYears_1_5_10=I
+
+[FormatCaseSensitivity]
+LatestYears_1_5_10=true
+
+[FormatEditableByUser]
+LatestYears_1_5_10=true
+
+[Format=LatestYears_1_5_10]
+215=1yr_2015
+211-215=5yrs_2011_2015
+206-215=10yrs_2006_2015
+

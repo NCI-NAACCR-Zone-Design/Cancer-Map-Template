@@ -1,0 +1,43 @@
+[Field Links]
+USCS Sites=Site recode ICD-O-3/WHO 2008
+
+[Variable Descriptions]
+USCS Sites=Sites used in USCS Data Visualization web site
+
+[FormatDataType]
+USCS Sites=I
+
+[FormatCaseSensitivity]
+USCS Sites=true
+
+[FormatEditableByUser]
+USCS Sites=true
+
+[Format=USCS Sites]
+1-13,15-23,25-27,29-66,68-69,71-77,80,78,89,83,85,87-88,86=All Sites
+1-10=Oral Cavity and Pharynx
+11=Esophagus
+12=Stomach
+15-23,25-26=Colon and Rectum
+29-30=Liver and Intrahepatic Bile Duct
+33=Pancreas
+38=Larynx
+39=Lung and Bronchus
+44=Melanoma of the Skin
+46=Breast
+47=Cervix Uteri
+48-49=Corpus and Uterus, NOS
+50=Ovary
+54=Prostate
+55=Testis
+58=Urinary Bladder
+59=Kidney and Renal Pelvis
+63-64=Brain and Other Nervous System
+65=Thyroid
+68-69=Hodgkin Lymphoma
+71-72=Non-Hodgkin Lymphoma
+73=Myeloma
+74-77,80,78,89,83,85=Leukemias
+87=Mesothelioma
+88=Kaposi Sarcoma
+

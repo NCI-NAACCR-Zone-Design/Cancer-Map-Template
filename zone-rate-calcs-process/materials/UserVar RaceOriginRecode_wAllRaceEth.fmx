@@ -1,0 +1,21 @@
+[Field Links]
+Race and origin recode with AllRaceEth=Race and origin recode (NHW, NHB, NHAIAN, NHAPI, Hispanic)
+
+[FormatDataType]
+Race and origin recode with AllRaceEth=I
+
+[FormatCaseSensitivity]
+Race and origin recode with AllRaceEth=true
+
+[FormatEditableByUser]
+Race and origin recode with AllRaceEth=true
+
+[Format=Race and origin recode with AllRaceEth]
+1-5,9=AllRaceEth
+1=Non-Hispanic White
+2=Non-Hispanic Black
+3=Non-Hispanic American Indian/Alaska Native
+4=Non-Hispanic Asian or Pacific Islander
+5=Hispanic (All Races)
+9=Non-Hispanic Unknown Race
+
