@@ -2,7 +2,7 @@
 %macro ZD_ImportExcel(sourcefile=,sheetname=,targetds=);
 proc import OUT=&targetds.
             DATAFILE="&sourcefile."
-            DBMS=EXCELCS REPLACE;
+            DBMS=XLSX REPLACE;
     SHEET="&sheetname.";
 run;
 /* Clear formats informats and labels */
