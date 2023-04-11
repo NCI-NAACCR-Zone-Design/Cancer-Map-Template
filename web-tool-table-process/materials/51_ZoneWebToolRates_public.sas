@@ -9,6 +9,8 @@
     NPCR SEER*Stat database */
 /* 11/23/2022 - modified to use ZoneIDFull for linking datasets and to use
     a ZoneID for the web tool without the StFIPS or the trailing repetition letters */
+/*4/7/2023 - edited 'Export web tool dataset to a CSV file' step to fix typo that originally exported RateTable_WebTool instead of
+	RateTable_WebTool4*/
 
 options sysprintfont=("Courier New" 8) leftmargin=0.75in nocenter compress=no;
 
@@ -441,7 +443,7 @@ data ZONEDATA.RateTable_&stateAbbr.to&year1._WebTool;  /* Rates for WebTool */
 run;
 
 /* Export web tool dataset to a CSV file */
-proc export data=RateTable_WebTool (drop=SiteSort)
+proc export data=RateTable_WebTool4 (drop=SiteSort)
             OUTFILE= "&pathbase.\RateTable_&stateAbbr.to&year1._WebTool.csv"
             DBMS=csv REPLACE;
      PUTNAMES=YES;
