@@ -21,7 +21,9 @@ require('./printing-leaflet-easyPrint.js');
 
 // the map and some constants
 var MAP;
-var MAP_BBOX = [[32.092, -94.438], [33.146, -93.142]];  // [[s, w], [n, e]]
+// var MAP_BBOX = [[32.092, -94.438], [33.146, -93.142]];  // [[s, w], [n, e]]
+var MAP_BBOX = [[38.5268, -74.2317], [39.8108, -75.5277]];  // [[s, w], [n, e]] DELAWARE
+
 
 var MIN_ZOOM = 6;
 var MAX_ZOOM = 15;
@@ -31,11 +33,20 @@ var BING_API_KEY = '';
 
 // URLs of our data files, storage for them in memory for filtering and querying, and raw copies for exporting
 var DATA_URL_CTAGEOM = 'static/data/cta.json';
-var DATA_URL_CANCER = 'static/data/cancerincidence.csv';
-var DATA_URL_DEMOGS = 'static/data/demographics.csv';
+// var DATA_URL_CANCER = 'static/data/cancerincidence.csv';
+var DATA_URL_CANCER = 'static/data/testCancerIncidenceDelaware.csv';
+// var DATA_URL_DEMOGS = 'static/data/demographics.csv';
+var DATA_URL_DEMOGS = 'static/data/testDemographicsDelaware.csv';
 var DATA_URL_CTACOUNTY = 'static/data/counties_by_cta.csv';
 var DATA_URL_CTACITY = 'static/data/cities_by_cta.csv';
-var DATA_URL_COUNTYGEOM = 'static/data/countybounds.json';
+// var DATA_URL_COUNTYGEOM = 'static/data/countybounds.json';
+// var DATA_URL_COUNTYGEOM = 'static/data/delawareCountyBounds.json';
+var DATA_URL_ZONEGEOM = 'static/data/testZones.json';
+var DATA_URL_COUNTYGEOM = 'static/data/testCounties.json';
+var DATA_URL_PLACEGEOM = 'static/data/testPlaces.json';
+
+
+
 
 // the set of options for search filters: cancer site, race, and time period
 // each definition is the field value from the incidence CSV, mapped onto a human-readable label
@@ -64,6 +75,9 @@ var SEARCHOPTIONS_CANCERSITE = [  // filter values for "cancer" field
     { value: 'Larynx', label: "Larynx Cancer" },
     { value: 'Ovary', label: "Ovarian Cancer" },
     { value: 'Esoph', label: "Esophagian Cancer" },
+    { value: 'Cervix', label: "Cervix Uteri" },
+    { value: 'HL', label: "Hodgkin Lymphoma" },
+    { value: 'Testis', label: "Testis" },
 ];
 var SEARCHOPTIONS_SEX = [  // filter values for "sex" field
     { value: 'Both', label: "All Sexes" },
@@ -71,13 +85,14 @@ var SEARCHOPTIONS_SEX = [  // filter values for "sex" field
     { value: 'Female', label: "Female" },
 ];
 var SEARCHOPTIONS_TIME = [  // filter values for "years" field
-    { value: '05yrs', label: "5-Year: 2011-2015" },
-    { value: '10yrs', label: "10-Year: 2006-2015" },
+    { value: '05yrs', label: "5-Year: 2015-2019" },
+    { value: '10yrs', label: "10-Year: 2010-2019" },
 ];
 var SEARCHOPTIONS_RACE = [  // field prefix for AAIR, LCI, UCI fields within the incidence row
     { value: '', label: "All Ethnicities" },
     { value: 'W', label: "Non-Hispanic White" },
     { value: 'B', label: "Non-Hispanic Black" },
+    { value: 'H', label: "Hispanic" },
 ];
 
 // if any of the cancer sites should apply to only one sex, you may define that here
@@ -88,7 +103,9 @@ var CANCER_SEXES = {
     'Breast': 'Female',
     'Uterine': 'Female',
     'Ovary': 'Female',
+    'Cervix': 'Female',
     'Prostate': 'Male',
+    'Testis': 'Male',
 };
 
 // the demographics and incidence readouts will show stats for the CTA Zone, as well as Statewide and Nationwide stats for comparison
@@ -115,23 +132,40 @@ var DEMOGRAPHIC_TABLES = [
         rows: [
             { field: 'TotalPop', label: "Total Population", format: 'integer', tooltip_id: undefined },
             { field: 'PctRural', label: "% Living in Rural Area", format: 'percent', tooltip_id: 'PctRural' },
-            { field: 'PctNoHealthIns', label: "% Without Health Insurance", format: 'percent', tooltip_id: 'PctNoHealthIns' },
-            { field: 'PctBelowPov', label: "% Below Poverty", format: 'percent', tooltip_id: 'PctBelowPov' },
         ],
     },
     {
         title: "Race & Ethnicity",
         rows: [
-            { field: 'PctMinority', label: "% Minority", format: 'percent', tooltip_id: 'PctMinority' },
+            { field: 'PctMinority', label: "% minority (other than non-Hispanic White)", format: 'percent', tooltip_id: 'PctMinority' },
             { field: 'PctHispanic', label: "% Hispanic", format: 'percent', tooltip_id: 'PctHispanic' },
             { field: 'PctBlackNH', label: "% Black (non-Hispanic)", format: 'percent', tooltip_id: 'PctBlackNH' },
         ],
     },
     {
+        title: "Income",
+        rows: [
+            // { field: 'PctBelowPov', label: "% Below Poverty", format: 'percent', tooltip_id: 'PctBelowPov' }, // cht comment out because not in data causes error
+            { field: 'PctNoHealthIns', label: "% Without Health Insurance", format: 'percent', tooltip_id: 'PctNoHealthIns' },
+        ],
+    },
+    {
         title: "Education",
         rows: [
-            { field: 'PctEducBch', label: "% With Bachelors Degree or Higher", format: 'percent', tooltip_id: 'PctEducBch' },
+            { field: 'PctEducBchPlus', label: "% With Bachelors Degree or Higher", format: 'percent', tooltip_id: 'PctEducBchPlus' },
             { field: 'PctEducLHS', label: "% Did Not Finish High School", format: 'percent', tooltip_id: 'PctEducLHS' },
+        ],
+    },
+    {
+        title: "Disability Status",
+        rows: [
+            // { field: 'Disability Status', label: "% With a Disability", format: 'percent', tooltip_id: 'PctDisabled' }, // cht comment out because not in data causes error
+        ],
+    },
+    {
+        title: "Nativity in US",
+        rows: [
+            { field: 'Pct_forborn', label: "% Foreign Born", format: 'percent', tooltip_id: 'Pct_forborn' },
         ],
     },
 ];
@@ -209,6 +243,17 @@ var MAP_LAYERS = [
     {
         id: 'counties',
         label: "Counties",
+        layer: undefined,  // see initFixCountyOverlay() where we patch this in to become a L.GeoJSON layer, since that comes after startup promises but before initMap()
+    },
+    {
+        id: 'zones',
+        label: "Zones",
+        checked: true,
+        layer: undefined,  // see initFixCountyOverlay() where we patch this in to become a L.GeoJSON layer, since that comes after startup promises but before initMap()
+    },
+    {
+        id: 'places',
+        label: "Places",
         layer: undefined,  // see initFixCountyOverlay() where we patch this in to become a L.GeoJSON layer, since that comes after startup promises but before initMap()
     },
     {
@@ -295,6 +340,12 @@ $(document).ready(function () {
                 },
             });
         }),
+        new Promise(function(resolve) {
+            $.get(DATA_URL_ZONEGEOM, (data) => { resolve(data); }, 'json');
+        }),
+        new Promise(function(resolve) {
+            $.get(DATA_URL_PLACEGEOM, (data) => { resolve(data); }, 'json');
+        }),
     ];
 
     Promise.all(waitforparsing).then(function (datasets) {
@@ -306,10 +357,14 @@ $(document).ready(function () {
         DATA_CANCER = datasets[3];
         DATA_CTACOUNTY = datasets[4];
         DATA_CTACITY = datasets[5];
+        ZONETOPOJSONDATA = datasets[6];
+        PlaceTOPOJSONDATA = datasets[7];
 
         initValidateDemographicDataset();
         initValidateIncidenceDataset();
         initFixCountyOverlay();
+        initFixZoneOverlay();
+        initFixPlaceOverlay();
 
         // and we can finally get started!
         initDemographicTables();
@@ -553,6 +608,24 @@ function initValidateDemographicDataset () {
 function initFixCountyOverlay () {
     const maplayerinfo = MAP_LAYERS.filter(function (maplayerinfo) { return maplayerinfo.id == 'counties'; })[0];
     maplayerinfo.layer = L.topoJson(COUNTYTOPOJSONDATA, {
+        pane: 'tooltipPane',
+        zIndex: 500,
+        style: COUNTYBOUNDS_STYLE,  // see performSearchMap() where these are reassigned based on filters
+    });
+}
+
+function initFixZoneOverlay () {
+    const maplayerinfo = MAP_LAYERS.filter(function (maplayerinfo) { return maplayerinfo.id == 'zones'; })[0];
+    maplayerinfo.layer = L.topoJson(ZONETOPOJSONDATA, {
+        pane: 'tooltipPane',
+        zIndex: 500,
+        style: COUNTYBOUNDS_STYLE,  // see performSearchMap() where these are reassigned based on filters
+    });
+}
+
+function initFixPlaceOverlay () {
+    const maplayerinfo = MAP_LAYERS.filter(function (maplayerinfo) { return maplayerinfo.id == 'places'; })[0];
+    maplayerinfo.layer = L.topoJson(PlaceTOPOJSONDATA, {
         pane: 'tooltipPane',
         zIndex: 500,
         style: COUNTYBOUNDS_STYLE,  // see performSearchMap() where these are reassigned based on filters

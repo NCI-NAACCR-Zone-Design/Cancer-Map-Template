@@ -127,7 +127,7 @@ module.exports = {
      */
     devServer: {
         contentBase: './docs/',
-        port: 8181,
+        port: 8182,
         compress: true,
         watchContentBase: true, // live reload
     }
