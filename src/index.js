@@ -29,14 +29,14 @@ var MIN_ZOOM = 6;
 var MAX_ZOOM = 15;
 
 // for the geocoder: our Bing API key
-var BING_API_KEY = '';
+var BING_API_KEY = 'AqmUJHuT9QJE5A0m1Kf48g2vxBND3cJ0_jJI3jJQIv9oE11VIG9WZbhq2owRSUZK';
 
 // URLs of our data files, storage for them in memory for filtering and querying, and raw copies for exporting
 var DATA_URL_CTAGEOM = 'static/data/cta.json';
 // var DATA_URL_CANCER = 'static/data/cancerincidence.csv';
 var DATA_URL_CANCER = 'static/data/testCancerIncidenceDelaware.csv';
 // var DATA_URL_DEMOGS = 'static/data/demographics.csv';
-var DATA_URL_DEMOGS = 'static/data/testDemographicsDelaware.csv';
+var DATA_URL_DEMOGS = 'static/data/demographics.csv';
 var DATA_URL_CTACOUNTY = 'static/data/counties_by_cta.csv';
 var DATA_URL_CTACITY = 'static/data/cities_by_cta.csv';
 // var DATA_URL_COUNTYGEOM = 'static/data/countybounds.json';
@@ -206,11 +206,18 @@ var CHOROPLETH_OPTIONS = [
     { field: 'Cases', label: "Cases", format: 'integer', colorramp: CHOROPLETH_STYLE_INCIDENCE },
     { field: 'AAIR', label: "Incidence", format: 'float', colorramp: CHOROPLETH_STYLE_INCIDENCE },
     // demographic data; customize this to suit your preferences
-    { field: 'TotalPop', label: "Population", format: 'integer', colorramp: CHOROPLETH_STYLE_DEMOGRAPHIC },
-    { field: 'PctMinority', label: "% Minority", format: 'percent', colorramp: CHOROPLETH_STYLE_DEMOGRAPHIC },
+    { field: 'TotalPop', label: "Total Population", format: 'integer', colorramp: CHOROPLETH_STYLE_DEMOGRAPHIC },
+    { field: 'PctRural', label: "% Living in Rural Area", format: 'percent', colorramp: CHOROPLETH_STYLE_DEMOGRAPHIC },
+    { field: 'PctMinority', label: "% minority (other than non-Hispanic White)", format: 'percent', colorramp: CHOROPLETH_STYLE_DEMOGRAPHIC },
     { field: 'PctHispanic', label: "% Hispanic", format: 'percent', colorramp: CHOROPLETH_STYLE_DEMOGRAPHIC },
     { field: 'PctBlackNH', label: "% Black (non-Hispanic)", format: 'percent', colorramp: CHOROPLETH_STYLE_DEMOGRAPHIC },
     { field: 'PctRural', label: "% Living in Rural Area", format: 'percent', colorramp: CHOROPLETH_STYLE_DEMOGRAPHIC },
+    { field: 'PctNoHealthIns', label: "% Without Health Insurance", format: 'percent', colorramp: CHOROPLETH_STYLE_DEMOGRAPHIC },
+    { field: 'PctEducBchPlus', label: "% With Bachelors Degree or Higher", format: 'percent', colorramp: CHOROPLETH_STYLE_DEMOGRAPHIC },
+    { field: 'PctEducLHS', label: "% Did Not Finish High School", format: 'percent', colorramp: CHOROPLETH_STYLE_DEMOGRAPHIC },
+    // { field: 'PctBelowPov', label: "% Below Poverty", format: 'percent', colorramp: CHOROPLETH_STYLE_DEMOGRAPHIC }, // cht comment out because not in data causes error
+    // { field: 'Disability Status', label: "% With a Disability", format: 'percent', tooltip_id: 'PctDisabled' }, // cht comment out because not in data causes error
+
 ];
 
 // the style to use for the MAP_LAYERS.county GeoJSON overlay
@@ -1103,7 +1110,7 @@ function performSearch () {
     // get the search params so we can filter to the specific row
     // if we have an address to geocode, then do that as well
     const params = compileParams();
-
+    console.log('params: ', params)
     // the CTA ID and CTA Name are figured here, since we need to find the CTA just to proceed to performSearchReally()
     // may as well just capture it here and include it into the searchparams
     params.ctaid = 'Statewide';
@@ -1124,6 +1131,7 @@ function performSearch () {
                 params.ctaid = cta.feature.properties.Zone;
                 params.ctaname = cta.feature.properties.ZoneName.replace(/\_\d+$/, '');  // trim off the end
                 params.bbox = causedbyaddresschange ? cta.getBounds() : null;
+                console.log('params if cta: ', params)
                 performSearchReally(params);
             }
             else {
@@ -1134,13 +1142,14 @@ function performSearch () {
         else {
             // some other address (including latlng, whch Bing just returns instantly), I guess go ahead and geocode it
             geocodeAddress(params.address, function (latlng) {
+                console.log('params if geocodeAddress: ', params)
                 if (! latlng) return toggleAddressSearchFailure('Could not find that address');
-
+                console.log('latlng: ', latlng)
                 // find the CTA containing this point, if any
                 // if there isn't one, a popup alert is super annoying; we have a special UI thing when that happens
                 const searchlatlng = [ latlng[0], latlng[1] ];
                 const cta = findCTAContainingLatLng(searchlatlng);
-
+                console.log('cta: ', cta)
                 if (cta) {
                     // now do the search
                     params.ctaid = cta.feature.properties.Zone;
@@ -1831,7 +1840,7 @@ function updateUrlParams () {
 function findCTAContainingLatLng (inputlatlng) {
     // accept a [lat,lng] or a L.LatLng, and standardize on one... let's go with L.LatLng object
     const latlng = inputlatlng.hasOwnProperty('length') ? L.latLng(inputlatlng[0], inputlatlng[1]) : inputlatlng;
-
+    console.log('latlng in find: ', latlng)
     // yay Leaflet-PIP
     const containingcta = leafletPip.pointInLayer(latlng, MAP.ctapolygonfills);
 
