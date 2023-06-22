@@ -33,16 +33,14 @@ var BING_API_KEY = 'AqmUJHuT9QJE5A0m1Kf48g2vxBND3cJ0_jJI3jJQIv9oE11VIG9WZbhq2owR
 
 // URLs of our data files, storage for them in memory for filtering and querying, and raw copies for exporting
 var DATA_URL_CTAGEOM = 'static/data/cta.json';
-// var DATA_URL_CANCER = 'static/data/cancerincidence.csv';
-var DATA_URL_CANCER = 'static/data/testCancerIncidenceDelaware.csv';
-// var DATA_URL_DEMOGS = 'static/data/demographics.csv';
+var DATA_URL_CANCER = 'static/data/cancerincidence.csv';
 var DATA_URL_DEMOGS = 'static/data/demographics.csv';
 var DATA_URL_CTACOUNTY = 'static/data/counties_by_cta.csv';
 var DATA_URL_CTACITY = 'static/data/cities_by_cta.csv';
-// var DATA_URL_COUNTYGEOM = 'static/data/countybounds.json';
-// var DATA_URL_COUNTYGEOM = 'static/data/delawareCountyBounds.json';
-var DATA_URL_ZONEGEOM = 'static/data/testZones.json';
-var DATA_URL_COUNTYGEOM = 'static/data/testCounties.json';
+var DATA_URL_COUNTYGEOM = 'static/data/countybounds.json';
+
+var DATA_URL_ZONEGEOM = 'static/data/cta.json';
+// var DATA_URL_COUNTYGEOM = 'static/data/testCounties.json';
 var DATA_URL_PLACEGEOM = 'static/data/testPlaces.json';
 
 
@@ -176,7 +174,10 @@ var DEMOGRAPHIC_TABLES = [
 // then CHOROPLETH_STYLE_INCIDENCE and CHOROPLETH_STYLE_DEMOGRAPHIC are added to form the choropleth coloring
 // see performSearchMap() which calculates scoring and uses these color ramps, to implement the choropleth behavior
 var CHOROPLETH_STYLE_NODATA = { fillOpacity: 0.25, fillColor: '#cccccc', color: 'black', opacity: 0.2, weight: 1 };
+// var CHOROPLETH_STYLE_NODATA = { fillOpacity: 0.25, fillColor: 'red', color: 'black', opacity: 0.2, weight: 1 };
 
+
+// var CHOROPLETH_BORDER_DEFAULT = { color: '#b3b3b3', opacity: 1, weight: 1, fill: false };
 var CHOROPLETH_BORDER_DEFAULT = { color: '#b3b3b3', opacity: 1, weight: 1, fill: false };
 var CHOROPLETH_BORDER_SELECTED = { color: '#293885', opacity: 1, weight: 5, fill: false };
 
@@ -359,12 +360,14 @@ $(document).ready(function () {
         // save these to the globals that we'll read/filter/display
         // then send them to postprocessing for data fixes
         CTATOPOJSONDATA = datasets[0];
+        console.log('CTATOPOJSONDATA: ', CTATOPOJSONDATA)
         COUNTYTOPOJSONDATA = datasets[1];
         DATA_DEMOGS = datasets[2];
         DATA_CANCER = datasets[3];
         DATA_CTACOUNTY = datasets[4];
         DATA_CTACITY = datasets[5];
         ZONETOPOJSONDATA = datasets[6];
+        console.log('ZONETOPOJSONDATA: ', ZONETOPOJSONDATA)
         PlaceTOPOJSONDATA = datasets[7];
 
         initValidateDemographicDataset();
@@ -1097,6 +1100,7 @@ function initGoogleAnalyticsHooks () {
 //
 
 function performSearch () {
+    console.log('performseach called')
     // clear these validation and markers; we may put them back in just a moment
     toggleAddressSearchFailure(false);
     MAP.addressmarker.setLatLng([0, 0]).removeFrom(MAP);
@@ -1120,6 +1124,8 @@ function performSearch () {
         // the address may be a latlng string, or a CTA ID, or a CTA ID buried inside a longer string, ... or maybe even an address!
         const isctaid = params.address.match(/^\s*((A|B)\d\d\d\d)\s*$/);
         const conainsctaid = params.address.match(/\(((A|B)\d\d\d\d)\)/);
+        console.log('isctaid', isctaid)
+        console.log('conainsctaid', conainsctaid)
 
         if (isctaid || conainsctaid) {
             // this isn't an address but a CTA ID; search for it, then do simialrly to what we would do for an address hit
@@ -1152,7 +1158,8 @@ function performSearch () {
                 console.log('cta: ', cta)
                 if (cta) {
                     // now do the search
-                    params.ctaid = cta.feature.properties.Zone;
+                    // params.ctaid = cta.feature.properties.Zone;
+                    params.ctaid = cta.feature.properties.ZoneIDOrig;
                     params.ctaname = cta.feature.properties.ZoneName.replace(/\_\d+$/, '');  // trim off the end
                     params.latlng = searchlatlng;
                     params.bbox = causedbyaddresschange ? cta.getBounds() : null;
@@ -1248,6 +1255,7 @@ function performSearchShowFilters (searchparams) {
 
 
 function performSearchDemographics (searchparams) {
+    console.log('searchparams: ', searchparams)
     // distill demographic data for the selected CTA
     // ths has no connection to the cancer dataset at all
     // see DEMOGRAPHIC_TABLES and initDemographicTables() which created these tables during setup
@@ -1610,7 +1618,9 @@ function performSearchMap (searchparams) {
 
     // highlight the selected CTA
     MAP.ctapolygonbounds.eachLayer((layer) => {
-        const ctaid = layer.feature.properties.Zone;
+        console.log('layer.feature.properties', layer.feature.properties)
+        // const ctaid = layer.feature.properties.Zone;
+        const ctaid = layer.feature.properties.ZoneIDOrig;
         const istheone = ctaid == searchparams.ctaid;
 
         if (istheone) {
@@ -1707,7 +1717,8 @@ function performSearchMap (searchparams) {
 
     // assign the color/style to each CTA Zone polygon
     MAP.ctapolygonfills.eachLayer((layer) => {
-        const ctaid = layer.feature.properties.Zone;
+        // const ctaid = layer.feature.properties.Zone;
+        const ctaid = layer.feature.properties.ZoneIDOrig;
         const score = ctascores[ctaid];
 
         let style;
@@ -1850,7 +1861,9 @@ function findCTAContainingLatLng (inputlatlng) {
 
 function findCTAById (ctaid) {
     const targetcta = MAP.ctapolygonfills.getLayers().filter(function (layer) {
-        return layer.feature.properties.Zone == ctaid;
+        // return layer.feature.properties.Zone == ctaid;
+        return layer.feature.properties.ZoneIDOrig == ctaid;
+
     });
     return targetcta[0];
 }
