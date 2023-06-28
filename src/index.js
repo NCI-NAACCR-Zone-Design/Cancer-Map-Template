@@ -359,6 +359,7 @@ $(document).ready(function () {
     ];
 
     Promise.all(waitforparsing).then(function (datasets) {
+        console.log('datasets: ', datasets)
         // save these to the globals that we'll read/filter/display
         // then send them to postprocessing for data fixes
         CTATOPOJSONDATA = datasets[0];
@@ -367,6 +368,7 @@ $(document).ready(function () {
         DATA_DEMOGS = datasets[2];
         DATA_CANCER = datasets[3];
         DATA_CTACOUNTY = datasets[4];
+        console.log('DATA_CTACOUNTY: ', DATA_CTACOUNTY)
         DATA_CTACITY = datasets[5];
         ZONETOPOJSONDATA = datasets[6];
         console.log('ZONETOPOJSONDATA: ', ZONETOPOJSONDATA)
@@ -1315,13 +1317,16 @@ function performSearchDemographics (searchparams) {
 
 
 function performSearchPlaces (searchparams) {
+    console.log('performSearchPlaces searchparams: ', searchparams)
     // fetch a list of places (cities and counties) in the selected CTA, display it into its list(s)
 
     // statewide, we don't display a list at all; bail
     if (searchparams.ctaid == 'Statewide') return;
 
     // find the cities and counties here from our preared data
+    console.log('DATA_CTACOUNTY: ', DATA_CTACOUNTY)
     const counties = DATA_CTACOUNTY.filter(row => row.Zone == searchparams.ctaid).map(row => `${row.County} County`);
+    console.log('counties: ', counties)
     const cities = DATA_CTACITY.filter(row => row.Zone == searchparams.ctaid).map(row => row.City);
     counties.sort();
     cities.sort();
@@ -1620,7 +1625,7 @@ function performSearchMap (searchparams) {
 
     // highlight the selected CTA
     MAP.ctapolygonbounds.eachLayer((layer) => {
-        console.log('layer.feature.properties', layer.feature.properties)
+        // console.log('layer.feature.properties', layer.feature.properties)
         // const ctaid = layer.feature.properties.Zone;
         const ctaid = layer.feature.properties.ZoneIDOrig;
         const istheone = ctaid == searchparams.ctaid;

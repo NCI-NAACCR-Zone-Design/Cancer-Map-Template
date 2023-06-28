@@ -39,9 +39,11 @@ class PlacesIntersector:
 
         outfh = open(csvfilename, 'w')
         csvfh = csv.writer(outfh)
-        csvfh.writerow(['Zone', placecolumnname])
+        csvfh.writerow(['ZoneIDOrig', placecolumnname])
+        print(" settings.REPROJECTED_ZONESFILE", settings.REPROJECTED_ZONESFILE)
+        # ctads = ogr.Open(settings.REPROJECTED_ZONESFILE, False)
+        ctads = ogr.Open(settings.INPUT_ZONESFILE, False)
 
-        ctads = ogr.Open(settings.REPROJECTED_ZONESFILE, False)
         ctalayer = ctads.GetLayer(0)
 
         for cta in ctalayer:

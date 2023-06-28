@@ -12,7 +12,8 @@
   "author": "GreenInfo Network <gin@greeninfo.org>",
   "license": "MIT",
   "dependencies": {
-    "file-saver": "^2.0.2"
+    "file-saver": "^2.0.2",
+    "python3": "^0.0.1"
   },
   "devDependencies": {
     "@babel/cli": "^7.7.5",
