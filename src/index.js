@@ -178,7 +178,7 @@ var CHOROPLETH_STYLE_NODATA = { fillOpacity: 0.25, fillColor: '#cccccc', color: 
 
 
 // var CHOROPLETH_BORDER_DEFAULT = { color: '#b3b3b3', opacity: 1, weight: 1, fill: false };
-var CHOROPLETH_BORDER_DEFAULT = { color: '#b3b3b3', opacity: 1, weight: 1, fill: false };
+var CHOROPLETH_BORDER_DEFAULT = { color: 'black', opacity: 1, weight: 1, fill: false };
 var CHOROPLETH_BORDER_SELECTED = { color: '#293885', opacity: 1, weight: 5, fill: false };
 
 var CHOROPLETH_STYLE_INCIDENCE = {
@@ -222,7 +222,8 @@ var CHOROPLETH_OPTIONS = [
 ];
 
 // the style to use for the MAP_LAYERS.county GeoJSON overlay
-var COUNTYBOUNDS_STYLE = { fill: false, color: 'black', weight: 2 };
+var COUNTYBOUNDS_STYLE = { fill: false, color: 'black', weight: 5 };
+var ZONEBOUNDS_STYLE = { fill: false, color: 'black', weight: 1 };
 
 // map layers to be offered in the lower-right Map Layers control
 // we have some complicated desires for layer stacking, such as labels and streets (L.TileLayer raster tiles) showing above CTA Zones (L.GeoJSON paths in overlayPane)
@@ -259,11 +260,11 @@ var MAP_LAYERS = [
         checked: true,
         layer: undefined,  // see initFixCountyOverlay() where we patch this in to become a L.GeoJSON layer, since that comes after startup promises but before initMap()
     },
-    {
-        id: 'places',
-        label: "Places",
-        layer: undefined,  // see initFixCountyOverlay() where we patch this in to become a L.GeoJSON layer, since that comes after startup promises but before initMap()
-    },
+    // {
+    //     id: 'places',
+    //     label: "Places",
+    //     layer: undefined,  // see initFixCountyOverlay() where we patch this in to become a L.GeoJSON layer, since that comes after startup promises but before initMap()
+    // },
     {
         id: 'streets',
         label: "Streets",
@@ -374,7 +375,7 @@ $(document).ready(function () {
         initValidateIncidenceDataset();
         initFixCountyOverlay();
         initFixZoneOverlay();
-        initFixPlaceOverlay();
+        // initFixPlaceOverlay();
 
         // and we can finally get started!
         initDemographicTables();
@@ -629,18 +630,18 @@ function initFixZoneOverlay () {
     maplayerinfo.layer = L.topoJson(ZONETOPOJSONDATA, {
         pane: 'tooltipPane',
         zIndex: 500,
-        style: COUNTYBOUNDS_STYLE,  // see performSearchMap() where these are reassigned based on filters
+        style: ZONEBOUNDS_STYLE,  // see performSearchMap() where these are reassigned based on filters
     });
 }
 
-function initFixPlaceOverlay () {
-    const maplayerinfo = MAP_LAYERS.filter(function (maplayerinfo) { return maplayerinfo.id == 'places'; })[0];
-    maplayerinfo.layer = L.topoJson(PlaceTOPOJSONDATA, {
-        pane: 'tooltipPane',
-        zIndex: 500,
-        style: COUNTYBOUNDS_STYLE,  // see performSearchMap() where these are reassigned based on filters
-    });
-}
+// function initFixPlaceOverlay () {
+//     const maplayerinfo = MAP_LAYERS.filter(function (maplayerinfo) { return maplayerinfo.id == 'places'; })[0];
+//     maplayerinfo.layer = L.topoJson(PlaceTOPOJSONDATA, {
+//         pane: 'tooltipPane',
+//         zIndex: 500,
+//         style: COUNTYBOUNDS_STYLE,  // see performSearchMap() where these are reassigned based on filters
+//     });
+// }
 
 
 function initPrintPage () {
