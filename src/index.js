@@ -144,6 +144,7 @@ var DEMOGRAPHIC_TABLES = [
         title: "Income",
         rows: [
             // { field: 'PctBelowPov', label: "% Below Poverty", format: 'percent', tooltip_id: 'PctBelowPov' }, // cht comment out because not in data causes error
+            { field: 'Pct100Pov', label: "% Below Poverty", format: 'percent', tooltip_id: 'PctBelowPov' }, // field changed from PctBelowPov to Pct100Pov
             { field: 'PctNoHealthIns', label: "% Without Health Insurance", format: 'percent', tooltip_id: 'PctNoHealthIns' },
         ],
     },
@@ -157,7 +158,7 @@ var DEMOGRAPHIC_TABLES = [
     {
         title: "Disability Status",
         rows: [
-            // { field: 'Disability Status', label: "% With a Disability", format: 'percent', tooltip_id: 'PctDisabled' }, // cht comment out because not in data causes error
+            { field: 'PctDisabled', label: "% With a Disability", format: 'percent', tooltip_id: 'PctDisabled' }, // cht comment out because not in data causes error
         ],
     },
     {
